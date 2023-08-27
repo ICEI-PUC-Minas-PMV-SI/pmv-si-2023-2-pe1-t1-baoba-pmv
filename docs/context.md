@@ -24,12 +24,12 @@ Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thin
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+Esta discussão visa não apenas destacar a gravidade da situação atual, mas também identificar as principais causas dessas crises ecológicas e buscar soluções viáveis para reverter, ou ao menos mitigar, os danos causados. Pretende-se promover uma compreensão mais profunda do nosso papel na Terra e dos impactos que nossas ações têm sobre o planeta, bem como destacar a importância de abordagens sustentáveis em todos os setores da sociedade.
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+É preciso incentivar as pessoas a quererem conhecer mais sobre as espécies e seus biomas, a terem uma relação mais sustentável com a natureza, além de gerar conscientização sobre as questões ambientais e a crise para a biodiversidade que enfrentamos hoje.
+
+O site vai apresentar diversas informações sobre crises ecológicas, as espécies que estão no processo de extinção, sejam animais e vegetais, e os biomas em que vivem. Alertar sobre o status de conservação dos mesmos e os principais problemas que enfrentam. 
+Através de um mapa para explorar por regiões, conhecer cada uma delas e incentivar ecoturismo, passando essas informações de maneira interativa.
 
 ## Justificativa
 
