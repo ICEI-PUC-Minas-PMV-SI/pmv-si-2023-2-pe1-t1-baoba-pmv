@@ -39,10 +39,20 @@ Das espécies ameaçadas estudadas, o levantamento mostra que 4,73% estão criti
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
+O tema "Planeta em Extinção" é abrangente e de suma importância para todos, pois aborda uma questão central para a sobrevivência e bem-estar da humanidade e de outras espécies. No entanto, dependendo da abordagem e formato do projeto, é possível segmentar ou direcionar para públicos específicos. Eis alguns possíveis públicos-alvo:
 
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
+Geral: Toda a população, já que todos são afetados e têm um papel na conservação do planeta. Pessoas que se importam com questões ambientais e curtem o ecoturismo. 
+
+Estudantes: De escolas primárias a universidades, é vital que os jovens sejam educados sobre as questões ambientais, já que serão eles a liderar e viver com as consequências das decisões tomadas hoje.
+
+Indústria e Empresários: Empresas têm um papel significativo na degradação ambiental, mas também têm o poder e os recursos para impulsionar inovações sustentáveis.
+
+Comunidades Locais e Indígenas: Muitas vezes, são os guardiães das terras e possuem conhecimentos tradicionais sobre a conservação da natureza.
+
+Ativistas e ONGs Ambientais: Estes grupos já estão envolvidos na causa, mas precisam de informações atualizadas e ferramentas para ampliar seus esforços.
+
+Cientistas e Pesquisadores: Aqueles que trabalham diretamente na área de conservação, ecologia, clima e áreas correlatas
+
 
 > **Links Úteis**:
 > - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
