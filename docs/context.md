@@ -11,16 +11,10 @@ Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
 
 ## Problema
 
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
-
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+A degradação ambiental, a perda de biodiversidade, as mudanças climáticas e a poluição têm conduzido nosso planeta a um estado de fragilidade sem precedentes. Há um elevado número de espécies em perigo de extinção atualmente, causadas pelo desmatamento e exploração destrutiva do meio ambiente. Florestas, essenciais para o equilíbrio do clima, estão desaparecendo; os oceanos, que fornecem grande parte do oxigênio que respiramos, estão se acidificando; e espécies animais e vegetais estão sendo extintas a taxas alarmantes.
+Esses cenários de extinções estão ocorrendo e se intensificando globalmente. Sabe-se que na história do planeta, houveram cinco grandes ondas de extinção. Acredita-se que vivemos a sexta crise de extinção, mas diferente das anteriores, os responsáveis por essa crise seriam nós, a espécie humana, e o grande impacto ambiental que causamos ao planeta.
+A magnitude destes desafios mostra que não estamos apenas falando de conservação da natureza, mas sim de uma emergência global que requer ação imediata.
+Como gerar interesse pelo tema e educar as pessoas sobre essas questões?
 
 ## Objetivos
 
