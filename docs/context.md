@@ -33,12 +33,15 @@ Através de um mapa para explorar por regiões, conhecer cada uma delas e incent
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
+A escolha de abordar o tema "Planeta em Extinção" não é apenas relevante, mas também urgente. Enquanto única espécie com capacidade de compreender, antecipar e responder em escala global a estas ameaças, temos a responsabilidade ética de agir. Cada ação, cada decisão tomada hoje, moldará o futuro do planeta para as próximas gerações. Além de ser um tema relevante no cenário atual, onde a biodiversidade do nosso planeta está enfrentando ameaças sem precedentes, que é discutido a algum tempo mas que ainda pode ser trabalhado e destacado de maneiras diferentes, e que é sempre bom ser mantido em pauta e incentivado, já que a crise ambiental é uma questão constante e global. 
 
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
+De acordo com a WWF, especialistas estimam que presenciamos uma perda acelerada das espécies de mil a dez mil vezes acima da taxa de extinção natural (extinção que ocorreria sem a interferência humana).
+Esses especialistas calculam que entre 0,01 e 0,1% de todas as espécies são extintas por ano. Número que inicialmente pode parecer pequeno, mas considerando que existem por volta de 2 milhões de espécies diferentes identificadas em nosso planeta, na menor estimativa, seriam pelo menos entre 200 a 2.000 extinções todo ano. Já nas maiores estimativas, esse número pode chegar até entre 10.000 e 100.000 espécies sendo extintas anualmente.
 
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+Conforme a pesquisa “Contas de Ecossistemas: Espécies ameaçadas de extinção”, realizada pelo IBGE em 2020, só no Brasil são pelo menos 3.299 espécies de animais e plantas ameaçadas de extinção. 
+O número representa 19,8% do total de 16.645 espécies avaliadas pelo instituto. Mas o número total deve ser muito maior, já que o IBGE tem dados sobre o estado de conservação de apenas por volta de 10% do número total de espécies conhecidas no país.
+Sobre os biomas brasileiros, o ecossistema mais degradado é a Mata Atlântica, seguida de perto pelo Cerrado e a Caatinga.
+Das espécies ameaçadas estudadas, o levantamento mostra que 4,73% estão criticamente em perigo, 9,35% estão em perigo e 5,74% são consideradas vulneráveis. Outras 0,06% estão extintas e 0,01% são extintas na natureza (ou seja, só existem em cativeiro).
 
 ## Público-Alvo
 
