@@ -37,6 +37,19 @@ O número representa 19,8% do total de 16.645 espécies avaliadas pelo instituto
 Sobre os biomas brasileiros, o ecossistema mais degradado é a Mata Atlântica, seguida de perto pelo Cerrado e a Caatinga.
 Das espécies ameaçadas estudadas, o levantamento mostra que 4,73% estão criticamente em perigo, 9,35% estão em perigo e 5,74% são consideradas vulneráveis. Outras 0,06% estão extintas e 0,01% são extintas na natureza (ou seja, só existem em cativeiro).
 
+ 	A criação de um site de conscientização sobre animais em extinção e biomas ameaçados é de extrema importância para abordar uma crise ambiental que afeta diretamente a biodiversidade do nosso planeta. Existem várias razões pelas quais essa iniciativa é crucial:
+
+Preservação da Biodiversidade
+Conscientização Pública
+Alerta sobre Ameaças Humanas
+Mobilização para Ações
+Engajamento das Novas Gerações
+Apoio a Iniciativas de Conservação
+Contribuição para a Ciência
+
+Em suma, um site de conscientização sobre animais em extinção e biomas ameaçados que desempenha um papel crucial na educação, mobilização e ação para enfrentar a crise ambiental que afeta nosso planeta. É uma ferramenta poderosa para unir esforços em prol da preservação da biodiversidade e do equilíbrio dos ecossistemas, garantindo um futuro sustentável para as gerações presentes e futuras.
+
+
 ## Público-Alvo
 
 O tema "Planeta em Extinção" é abrangente e de suma importância para todos, pois aborda uma questão central para a sobrevivência e bem-estar da humanidade e de outras espécies. No entanto, dependendo da abordagem e formato do projeto, é possível segmentar ou direcionar para públicos específicos. Eis alguns possíveis públicos-alvo:
