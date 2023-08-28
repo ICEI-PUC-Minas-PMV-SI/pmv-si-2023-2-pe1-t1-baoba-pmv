@@ -1,13 +1,12 @@
 # Introdução
 
-Imagine que você deseja apresentar este projeto para investidores que deverão decidir se investem ou não no desenvolvimento da sua ferramenta.
+Vivemos em um momento crucial da história da humanidade e do nosso planeta. Ao longo dos séculos, a Terra nos sustentou com seus recursos naturais, permitindo o desenvolvimento e o florescimento de civilizações inteiras. No entanto, os avanços da era industrial e a expansão desenfreada das atividades humanas tiveram um custo: estamos enfrentando uma série de crises ecológicas que ameaçam nossa existência e a de milhões de outras espécies.
 
-A **Introdução** consiste das etapas: *Contextualização -- Definição do problema -- Definição dos Objetivos -- Justificativa*, e tem como função situar o seu trabalho dentro de um contexto de mercado e mostrar a importância da sua proposta para resolver a dor de um usuário.
+A degradação ambiental, as mudanças climáticas e a poluição estão levando nosso planeta a uma vulnerabilidade crítica. Com florestas desaparecendo, oceanos acidificando e espécies se extinguindo rapidamente, enfrentamos uma emergência global que demanda ações urgentes. Nossas decisões moldam o futuro do planeta, e discutir esse tema é crucial para um mundo equilibrado para as próximas gerações.
 
+Este projeto é dedicado à conscientização sobre a extinção de espécies. Exploraremos a incrível diversidade da vida em nosso planeta e os desafios que as espécies enfrentam em meio à crise climática. O objetivo é educar, inspirar e motivar a ação, despertando um senso de urgência para a preservação da biodiversidade.A extinção de espécies é um problema global que afeta todos os ecossistemas e, em última instância, a própria humanidade. 
 
-A Contextualização deve situar sem projeto em um determinado contexto de mercado, a fim de fornecer informações adicionais que possam ajudar a entender melhor o assunto que você irá abordar. Serve também para definir a relevância do seu assunto, uma vez que mostra o tamanho do mercado em que se está inserido. Ela pode envolver a análise de vários aspectos, como o ambiente histórico, cultural, político e social em que o problema a ser atacado surgiu.
-
-Escreva de 2 a 3 parágrafos para contetualizar o seu projeto.
+Queremos fornecer informações baseadas em evidências e histórias envolventes que destaquem a importância intrínseca de cada forma de vida e como ela contribui para o equilíbrio ecológico do nosso planeta. Além de compreender os problemas, também nos concentraremos em soluções práticas. Nosso site será um espaço interativo para descobrir maneiras tangíveis de se envolver na conservação da vida selvagem. A conscientização é o primeiro passo para a mudança, e esperamos que este projeto seja uma fonte valiosa de conhecimento, inspiração e motivação para todos os que desejam contribuir para a preservação das espécies em nosso planeta.
 
 ## Problema
 
