@@ -33,16 +33,11 @@ Em suma, um site de conscientização sobre animais em extinção e biomas amea�
 
 ## Público-Alvo
 
-O tema "Planeta em Extinção" é abrangente e de suma importância para todos, pois aborda uma questão central para a sobrevivência e bem-estar da humanidade e de outras espécies. No entanto, dependendo da abordagem e formato do projeto, é possível segmentar ou direcionar para públicos específicos. Eis alguns possíveis públicos-alvo:
 
-Geral: Toda a população, já que todos são afetados e têm um papel na conservação do planeta. Pessoas que se importam com questões ambientais e curtem o ecoturismo. 
+O tema "Planeta em Extinção" é abrangente, pois aborda uma questão central para a sobrevivência e bem-estar da humanidade e de outras espécies. Mas dependendo da abordagem e formato do projeto, é possível segmentar e direcionar para públicos específicos. Eis alguns públicos-alvo:
+
+Geral: Toda a população, já que todos são afetados e têm um papel na conservação do planeta. Com foco em pessoas que se importam com questões ambientais e curtem o ecoturismo. 
 
 Estudantes: De escolas primárias a universidades, é vital que os jovens sejam educados sobre as questões ambientais, já que serão eles a liderar e viver com as consequências das decisões tomadas hoje.
 
 Indústria e Empresários: Empresas têm um papel significativo na degradação ambiental, mas também têm o poder e os recursos para impulsionar inovações sustentáveis.
-
-Comunidades Locais e Indígenas: Muitas vezes, são os guardiães das terras e possuem conhecimentos tradicionais sobre a conservação da natureza.
-
-Ativistas e ONGs Ambientais: Estes grupos já estão envolvidos na causa, mas precisam de informações atualizadas e ferramentas para ampliar seus esforços.
-
-Cientistas e Pesquisadores: Aqueles que trabalham diretamente na área de conservação, ecologia, clima e áreas correlatas
