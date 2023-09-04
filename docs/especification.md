@@ -6,6 +6,9 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
+**Persona Geral:** 
+Ana Clara, tem 34 anos e é designer gráfica. Cresceu na cidade mas sempre gostou muito da natureza, suas férias favoritas eram quando seus pais a levavam para acampar ou visitar parques. Ana é apaixonada por ecoturismo, camping e trilhas. Sempre que pode, escapa para um retiro natural, seja um final de semana em uma reserva ecológica ou uma viagem de mochilão por destinos menos tradicionais. Acredita que todo mundo pode fazer algo para contribuir com a saúde do planeta, seja através de pequenas mudanças de estilo de vida ou através de ativismo. Utiliza o site para saber mais sobre hábitos sustentáveis e os ambientes que vai visitar, sua condição de conservação e as espécies que pode encontrar por lá.
+
 **Persona estudante:**
 Felipe, um estudante de 21 anos, está cursando Biologia na universidade. Desde criança, ele é fascinado pela vida selvagem e tem um forte interesse em aprender sobre biomas em extinção e os animais que neles habitam. Seu sonho é se tornar um pesquisador de campo para contribuir com a preservação da biodiversidade. Felipe é curioso, defensor da natureza, usa a tecnologia para se informar, compartilha informações nas redes sociais e adora tirar fotos da natureza. Ele usaria o site para pesquisa, aprendizado, recursos confiáveis, atualizações regulares e conscientização. 
 
