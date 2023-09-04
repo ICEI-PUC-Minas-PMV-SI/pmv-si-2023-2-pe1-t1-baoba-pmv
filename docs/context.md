@@ -11,8 +11,11 @@ Queremos fornecer informações baseadas em evidências e histórias envolventes
 ## Problema
 
 Em um mundo inundado de informações, a falta de dados verificáveis sobre espécies ameaçadas de extinção é profundamente perturbadora. Para enfrentar esse problema, é imperativo o acesso a fontes confiáveis de informações, dados respaldados por estudos científicos rigorosos e especialistas no campo da conservação. A ausência desses recursos confiáveis pode resultar em uma percepção distorcida da realidade, obscurecendo a verdadeira extensão da crise em que nos encontramos.
+
 Além disso, a conscientização insuficiente entre a população agrava ainda mais a situação. Sem o conhecimento necessário sobre o impacto das atividades humanas no declínio das espécies, é difícil gerar ações significativas em prol da preservação. A conscientização desempenha um papel crucial na motivação das pessoas a adotarem medidas que possam contribuir para a proteção dessas espécies vulneráveis. 
+
 Não apenas no âmbito pessoal, na falta de uma compreensão sólida da população sobre os vínculos entre as atividades empresariais e a saúde do meio ambiente, as empresas também podem inadvertidamente contribuir para a degradação ambiental, sem terem incentivos, fiscalização, responsabilização ou até mesmo pressão pública suficientes para tomarem atitudes diferentes. Reconhecemos a importância vital de trazer clareza para as informações disponíveis, fornecendo dados precisos e verificáveis que destacam as interconexões entre atividades econômicas e impactos ambientais.
+
 Em última análise, este desafio requer uma abordagem multifacetada. Devemos promover a transparência das informações e incentivar a educação continuada sobre as espécies ameaçadas de extinção. Somente através de um esforço conjunto, podemos esperar reverter a situação e proteger a riqueza incomparável da biodiversidade que nosso planeta abriga.
 
 ## Objetivos
