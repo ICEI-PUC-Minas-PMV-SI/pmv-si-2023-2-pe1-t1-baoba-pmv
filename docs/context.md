@@ -26,34 +26,9 @@ Através de um mapa para explorar por regiões, conhecer cada uma delas e incent
 
 ## Justificativa
 
-A escolha de abordar o tema "Planeta em Extinção" não é apenas relevante, mas também urgente. Enquanto única espécie com capacidade de compreender, antecipar e responder em escala global a estas ameaças, temos a responsabilidade ética de agir. Cada ação, cada decisão tomada hoje, moldará o futuro do planeta para as próximas gerações. Além de ser um tema relevante no cenário atual, onde a biodiversidade do nosso planeta está enfrentando ameaças sem precedentes, que é discutido a algum tempo mas que ainda pode ser trabalhado e destacado de maneiras diferentes, e que é sempre bom ser mantido em pauta e incentivado, já que a crise ambiental é uma questão constante e global. 
-
-De acordo com a WWF, especialistas estimam que presenciamos uma perda acelerada das espécies de mil a dez mil vezes acima da taxa de extinção natural (extinção que ocorreria sem a interferência humana).
-Esses especialistas calculam que entre 0,01 e 0,1% de todas as espécies são extintas por ano. Número que inicialmente pode parecer pequeno, mas considerando que existem por volta de 2 milhões de espécies diferentes identificadas em nosso planeta, na menor estimativa, seriam pelo menos entre 200 a 2.000 extinções todo ano. Já nas maiores estimativas, esse número pode chegar até entre 10.000 e 100.000 espécies sendo extintas anualmente.
-
-Conforme a pesquisa “Contas de Ecossistemas: Espécies ameaçadas de extinção”, realizada pelo IBGE em 2020, só no Brasil são pelo menos 3.299 espécies de animais e plantas ameaçadas de extinção. 
-O número representa 19,8% do total de 16.645 espécies avaliadas pelo instituto. Mas o número total deve ser muito maior, já que o IBGE tem dados sobre o estado de conservação de apenas por volta de 10% do número total de espécies conhecidas no país.
-Sobre os biomas brasileiros, o ecossistema mais degradado é a Mata Atlântica, seguida de perto pelo Cerrado e a Caatinga.
-Das espécies ameaçadas estudadas, o levantamento mostra que 4,73% estão criticamente em perigo, 9,35% estão em perigo e 5,74% são consideradas vulneráveis. Outras 0,06% estão extintas e 0,01% são extintas na natureza (ou seja, só existem em cativeiro).
-
-A criação de um site de conscientização sobre animais em extinção e biomas ameaçados é de extrema importância para abordar uma crise ambiental que afeta diretamente a biodiversidade do nosso planeta. Existem várias razões pelas quais essa iniciativa é crucial:
-
-Preservação da Biodiversidade
-
-Conscientização Pública
-
-Alerta sobre Ameaças Humanas
-
-Mobilização para Ações
-
-Engajamento das Novas Gerações
-
-Apoio a Iniciativas de Conservação
-
-Contribuição para a Ciência
-
-Em suma, um site de conscientização sobre animais em extinção e biomas ameaçados que desempenha um papel crucial na educação, mobilização e ação para enfrentar a crise ambiental que afeta nosso planeta. É uma ferramenta poderosa para unir esforços em prol da preservação da biodiversidade e do equilíbrio dos ecossistemas, garantindo um futuro sustentável para as gerações presentes e futuras.
-
+A escolha de abordar o tema "Planeta em Extinção" não é apenas relevante, mas também urgente. Enquanto única espécie com capacidade de compreender, antecipar e responder em escala global a estas ameaças, temos a responsabilidade ética de agir. Cada ação e decisão tomada hoje, moldará o futuro do planeta para as próximas gerações. No cenário atual, onde a biodiversidade do nosso planeta está enfrentando ameaças sem precedentes, esse é um tema relevante, que apesar de ser discutido a algum tempo, ainda pode ser trabalhado e destacado de maneiras diferentes, com foco em disponibilizar informações pertinentes, gerando conscientização e engajamento. Assim é um assunto importante a ser mantido em pauta e incentivado, já que a crise ambiental é uma questão constante e global. 
+A criação de um site com foco nesse segmento é de extrema importância para abordar uma crise ambiental que afeta diretamente a biodiversidade do nosso planeta. Existem várias razões pelas quais essa iniciativa é crucial: Preservação da Biodiversidade; Conscientização Pública; Alerta sobre Ameaças Humanas; Mobilização para Ações; Engajamento das Novas gerações; Apoio a Iniciativas de Conservação; Contribuição para a Ciência.
+Em suma, um site de conscientização sobre animais em extinção e biomas ameaçados que desempenha um papel crucial na educação, mobilização e ação para enfrentar a crise ambiental que afeta nosso planeta, é uma ferramenta poderosa para unir esforços em prol da preservação da biodiversidade e do equilíbrio dos ecossistemas, garantindo um futuro sustentável para as gerações presentes e futuras.
 
 ## Público-Alvo
 
