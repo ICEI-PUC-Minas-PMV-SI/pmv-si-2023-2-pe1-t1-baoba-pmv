@@ -6,10 +6,10 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Persona estudante:
+**Persona estudante:**
 Felipe, um estudante de 21 anos, está cursando Biologia na universidade. Desde criança, ele é fascinado pela vida selvagem e tem um forte interesse em aprender sobre biomas em extinção e os animais que neles habitam. Seu sonho é se tornar um pesquisador de campo para contribuir com a preservação da biodiversidade. Felipe é curioso, defensor da natureza, usa a tecnologia para se informar, compartilha informações nas redes sociais e adora tirar fotos da natureza. Ele usaria o site para pesquisa, aprendizado, recursos confiáveis, atualizações regulares e conscientização. 
 
-Persona empresarial:
+**Persona empresarial:**
 Carolina, CEO de 42 anos de uma empresa de sustentabilidade, é uma empresária experiente e comprometida com a causa ambiental. Com visão estratégica e vasta rede de contatos, ela busca conciliar o crescimento da indústria com a conservação da biodiversidade. Carolina utiliza o site para pesquisar, obter insights para estratégias de negócios sustentáveis, estabelecer parcerias e educar sua equipe. Sua abordagem informada e focada na colaboração a torna uma líder influente no campo da sustentabilidade industrial.
 
 ## Histórias de Usuários
