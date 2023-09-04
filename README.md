@@ -11,7 +11,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo de
 ## Integrantes
 
 * Aline Fortes de Morais Carvalho
-* Henrique Alves Gaspar
 * Marina Inácio Ribas
 * Mateus Valadares de Oliveira Freitas
 * Nataly Fortes de Morais Carvalho
