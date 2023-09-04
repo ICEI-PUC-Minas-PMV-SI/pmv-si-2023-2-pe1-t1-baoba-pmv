@@ -18,12 +18,11 @@ Em última análise, este desafio requer uma abordagem multifacetada. Devemos pr
 
 ## Objetivos
 
-Esta discussão visa não apenas destacar a gravidade da situação atual, mas também identificar as principais causas dessas crises ecológicas e buscar soluções viáveis para reverter, ou ao menos mitigar, os danos causados. Pretende-se promover uma compreensão mais profunda do nosso papel na Terra e dos impactos que nossas ações têm sobre o planeta, bem como destacar a importância de abordagens sustentáveis em todos os setores da sociedade.
+Esta discussão tem como objetivo não apenas enfatizar a gravidade da situação atual, mas também identificar as principais causas das crises ecológicas e buscar soluções viáveis para reverter, ou pelo menos mitigar, os danos causados. Pretendemos promover uma compreensão mais profunda do nosso papel na Terra e dos impactos que nossas ações têm sobre o planeta, bem como ressaltar a importância de abordagens sustentáveis em todos os setores da sociedade.
 
-É preciso incentivar as pessoas a quererem conhecer mais sobre as espécies e seus biomas, a terem uma relação mais sustentável com a natureza, além de gerar conscientização sobre as questões ambientais e a crise para a biodiversidade que enfrentamos hoje.
+É fundamental motivar as pessoas a desejarem aprender mais sobre as espécies e seus ecossistemas, a cultivarem uma relação mais sustentável com a natureza e a conscientizarem-se sobre as questões ambientais e a crise na biodiversidade que enfrentamos atualmente.
 
-O site vai apresentar diversas informações sobre crises ecológicas, as espécies que estão no processo de extinção, sejam animais e vegetais, e os biomas em que vivem. Alertar sobre o status de conservação dos mesmos e os principais problemas que enfrentam. 
-Através de um mapa para explorar por regiões, conhecer cada uma delas e incentivar ecoturismo, passando essas informações de maneira interativa.
+Nosso site fornecerá uma ampla gama de informações sobre as crises ecológicas, as espécies ameaçadas de extinção, tanto animais quanto vegetais, e os biomas em que habitam. Alertaremos sobre o status de conservação dessas espécies e os principais desafios que enfrentam. Através de um mapa interativo, os visitantes poderão explorar diferentes regiões, adquirir conhecimento sobre cada uma delas e ser incentivados a praticar o ecoturismo.
 
 ## Justificativa
 
