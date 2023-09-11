@@ -44,6 +44,10 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----| ----|
 |RF-001| O sistema deve permitir que o usuário consulte informações sobre animais em extinção | ALTA |  |
 |RF-002| O sistema deve permitir que o usuário consulte informações sobre biomas em risco   | ALTA | |
+|RF-003| O sistema deve permitir que o usuário acesse informações sobre pontos de turismo ecológicos   | ALTA | |
+|RF-004| Disponibilizar artigos, relatórios e estudos atualizados sobre sustentabilidade industrial   | ALTA | |
+|RF-005| Filtros de pesquisa por tópico, data e tipo de conteúdo   | ALTA | |
+|RF-005| O site deve ter dicas de estratégias de negócios sustentáveis   | ALTA | |
 
 
 ### Requisitos não Funcionais
