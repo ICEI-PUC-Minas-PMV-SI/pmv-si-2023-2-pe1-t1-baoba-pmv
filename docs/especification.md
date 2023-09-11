@@ -60,12 +60,12 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| A interface do site deve ser intuitiva e fácil de navegar, com um design responsivo que funcione bem em dispositivos móveis e desktop |ALTA | 
-|RNF-002| Deve garantir a privacidade dos dados dos usuários, cumprindo todas as regulamentações de privacidade aplicáveis |ALTA |
-|RNF-003| Deve ser compatível com uma variedade de navegadores, como Chrome, Firefox, Safari e Edge, para garantir uma experiência consistente |MÉDIA |
-|RNF-004| Deve ser otimizado para funcionar bem em smartphones e tablets, com design responsivo e boa usabilidade em telas menores |Baixa |
-|RNF-005| Deve cumprir os padrões de acessibilidade da web para garantir que pessoas com deficiência possam acessar e utilizar o site sem dificuldades |Baixa |
-|RNF-006| Permitindo que os usuários controlem suas configurações de privacidade |Baixa |
+|RNF-001 | A interface do site deve ser intuitiva e fácil de navegar, com um design responsivo que funcione bem em dispositivos móveis e desktop |ALTA | 
+|RNF-002 | Deve garantir a privacidade dos dados dos usuários, cumprindo todas as regulamentações de privacidade aplicáveis |ALTA |
+|RNF-003 | Deve ser compatível com uma variedade de navegadores, como Chrome, Firefox, Safari e Edge, para garantir uma experiência consistente |MÉDIA |
+|RNF-004 | Deve ser otimizado para funcionar bem em smartphones e tablets, com design responsivo e boa usabilidade em telas menores |Baixa |
+|RNF-005 | Deve cumprir os padrões de acessibilidade da web para garantir que pessoas com deficiência possam acessar e utilizar o site sem dificuldades |Baixa |
+|RNF-006 | Permitindo que os usuários controlem suas configurações de privacidade |Baixa |
 
 
 
