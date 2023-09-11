@@ -47,7 +47,13 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-003| O sistema deve permitir que o usuário acesse informações sobre pontos de turismo ecológicos   | ALTA | |
 |RF-004| Disponibilizar artigos, relatórios e estudos atualizados sobre sustentabilidade industrial   | ALTA | |
 |RF-005| Filtros de pesquisa por tópico, data e tipo de conteúdo   | ALTA | |
-|RF-005| O site deve ter dicas de estratégias de negócios sustentáveis   | ALTA | |
+|RF-006| O site deve ter dicas de estratégias de negócios sustentáveis   | ALTA | |
+|RF-007| O sistema deve permitir que o usuário filtre os pontos de turismo ecológico por cidade   | Média | |
+|RF-008| O site deve ter fóruns de discussão e grupos de trabalho virtuais.   | Média | |
+|RF-009| O site deve ter espaço para comentário de usuários   | Baixo | |
+|RF-010| O site pode ter um local para publicar fotos de animais silvestres e onde foram avistados   | Baixo | |
+|RF-011| O site pode permitir conexão com outros líderes do setor de sustentabilidade industrial   | Baixo | |
+
 
 
 ### Requisitos não Funcionais
