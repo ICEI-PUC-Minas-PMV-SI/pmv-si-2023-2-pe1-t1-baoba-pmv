@@ -21,14 +21,14 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE`                  |PARA ... `MOTIVO/VALOR`                                          |
 |--------------------|-----------------------------------------------------|-----------------------------------------------------------------|
-|Usuário do site     | de informações sobre destinos de ecoturismo         | encontrar locais para visitar e saber mais sobre eles           |
-|Usuário do site     | de informações sobre espécies de animais e plantas  | saber quais delas posso encontrar nos passeios                  |
-|Usuário do site     | saber sobre as espécies em perigo de extinção       | entender melhor a situação do nosso ambiente                    |
-|Usuário do site     | saber mais sobre hábitos sustentáveis               | mudar meu estilo de vida e contribuir para a saúde do planeta   |
-|Estudante           | de recursos e informações confiáveis                | progredir nos meus estudos                                      |
-|Estudante           | poder compartilhar minhas observações e fotos       | gerar engajamento e dividir experiências com outras pessoas     |
-|Empresária          | de estratégias de negócios                          | conciliar o crescimento da minha empresa com a sustentabilidade |
-|Empresária          | um espaço que me ofereça oportunidades de parcerias | colaborar com organizações de conservação                       |
+|Persona Geral       | de informações sobre destinos de ecoturismo         | encontrar locais para visitar e saber mais sobre eles           |
+|Persona Geral       | de informações sobre espécies de animais e plantas  | saber quais delas posso encontrar nos passeios                  |
+|Persona Geral       | saber sobre as espécies em perigo de extinção       | entender melhor a situação do nosso ambiente                    |
+|Persona Geral       | saber mais sobre hábitos sustentáveis               | mudar meu estilo de vida e contribuir para a saúde do planeta   |
+|Persona Estudante   | de recursos e informações confiáveis                | progredir nos meus estudos                                      |
+|Persona Estudante   | poder compartilhar minhas observações e fotos       | gerar engajamento e dividir experiências com outras pessoas     |
+|Persona Empresarial | de estratégias de negócios                          | conciliar o crescimento da minha empresa com a sustentabilidade |
+|Persona Empresarial | um espaço que me ofereça oportunidades de parcerias | colaborar com organizações de conservação                       |
 
 
 ## Requisitos
