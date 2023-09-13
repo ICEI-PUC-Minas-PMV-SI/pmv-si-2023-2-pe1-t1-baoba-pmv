@@ -39,31 +39,33 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade | Responsável |
 |------|-----------------------------------------|----| ----|
-|RF-001| O sistema deve permitir que o usuário consulte informações sobre animais em extinção | ALTA |  |
-|RF-002| O sistema deve permitir que o usuário consulte informações sobre biomas em risco   | ALTA | |
-|RF-003| O sistema deve permitir que o usuário acesse informações sobre pontos de turismo ecológicos   | ALTA | |
+|RF-001| Permitir que o usuário consulte informações sobre animais em extinção | ALTA |  |
+|RF-002| Permitir que o usuário consulte informações sobre biomas em risco   | ALTA | |
+|RF-003| Permitir que o usuário acesse informações sobre pontos de turismo ecológicos   | ALTA | |
 |RF-004| Disponibilizar artigos, relatórios e estudos atualizados sobre sustentabilidade industrial   | ALTA | |
-|RF-005| Filtros de pesquisa por tópico, data e tipo de conteúdo   | ALTA | |
-|RF-006| O site deve ter dicas de estratégias de negócios sustentáveis   | ALTA | |
-|RF-007| O sistema deve permitir que o usuário filtre os pontos de turismo ecológico por cidade   | Média | |
-|RF-008| O site deve ter fóruns de discussão e grupos de trabalho virtuais.   | Média | |
-|RF-009| O site deve ter espaço para comentário de usuários   | Baixo | |
-|RF-010| O site pode ter um local para publicar fotos de animais silvestres e onde foram avistados   | Baixo | |
-|RF-011| O site pode permitir conexão com outros líderes do setor de sustentabilidade industrial   | Baixo | |
+|RF-005| Disponibilizar dicas de estratégias de negócios sustentáveis   | ALTA | |
+|RF-006| Permitir que o usuário filtre os pontos de turismo ecológico por cidade   | MÉDIA | |
+|RF-007| Permitir que o usuário filtre os animais em extinção | MÉDIA |
+|RF-008| Permitir que o usuário filtre por biomas em extinção | MÉDIA |
+|RF-009| Permitir que o usuário filtre por data do conteúdo | MÉDIA |
+|RF-010| Permitir que o usuário filtre por tipo de conteúdo | MÉDIA |
+|RF-011| Disponibilizar fóruns de discussão e grupos de trabalho virtuais.   | MÉDIA | |
+|RF-012| Disponibilizar um espaço para comentário de usuários   | BAIXA | |
+|RF-013| Disponibilizar um local para publicar fotos de animais silvestres e onde foram avistados   | BAIXA | |
+|RF-014| Permitir conexão com outros líderes do setor de sustentabilidade industrial   | BAIXA | |
 
 
 
 ### Requisitos não Funcionais
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001 | A interface do site deve ser intuitiva e fácil de navegar, com um design responsivo que funcione bem em dispositivos móveis e desktop |ALTA | 
-|RNF-002 | Deve garantir a privacidade dos dados dos usuários, cumprindo todas as regulamentações de privacidade aplicáveis |ALTA |
-|RNF-003 | Deve ser compatível com uma variedade de navegadores, como Chrome, Firefox, Safari e Edge, para garantir uma experiência consistente |MÉDIA |
-|RNF-004 | Deve ser otimizado para funcionar bem em smartphones e tablets, com design responsivo e boa usabilidade em telas menores |Baixa |
-|RNF-005 | Deve cumprir os padrões de acessibilidade da web para garantir que pessoas com deficiência possam acessar e utilizar o site sem dificuldades |Baixa |
-|RNF-006 | Permitindo que os usuários controlem suas configurações de privacidade |Baixa |
-
+|ID        | Descrição do Requisito  |Prioridade |
+|----------|-------------------------|----|
+|RNF-001| A interface do site deve ser intuitiva e fácil de navegar, com um design responsivo que funcione bem em dispositivos móveis e desktop |ALTA | 
+|RNF-002| Garantir a privacidade dos dados dos usuários, cumprindo todas as regulamentações de privacidade aplicáveis |ALTA |
+|RNF-003| Ser compatível com uma variedade de navegadores, como Chrome, Firefox, Safari e Edge, para garantir uma experiência consistente |MÉDIA |
+|RNF-004| Ser otimizado para funcionar bem em smartphones e tablets, com design responsivo e boa usabilidade em telas menores |Baixa |
+|RNF-005| Cumprir os padrões de acessibilidade da web para garantir que pessoas com deficiência possam acessar e utilizar o site sem dificuldades |Baixa |
+|RNF-006| Permitir que os usuários controlem suas configurações de privacidade |Baixa |
 
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
