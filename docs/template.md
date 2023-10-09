@@ -6,8 +6,13 @@ Explique as guias de estilo utilizadas no seu projeto.
 
 ## Design
 
-Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
+Mobile Design
 
+![Mobile Home](https://github-production-user-asset-6210df.s3.amazonaws.com/142636023/273478488-1655a7cf-7c3b-40b5-b737-e5c9a062e890.png)
+
+Desktop Design
+
+![Desktop Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/cefb6221-26ae-4796-9942-a28cf737eafe)
 
 ## Cores
 
