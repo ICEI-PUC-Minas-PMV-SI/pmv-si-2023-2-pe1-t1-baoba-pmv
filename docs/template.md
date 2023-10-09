@@ -20,7 +20,7 @@ Apresente a paleta de cores que será utilizada. Uma ferramenta interessante par
 
 Paleta de cores
 
-![Paleta](file:///C:/Mateus/PUC%20Minas/Captura%20de%20tela%202023-10-08%20222220.png)
+![Paleta](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/111016519/0baa5989-883c-4189-9d6b-7d60d9a5ad6d)
 
 ## Tipografia
 
