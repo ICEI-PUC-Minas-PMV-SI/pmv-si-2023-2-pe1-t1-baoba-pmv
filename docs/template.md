@@ -37,6 +37,27 @@ Defina os ícones que serão utilizados e suas respectivas funções.
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
 
+Abrir a barra de pesquisa para que o usuário consiga buscar o tópico desejado.
+
+![Lupa](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/111016519/24285d7b-8f92-4907-b737-1dfa08a8e375)
+
+Abrir o menu lateral
+
+![Três Traços](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/111016519/68b771f1-cb98-48a6-8bae-3b9820300cc7)
+
+Fazer um comentário
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/111016519/d60a0053-b913-4276-83da-428cf1a47ba9)
+
+Curtir ou não curtir
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/111016519/6fc3ee3d-7231-4c1d-80f4-adc20c4e9c10)
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/111016519/727c8eb8-7335-4de3-8834-4e03ba4a0462)
+
+Compartilhar
+
+![image](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/111016519/62369f2a-933a-49a8-9af5-09668835f744)
+
 
 > **Links Úteis**:
 >
