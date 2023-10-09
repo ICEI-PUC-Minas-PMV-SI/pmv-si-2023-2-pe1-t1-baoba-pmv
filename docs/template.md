@@ -30,6 +30,8 @@ Corpo do Texto: Raleway Regular 12.
 Comentários do Fórum: Poppins Medium 12.
 Rodapé: Inter Regular 10.
 
+![Tipografia Amostra](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/f936b86a-2604-4cc7-879c-c6ab9472d422)
+
 ## Iconografia
 
 Defina os ícones que serão utilizados e suas respectivas funções.
