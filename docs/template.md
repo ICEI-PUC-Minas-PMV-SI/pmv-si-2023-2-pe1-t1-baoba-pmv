@@ -37,6 +37,14 @@ Defina os ícones que serão utilizados e suas respectivas funções.
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
 
+Drop Menu Mobile
+
+![Drop Menu](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/c506192e-9434-48b5-8db7-bea5d7b9b8e9)
+
+Drop Filtros Pesquisas
+
+![Ordem pesquisa](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/760318e4-a97a-4f93-b680-23111fd62474)
+
 Abrir a barra de pesquisa para que o usuário consiga buscar o tópico desejado.
 
 ![Lupa](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/111016519/24285d7b-8f92-4907-b737-1dfa08a8e375)
