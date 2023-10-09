@@ -24,8 +24,11 @@ Paleta de cores
 
 ## Tipografia
 
-Apresente as fontes que serão utilizadas e sua função no site. As principais funções são: Título de página, Título de Seção, Rótulos de componentes e Corpo de Texto.
-
+Título da página: Comfortaa Bold 14
+Título da Seção: Raleway SemiBold 20
+Corpo do Texto: Raleway Regular 12
+Comentários do Fórum: Poppins Medium 12
+Rodapé: Inter Regular 10
 
 ## Iconografia
 
