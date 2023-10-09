@@ -18,6 +18,9 @@ Desktop Design
 
 Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
 
+Paleta de cores
+
+![Paleta](file:///C:/Mateus/PUC%20Minas/Captura%20de%20tela%202023-10-08%20222220.png)
 
 ## Tipografia
 
