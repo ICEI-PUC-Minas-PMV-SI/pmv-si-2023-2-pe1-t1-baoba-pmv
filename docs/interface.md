@@ -7,6 +7,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## User Flow
 
+### Desktop
 ![Projeto Baobá Desktop](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/7e5015b8-0c35-4eb6-9c77-6ec7e19ad329)
 
 ![Desktop Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/cefb6221-26ae-4796-9942-a28cf737eafe)
@@ -20,7 +21,7 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 ![Forum - Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/d4e35b7d-5c47-4af2-b83f-5cea36a220ce)
 ![Forum - Comment](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/510e0f87-d5c3-455a-a879-e0bcda86c3c6)
 
-
+### Mobile
 ![Mobile Home](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/1655a7cf-7c3b-40b5-b737-e5c9a062e890)
 ![Sobre Mobile](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/a975a096-cc38-40b4-8ad7-81ef26040caf)
 ![Mobile Animais em Extinção](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv/assets/142636023/de75a354-039a-4029-9eb7-c0b92ce10eb1)
