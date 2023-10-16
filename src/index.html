@@ -3,18 +3,72 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Baobá</title>
+    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="styles.css">
+    
 </head>
 
 <body>
-    <h1>Olá Mundo</h1>
+    <header>
+        <img width="80" height="60" src="../img/logo.png" alt="Logo">
+        <nav class="menu">
+            <ul>
+                <li><a href="#">Baobá</a></li>
+                <li><a href="#">Início</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="#">Fórum</a></li>
+            </ul>
+        </nav>
+        <form class="search-form" action="#" method="get">
+            <div class="search-container">
+                <input type="text" name="q" placeholder="Pesquisar">
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search"> </i>
+                </button>
+            </div>
+        </form>
+    </header>
+    <main>
+
+        <div class="home-info">
+            <div class="home-info-text">
+                <p>O Baobá é uma árvore antiga, nativa do continente africano. É chamada de árvore da vida, pois resiste
+                    a
+                    um
+                    ecossistema pouco fértil e bastante seco.
+                    Este é o nome do nosso projeto por representar a perseverança na adversidade da crise climática, a
+                    resiliência e
+                    possibilidade de renovação, o que reflete um paralelo com todo o meio ambiente e a chance de sua
+                    recuperação
+                    se
+                    tomarmos ações para preservação de nossa fauna e flora.</p>
+            </div>
+            <div id="imagem">
+                <img width="200" height="180" class="imagem" src="../img/baobab-desktop-inicial.jpg" alt="Baoba1">
+            </div>
+        </div>
+
+        <div class="home-carousel">
+            
+        </div>
+    </main>
+    <footer>
+        <div class="redes-sociais">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
+    </footer>
 </body>
 
 </html>

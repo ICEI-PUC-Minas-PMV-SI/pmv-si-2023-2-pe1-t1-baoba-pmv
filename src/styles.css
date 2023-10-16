@@ -1,62 +1,83 @@
-header {
-    display: flex;
-    align-items: center;
-    background-color: rgba(145, 168, 126, 0.22);
-    color: #35200E;
-    padding: 10px 0;
-    text-align: left;
-    height: 50px;
-    margin: 0;
-    font-family: 'Comfortaa', sans-serif;
-}
-.logo {
-    flex: 1;
+html {
+	font-family: "Poppins", sans-serif;
 }
 
-.menu {
-    flex: 2;
-    list-style-type: none;
-}
-
-.menu li {
-    display: inline-block;
-}
-
-.search-form {
-    flex: 3;
-    text-align: right;
-}
-
-header a {
-    color: #35200E;
-    text-decoration: none;
-    margin: 0 10px;
-}
-.header {
-    display: flex;
-    justify-content: space-between;
-}
 body {
-    background-color: #FFFFFF;
-    color: #000000;
-    text-align: center;
-    font-family: 'Comfortaa', sans-serif;
-}
-
-.redes-sociais a i {
-    display: inline-block;
-    text-align: left;
-    font-size: 20px;
-    margin: 0 10px;
-    color: #ffffff;
+	background-color: #ffffff;
+	color: #000000;
+	text-align: center;
 }
 
 footer {
-    background-color: #426B1F;
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
+	background-color: #426b1f;
+	bottom: 0;
+	color: #fff;
+	padding: 10px;
+	position: fixed;
+	text-align: center;
+	width: 100%;
+}
+
+header {
+	align-items: center;
+	background-color: rgba(145, 168, 126, 0.22);
+	color: #35200e;
+	display: flex;
+	height: 50px;
+	margin: 0;
+	padding: 10px 0;
+	text-align: left;
+}
+
+header a {
+	color: #35200e;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+}
+
+.home-info {
+	display: flex;
+	margin: auto;
+	width: 80%;
+    margin-top: 3rem;
+}
+
+.imagem {
+    border-radius: 10px;
+}
+
+.home-info-text {
+    text-align: justify;
+    margin-right: 2rem;
+}
+
+.logo {
+	flex: 1;
+}
+
+.menu {
+	flex: 2;
+	list-style-type: none;
+}
+
+.menu li {
+	display: inline-block;
+}
+
+.redes-sociais a i {
+	color: #ffffff;
+	display: inline-block;
+	font-size: 20px;
+	margin: 0 10px;
+	text-align: left;
+}
+
+.search-form {
+	flex: 3;
+	text-align: right;
 }
