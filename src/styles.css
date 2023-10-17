@@ -40,21 +40,11 @@ header a {
 	justify-content: space-between;
 }
 
-.home-info {
-	display: flex;
-	margin: auto;
-	width: 80%;
-    margin-top: 3rem;
-}
-
 .imagem {
     border-radius: 10px;
 }
 
-.home-info-text {
-    text-align: justify;
-    margin-right: 2rem;
-}
+
 
 .logo {
 	flex: 1;
@@ -81,3 +71,34 @@ header a {
 	flex: 3;
 	text-align: right;
 }
+
+
+/* css especifico para pagina home */
+.home-info {
+	display: flex;
+	margin: auto;
+	width: 80%;
+    margin-top: 3rem;
+}
+
+.home-info-text {
+    text-align: justify;
+    margin-right: 2rem;
+}
+
+.home-topics {
+    margin-top: 3rem;
+    background-color: #EAE9DD;
+    width: 100%;
+}
+
+/* css especifico para pagina sobre */
+
+
+
+
+/* css especifico para pagina pesquisa */
+
+
+
+/* css especifico para pagina forum */
