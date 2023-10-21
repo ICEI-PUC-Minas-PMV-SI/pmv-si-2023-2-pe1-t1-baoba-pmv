@@ -243,6 +243,7 @@ header a {
     padding: 0.5rem;
     margin-left: 0.5rem;
     height: 45px;
+    width: 80px;
 }
 
 .forum__trending-content {
