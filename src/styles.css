@@ -1,6 +1,7 @@
 html {
 	font-family: "Poppins", sans-serif;
     font-size: 1rem;
+    height: 100vh;
 }
 
 h1 {
@@ -23,10 +24,10 @@ body {
 	background-color: #ffffff;
 	color: #000000;
 	text-align: center;
+    min-height: 100%;
 }
 
 footer {
-    display: flex;
 	background-color: #426b1f;
 	bottom: 0;
 	color: #fff;
@@ -81,6 +82,12 @@ header a {
 	display: inline-block;
 }
 
+.redes-sociais {
+    margin-bottom: -1rem;
+    display: block;
+    text-align: left;
+}
+
 .redes-sociais a i {
 	color: #ffffff;
 	display: inline-block;
@@ -120,9 +127,34 @@ header a {
 }
 
 .home__topics-container {
-    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 190px;
     height: 150px;
     background-color: #D6D4BD;
+    border-radius: 10px;   
+}
+
+.home__topics-container a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+}
+
+.home__topics-container:hover {
+    background-color: #d1d1c7;
+    cursor: pointer;
+}
+
+@media (min-height: 768px) {
+    .home__info {
+        margin-top: 8rem;
+    }
+
+    .home__topics {
+        margin-top: 8rem;
+    }
 }
 
 /* css especifico para pagina sobre */
