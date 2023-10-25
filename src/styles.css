@@ -288,3 +288,29 @@ header a {
     align-items: center;
     margin: auto;
 }
+
+/* css página de sustentabilidade */
+
+.container {
+            display: flex;
+            align-items: center; 
+            justify-content: space-between; 
+            width: 100%;
+            max-width: 800px; 
+            margin: 0 auto; 
+            padding: 20px;
+            border: 1px solid #ccc; 
+			background-color: #EAE9DD;
+			border-radius: 10px;
+        }
+
+        .container img {
+            width: 400px; 
+            height: 400px; 
+            object-fit: cover; 
+        }
+
+        .container p {
+            flex: 1; 
+            margin-right: 20px; 
+        }
