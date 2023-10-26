@@ -175,6 +175,33 @@ header a {
 	margin: 2rem 0 2rem 2rem;
 }
 
+.sobre__info-text.colorida {
+    background-color: #F8EEE5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.sobre__info-text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+.sobre__info-text h1,h2 {
+    text-align: center;
+}
+
+
+.sobre__info-text p {
+    text-align: center;
+}
+
+
+.sobre__info-text.colorida p:last-child {
+    text-align: left;
+}
+
 /* css especifico para pagina pesquisa */
 
 /* css especifico para pagina forum */
