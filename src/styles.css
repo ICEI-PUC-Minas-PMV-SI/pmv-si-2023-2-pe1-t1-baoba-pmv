@@ -341,3 +341,37 @@ header a {
             flex: 1; 
             margin-right: 20px; 
         }
+		
+		.caixa-texto ol {
+			list-style-type: decimal;
+			padding-left: 40px; 
+		}
+		
+		.caixa-texto ol li {
+			text-align: left;
+			margin-bottom: 10px;
+		}
+
+		.caixa-texto {
+			background-color: #F8EEE5;
+			margin-top: 30px; 
+			border-radius: 10px;
+		}
+
+		.col-md-6 h1 {
+			margin-bottom: 20px; 
+		}
+		
+		.caixa-texto h2 {
+			margin-bottom: 20px; 
+		}
+
+		header {
+			margin-bottom: 30px; 
+		}
+
+		main {
+			margin: 20px; 
+			padding-bottom: 30px;
+		}		
+			
