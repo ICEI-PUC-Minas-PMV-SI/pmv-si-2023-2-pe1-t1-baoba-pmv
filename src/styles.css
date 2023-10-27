@@ -341,3 +341,34 @@ header a {
             flex: 1; 
             margin-right: 20px; 
         }
+
+/* css página de ecoturismo */
+
+
+.main-card-eco {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+	background-color: #EAE9DD;
+	border-radius: 10px;
+}
+
+.text-and-image-eco {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-eco {
+	margin-left: 10px;
+}
+
+.image-eco img {
+    max-width: 100%;
+}
