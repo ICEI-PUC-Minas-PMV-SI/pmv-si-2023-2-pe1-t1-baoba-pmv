@@ -382,6 +382,8 @@ header a {
 		.caixa-texto {
 			background-color: #F8EEE5;
 			margin-top: 30px; 
+			margin-bottom: 10px;
+			padding: 10px;
 			border-radius: 10px;
 		}
 
@@ -401,7 +403,49 @@ header a {
 			margin: 20px; 
 			padding-bottom: 30px;
 		}		
-			
+		
+		.imagem-meio {
+			margin-bottom: 10px;
+		}
+
+		.texto-final {
+			margin-bottom: 30px;
+		}
+
+		.botao-parceiros {
+			background-color: #E7ECE3 !important;
+			border-radius: 10px;
+			padding: 3px;
+			margin-bottom: 10px;
+		}
+
+		.btn-custom {
+			color: white;
+			background-color: #426B1F
+		}
+
+		.card-empresa {
+			background-color: #E7ECE3;
+		}
+
+		.form-group {
+			margin-left: 10px;
+			margin-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 10px;
+		}
+
+		.form-control {
+			width: 100%;
+		}
+
+		.card-cadastro {
+			padding-bottom: 10px;
+		}
+		.form-control {
+			text-align: left;
+		}
+
 
 
 /* css página de ecoturismo */
@@ -432,5 +476,7 @@ header a {
 }
 
 .image-eco img {
-    max-width: 100%;
+	display: block;
+    width: 100%;
+	height: auto;
 }
