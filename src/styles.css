@@ -176,6 +176,33 @@ header a {
 	margin: 2rem 0 2rem 2rem;
 }
 
+.sobre__info-text.colorida {
+    background-color: #F8EEE5;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.sobre__info-text ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+
+.sobre__info-text h1,h2 {
+    text-align: center;
+}
+
+
+.sobre__info-text p {
+    text-align: center;
+}
+
+
+.sobre__info-text.colorida p:last-child {
+    text-align: left;
+}
+
 /* css especifico para pagina pesquisa */
 
 /* css especifico para pagina forum */
@@ -341,12 +368,69 @@ header a {
             flex: 1; 
             margin-right: 20px; 
         }
+		
+		.caixa-texto ol {
+			list-style-type: decimal;
+			padding-left: 40px; 
+		}
+		
+		.caixa-texto ol li {
+			text-align: left;
+			margin-bottom: 10px;
+		}
 
-.caixa-texto {
-	margin-bottom: 20px;
-	background-color: #F8EEE5;
-}		
+		.caixa-texto {
+			background-color: #F8EEE5;
+			margin-top: 30px; 
+			border-radius: 10px;
+		}
 
-.card-empresa {
-	background-color: #E7ECE3 !important;
+		.col-md-6 h1 {
+			margin-bottom: 20px; 
+		}
+		
+		.caixa-texto h2 {
+			margin-bottom: 20px; 
+		}
+
+		header {
+			margin-bottom: 30px; 
+		}
+
+		main {
+			margin: 20px; 
+			padding-bottom: 30px;
+		}		
+			
+
+
+/* css página de ecoturismo */
+
+
+.main-card-eco {
+    margin: 20px auto;
+    width: 80%;
+    display: flex;
+    gap: 20px;
+	background-color: #EAE9DD;
+	border-radius: 10px;
+}
+
+.text-and-image-eco {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.text h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.text-eco {
+	margin-left: 10px;
+}
+
+.image-eco img {
+    max-width: 100%;
 }
