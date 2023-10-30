@@ -449,6 +449,7 @@ header a {
 
 		.card-empresa {
 			background-color: #E7ECE3;
+			border-radius: 10px;
 		}
 
 		.form-group {
@@ -473,15 +474,22 @@ header a {
 
 /* css página de ecoturismo */
 
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
 
 .main-card-eco {
     margin: 20px auto;
     width: 80%;
     display: flex;
     gap: 20px;
-	background-color: #EAE9DD;
-	border-radius: 10px;
+    background-color: #EAE9DD;
+    border-radius: 10px;
 }
+
 
 .text-and-image-eco {
     display: flex;
@@ -489,17 +497,129 @@ header a {
     gap: 20px;
 }
 
+
+.text-eco {
+    margin-left: 10px;
+}
+
+
 .text h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
 
-.text-eco {
-	margin-left: 10px;
+.image-eco img {
+    display: block;
+    width: 100%;
+    height: auto;
 }
 
-.image-eco img {
-	display: block;
+
+.carousel-container {
     width: 100%;
-	height: auto;
+    overflow: hidden;
+    position: relative;
 }
+
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+
+.carousel-item {
+    min-width: 20%;
+    margin: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+
+.carousel-item img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+    height: auto;
+    display: block;
+}
+
+
+.carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    z-index: 100;
+}
+
+
+.carousel-control.prev {
+    left: 10px;
+}
+
+
+.carousel-control.next {
+    right: 10px;
+}
+
+
+.card-opaco {
+    position: absolute;
+    bottom: 0;
+    background-color:rgba(255, 255, 255, 0.35);
+    color: white;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    max-height: 40px;
+    overflow: hidden;
+}
+
+
+.card-opaco p {
+    font-size: 13px;
+    color: white;
+}
+.text h2 {
+    font-size: 20px;
+    text-align: left;
+    margin-left: 20px;
+}
+
+
+.container-ecoturismo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: transparent;
+    border: none;
+    margin: 0px;
+    margin-left: 0px;
+  }
+
+
+  .meu-botao {
+    background-color: #E7ECE3;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+	align-content: flex-start;
+  }
+ 
+  .meu-botao:hover {
+    background-color: white;
+    color: black;
+  }
+ 
+  .eco-destinos h2 {
+    margin: 0;
+    margin-right: 20px;
+  }
