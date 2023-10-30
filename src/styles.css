@@ -552,6 +552,7 @@ body, html {
     border-radius: 5px;
     height: auto;
     display: block;
+	object-fit: cover;
 }
 
 
@@ -595,7 +596,7 @@ body, html {
     color: black;
 }
 
-.text h2 {
+.text-eco h2 {
     font-size: 20px;
     text-align: left;
     margin-left: 20px;
