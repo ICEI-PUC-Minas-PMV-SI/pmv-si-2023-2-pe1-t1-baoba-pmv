@@ -367,7 +367,7 @@ header a {
 
 }
 
-.container {
+.container-sus {
             display: flex;
             align-items: center; 
             justify-content: space-between; 
@@ -379,6 +379,7 @@ header a {
             border: 1px solid #ccc; 
 			background-color: #EAE9DD;
 			border-radius: 10px;
+			margin-top: 30px;
         }
 
         .container img {
@@ -418,11 +419,11 @@ header a {
 			margin-bottom: 20px; 
 		}
 
-		header {
+		.header {
 			margin-bottom: 30px; 
 		}
 
-		main {
+		.main {
 			margin: 20px; 
 			padding-bottom: 30px;
 		}		
@@ -433,14 +434,25 @@ header a {
 
 		.texto-final {
 			margin-bottom: 30px;
+			margin-left: 20px;
+			margin-right: 20px;
+		}
+
+		.parceiros {
+			text-align: center;
 		}
 
 		.botao-parceiros {
-			background-color: #E7ECE3 !important;
+			background-color: #E7ECE3;
 			border-radius: 10px;
-			padding: 3px;
+			padding: 5px;
 			margin-bottom: 10px;
 		}
+
+		.botao-parceiros:hover {
+			background-color: #426B1F;
+			color: white;
+		  }
 
 		.btn-custom {
 			color: white;
@@ -450,6 +462,7 @@ header a {
 		.card-empresa {
 			background-color: #E7ECE3;
 			border-radius: 10px;
+			margin-right: 10px;
 		}
 
 		.form-group {
@@ -461,16 +474,13 @@ header a {
 
 		.form-control {
 			width: 100%;
+			text-align: left;
 		}
 
 		.card-cadastro {
 			padding-bottom: 10px;
 		}
-		.form-control {
-			text-align: left;
-		}
-
-
+		
 
 /* css página de ecoturismo */
 
@@ -503,7 +513,7 @@ body, html {
 }
 
 
-.text h1 {
+.text-eco h1 {
     font-size: 24px;
     margin-bottom: 10px;
 }
@@ -571,7 +581,7 @@ body, html {
 .card-opaco {
     position: absolute;
     bottom: 0;
-    background-color:rgba(255, 255, 255, 0.35);
+    background-color:rgba(255, 255, 255, 0.5);
     color: white;
     width: 100%;
     padding: 10px;
@@ -580,11 +590,11 @@ body, html {
     overflow: hidden;
 }
 
-
 .card-opaco p {
     font-size: 13px;
-    color: white;
+    color: black;
 }
+
 .text h2 {
     font-size: 20px;
     text-align: left;
@@ -595,11 +605,11 @@ body, html {
 .container-ecoturismo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: start;
     background-color: transparent;
     border: none;
     margin: 0px;
-    margin-left: 0px;
+    margin-left: 10px;
   }
 
 
@@ -611,15 +621,14 @@ body, html {
     border-radius: 4px;
     cursor: pointer;
     transition-duration: 0.4s;
-	align-content: flex-start;
   }
  
   .meu-botao:hover {
-    background-color: white;
-    color: black;
+    background-color: #426B1F;
+    color: white;
   }
  
   .eco-destinos h2 {
     margin: 0;
-    margin-right: 20px;
+    margin-right: 30px;
   }
