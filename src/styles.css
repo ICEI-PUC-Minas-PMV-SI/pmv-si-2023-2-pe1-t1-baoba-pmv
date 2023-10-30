@@ -177,36 +177,37 @@ header a {
 }
 
 .sobre__info-text.colorida {
-    background-color: #F8EEE5;
-    padding: 20px;
-    border-radius: 10px;
+	background-color: #F8EEE5;
+	padding: 20px;
+	border-radius: 10px;
 }
 
 
 .sobre__info-text ul {
-    list-style-type: disc;
-    margin-left: 20px;
+	list-style-type: disc;
+	margin-left: 20px;
 }
 
 
-.sobre__info-text h1,h2 {
-    text-align: center;
+.sobre__info-text h1,
+h2 {
+	text-align: center;
 }
 
 
 .sobre__info-text p {
-    text-align: center;
+	text-align: center;
 }
 
 
 .sobre__info-text.colorida p:last-child {
-    text-align: left;
+	text-align: left;
 }
 
 /* css especifico para pagina pesquisa */
 
 .pesquisa-resultados {
-    background-color: #F8EEE5;
+	background-color: #F8EEE5;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -218,13 +219,13 @@ header a {
 	border-radius: 10px;
 }
 
-.pesquisa-resultados h2{
+.pesquisa-resultados h2 {
 	text-align: left;
 }
 
 .pesquisa-resultados a {
 	text-decoration: none;
-	color:#35200e
+	color: #35200e
 }
 
 
@@ -322,22 +323,22 @@ header a {
 
 .comment__item--main {
 	display: flex;
-    align-items: center;
+	align-items: center;
 }
 
 .comment__item {
 	display: flex;
 	width: 85%;
-    justify-content: flex-end;
-    align-items: center;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .comment__item--second {
-    display: flex;
+	display: flex;
 	width: 70%;
-    justify-content: flex-end;
-    align-items: center;
-    margin: auto;
+	justify-content: flex-end;
+	align-items: center;
+	margin: auto;
 }
 
 /* css página de sustentabilidade */
@@ -353,13 +354,13 @@ header a {
 		padding: 10px 0;
 		text-align: left;
 	}
-	
+
 	header a {
 		color: #35200e;
 		margin: 0 10px;
 		text-decoration: none;
 	}
-	
+
 	.header {
 		display: flex;
 		justify-content: space-between;
@@ -368,268 +369,511 @@ header a {
 }
 
 .container-sus {
-            display: flex;
-            align-items: center; 
-            justify-content: space-between; 
-			max-height: 450px;
-            width: 100%;
-            max-width: 1100px; 
-            margin: 5px auto ; 
-            padding: 20px;
-            border: 1px solid #ccc; 
-			background-color: #EAE9DD;
-			border-radius: 10px;
-			margin-top: 30px;
-        }
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	max-height: 450px;
+	width: 100%;
+	max-width: 1100px;
+	margin: 5px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+	background-color: #EAE9DD;
+	border-radius: 10px;
+	margin-top: 30px;
+}
 
-        .container img {
-            width: 100%; 
-            height: 100%;
-            object-fit: cover; 
-        }
+.container img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
 
-        .container p {
-            flex: 1; 
-            margin-right: 20px; 
-        }
-		
-		.caixa-texto ol {
-			list-style-type: decimal;
-			padding-left: 40px; 
-		}
-		
-		.caixa-texto ol li {
-			text-align: left;
-			margin-bottom: 10px;
-		}
+.container p {
+	flex: 1;
+	margin-right: 20px;
+}
 
-		.caixa-texto {
-			background-color: #F8EEE5;
-			margin-top: 30px; 
-			margin-bottom: 10px;
-			padding: 10px;
-			border-radius: 10px;
-		}
+.caixa-texto ol {
+	list-style-type: decimal;
+	padding-left: 40px;
+}
 
-		.col-md-6 h1 {
-			margin-bottom: 20px; 
-		}
-		
-		.caixa-texto h2 {
-			margin-bottom: 20px; 
-		}
+.caixa-texto ol li {
+	text-align: left;
+	margin-bottom: 10px;
+}
 
-		.header {
-			margin-bottom: 30px; 
-		}
+.caixa-texto {
+	background-color: #F8EEE5;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
 
-		.main {
-			margin: 20px; 
-			padding-bottom: 30px;
-		}		
-		
-		.imagem-meio {
-			margin-bottom: 10px;
-		}
+.col-md-6 h1 {
+	margin-bottom: 20px;
+}
 
-		.texto-final {
-			margin-bottom: 30px;
-			margin-left: 20px;
-			margin-right: 20px;
-		}
+.caixa-texto h2 {
+	margin-bottom: 20px;
+}
 
-		.parceiros {
-			text-align: center;
-		}
+.header {
+	margin-bottom: 30px;
+}
 
-		.botao-parceiros {
-			background-color: #E7ECE3;
-			border-radius: 10px;
-			padding: 5px;
-			margin-bottom: 10px;
-		}
+.main {
+	margin: 20px;
+	padding-bottom: 30px;
+}
 
-		.botao-parceiros:hover {
-			background-color: #426B1F;
-			color: white;
-		  }
+.imagem-meio {
+	margin-bottom: 10px;
+}
 
-		.btn-custom {
-			color: white;
-			background-color: #426B1F
-		}
+.texto-final {
+	margin-bottom: 30px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
 
-		.card-empresa {
-			background-color: #E7ECE3;
-			border-radius: 10px;
-			margin-right: 10px;
-		}
+.parceiros {
+	text-align: center;
+}
 
-		.form-group {
-			margin-left: 10px;
-			margin-right: 10px;
-			padding-top: 10px;
-			padding-bottom: 10px;
-		}
+.botao-parceiros {
+	background-color: #E7ECE3;
+	border-radius: 10px;
+	padding: 5px;
+	margin-bottom: 10px;
+}
 
-		.form-control {
-			width: 100%;
-			text-align: left;
-		}
+.botao-parceiros:hover {
+	background-color: #426B1F;
+	color: white;
+}
 
-		.card-cadastro {
-			padding-bottom: 10px;
-		}
-		
+.btn-custom {
+	color: white;
+	background-color: #426B1F
+}
+
+.card-empresa {
+	background-color: #E7ECE3;
+	border-radius: 10px;
+	margin-right: 10px;
+}
+
+.form-group {
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.form-control {
+	width: 100%;
+	text-align: left;
+}
+
+.card-cadastro {
+	padding-bottom: 10px;
+}
+
 
 /* css página de ecoturismo */
 
-body, html {
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden;
+body,
+html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
 }
 
 
 .main-card-eco {
-    margin: 20px auto;
-    width: 80%;
-    display: flex;
-    gap: 20px;
-    background-color: #EAE9DD;
-    border-radius: 10px;
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	gap: 20px;
+	background-color: #EAE9DD;
+	border-radius: 10px;
 }
 
 
 .text-and-image-eco {
-    display: flex;
-    align-items: center;
-    gap: 20px;
+	display: flex;
+	align-items: center;
+	gap: 20px;
 }
 
 
 .text-eco {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 
 .text-eco h1 {
-    font-size: 24px;
-    margin-bottom: 10px;
+	font-size: 24px;
+	margin-bottom: 10px;
 }
 
 .image-eco img {
-    display: block;
-    width: 100%;
-    height: auto;
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 
 .carousel-container {
-    width: 100%;
-    overflow: hidden;
-    position: relative;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
 }
 
 
 .carousel {
-    display: flex;
-    transition: transform 0.5s ease;
+	display: flex;
+	transition: transform 0.5s ease;
 }
 
 
 .carousel-item {
-    min-width: 20%;
-    margin: 10px;
-    position: relative;
-    overflow: hidden;
+	min-width: 20%;
+	margin: 10px;
+	position: relative;
+	overflow: hidden;
 }
 
 
 .carousel-item img {
-    width: 100%;
-    display: block;
-    border-radius: 5px;
-    height: auto;
-    display: block;
+	width: 100%;
+	display: block;
+	border-radius: 5px;
+	height: auto;
+	display: block;
 	object-fit: cover;
 }
 
 
 .carousel-control {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    color: white;
-    border: none;
-    cursor: pointer;
-    padding: 10px;
-    z-index: 100;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: rgba(0, 0, 0, 0.5);
+	color: white;
+	border: none;
+	cursor: pointer;
+	padding: 10px;
+	z-index: 100;
 }
 
 
 .carousel-control.prev {
-    left: 10px;
+	left: 10px;
 }
 
 
 .carousel-control.next {
-    right: 10px;
+	right: 10px;
 }
 
 
 .card-opaco {
-    position: absolute;
-    bottom: 0;
-    background-color:rgba(255, 255, 255, 0.5);
-    color: white;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
-    max-height: 40px;
-    overflow: hidden;
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: white;
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+	max-height: 40px;
+	overflow: hidden;
 }
 
 .card-opaco p {
-    font-size: 13px;
-    color: black;
+	font-size: 13px;
+	color: black;
 }
 
 .text-eco h2 {
-    font-size: 20px;
-    text-align: left;
-    margin-left: 20px;
+	font-size: 20px;
+	text-align: left;
+	margin-left: 20px;
 }
 
 
 .container-ecoturismo {
-    display: flex;
-    align-items: center;
-    justify-content: start;
-    background-color: transparent;
-    border: none;
-    margin: 0px;
-    margin-left: 10px;
-  }
+	display: flex;
+	align-items: center;
+	justify-content: start;
+	background-color: transparent;
+	border: none;
+	margin: 0px;
+	margin-left: 10px;
+}
 
 
-  .meu-botao {
-    background-color: #E7ECE3;
-    color: #000000;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-    transition-duration: 0.4s;
-  }
- 
-  .meu-botao:hover {
-    background-color: #426B1F;
-    color: white;
-  }
- 
-  .eco-destinos h2 {
-    margin: 0;
-    margin-right: 30px;
-  }
+.meu-botao {
+	background-color: #E7ECE3;
+	color: #000000;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 4px;
+	cursor: pointer;
+	transition-duration: 0.4s;
+}
+
+.meu-botao:hover {
+	background-color: #426B1F;
+	color: white;
+}
+
+.eco-destinos h2 {
+	margin: 0;
+	margin-right: 30px;
+}
+
+
+/* css para pagina de animais */
+
+.animais__info {
+	height: 276px;
+	display: flex;
+	gap: 20px;
+	background-color: #EAE9DD;
+	border-radius: 10px;
+}
+
+.animais__info-text {
+	margin-top: 60px;
+	margin-left: 105px;
+	margin-right: 105px;
+}
+
+
+.animais__tundra-txt {
+	margin-left: -1040px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-tundra {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-tundra {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-tundra {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__taiga-txt {
+	margin-left: -1060px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-taiga {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-taiga {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-taiga {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__floresta-tropical-txt {
+	margin-left: -930px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-floresta-tropical {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-floresta-tropical {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-floresta-tropical {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__floresta-temperada-txt {
+	margin-left: -890px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-floresta-temperada {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-floresta-temperada {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-floresta-temperada {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__savana-txt {
+	margin-left: -1040px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-savana {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-savana {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-savana {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__deserto-txt {
+	margin-left: -1040px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-deserto {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-deserto {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-deserto {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.animais__campo-txt {
+	margin-left: -1040px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.animais-extincao-campo {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-campo {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-campo {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
+
+.main {
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
