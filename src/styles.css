@@ -409,7 +409,6 @@ h2 {
 	margin-top: 30px;
 	margin-bottom: 10px;
 	padding: 10px;
-	border-radius: 10px;
 }
 
 .col-md-6 h1 {
@@ -562,8 +561,8 @@ html {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	background-color: rgba(0, 0, 0, 0.5);
-	color: white;
+	background-color: rgba(255, 255, 255, 0.5);
+	color: black;
 	border: none;
 	cursor: pointer;
 	padding: 10px;
