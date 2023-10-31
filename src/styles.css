@@ -887,3 +887,56 @@ html {
 	display: flex;
 	flex-direction: column;
 }
+
+/* css para pagina de biomas */
+
+.biomas__info {
+	height: 276px;
+	display: flex;
+	gap: 20px;
+	background-color: #EAE9DD;
+	border-radius: 10px;
+}
+
+.biomas__info-text {
+	margin: 2rem;
+	margin-top: 60px;
+}
+
+.main-biomas {
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	flex-direction: column;
+}
+
+.biomas-txt {
+	margin-left: -1040px;
+	margin-bottom: 10px;
+	margin-top: 100px;
+}
+
+.bioma-geral {
+	position: relative;
+	display: flex;
+	width: fit-content;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.card-opaco-biomas {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding: 5px;
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	background-color: rgba(255, 255, 255, 0.5);
+}
+
+.container-biomas {
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+}
