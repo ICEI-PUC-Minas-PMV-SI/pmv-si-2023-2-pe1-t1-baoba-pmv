@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Home</title>
     <link rel="stylesheet" href="src/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
@@ -19,7 +20,7 @@
 <body>
     <header>
         <img width="80px" height="60px" src="../src/img/logo.png" alt="Logo">
-        <h1>Baobá</h1>
+        <h1 class="header__title">Baobá</h1>
         <nav class="menu">
             <ul>
                 <li><a href="#">Início</a></li>
@@ -29,15 +30,14 @@
         </nav>
         <form class="search-form" action="./pages/pesquisa.html" method="get">
             <div class="search-container">
-                <input type="text" name="q" placeholder="Pesquisar">
+                <input class="search-container__input" type="text" name="q" placeholder="Pesquisar">
                 <button type="submit" class="search-button">
                     <i class="fas fa-search"> </i>
                 </button>
             </div>
         </form>
     </header>
-    <main>
-
+    <main class="home__main">
         <div class="home__info">
             <div class="home__info-text">
                 <p>O Baobá é uma árvore antiga, nativa do continente africano. É chamada de árvore da vida, pois resiste
@@ -50,7 +50,7 @@
                     se
                     tomarmos ações para preservação de nossa fauna e flora.</p>
             </div>
-            <div id="imagem">
+            <div id="imagem-baoba">
                 <img width="200px" height="180px" class="imagem" src="../src/img/home/baobab-desktop-inicial.jpg" alt="Baoba1">
             </div>
         </div>

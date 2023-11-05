@@ -126,6 +126,8 @@ header a {
 	align-items: center;
 }
 
+
+
 .home__topics-container {
 	display: flex;
 	flex-direction: column;
@@ -156,6 +158,56 @@ header a {
 		margin-top: 8rem;
 	}
 }
+
+
+@media (max-width: 678px) {
+
+    header h1 {
+        display: none;
+    }
+
+    .menu {
+        margin-left: 1rem;
+    }
+
+    .search-container input {
+        width: 100px;
+    }
+
+    .home__main {
+        height: auto;
+    }
+
+    .home__info {
+        flex-direction: column;
+        margin-top: 3rem;
+    }
+
+    #imagem-baoba {
+        margin-top: 2rem;
+    }
+
+    .home__topics {
+        margin: 15rem 0 20rem 0;
+        flex-direction: column;
+        background-color: inherit;
+    }
+
+    .home__topics-container {
+        margin-top: 2rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer .redes-sociais {
+        height: 25px;
+        margin: 0 auto 0 auto;
+    }
+}
+
 
 /* css especifico para pagina sobre */
 
@@ -278,10 +330,18 @@ h2 {
 	justify-content: space-between;
 }
 
+.forum__post-new--upper input {
+    width: 45%;
+}
+
 .forum__post-new--lower {
 	display: flex;
 	justify-content: space-between;
 	margin-top: 0.5rem;
+}
+
+.forum__post-new--lower input {
+    width: 85%;
 }
 
 .forum__post-new--button {
@@ -317,6 +377,63 @@ h2 {
 
 .forum__trending-topics {
 	font-size: 0.8rem;
+}
+
+
+@media (max-width: 678px) {
+
+    .forum__container {
+        height: auto;
+    }
+
+    .forum__post-item--options {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "first second" "third third";
+      }
+      
+      .forum__options--first {
+        grid-area: first;
+      }
+      
+      .forum__options--second {
+        grid-area: second;
+      }
+      
+      .forum__options--third {
+        grid-area: third;
+      }
+
+    .forum__post-new {
+        margin-bottom: 5rem;
+    }
+
+    .forum__post-new--upper {
+        flex-direction: column;
+    }
+
+    .forum__post-new--upper input {
+        width: 100%;
+        margin-top: 0.5rem;
+    }
+
+    .forum__post-new--lower {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .forum__post-new--lower input {
+        width: 100%;   
+    }
+
+    .forum__post-new--button {
+        height: 30px;
+        width: 50px;
+        text-align: center;
+        align-self: flex-end;
+        margin-top: 1rem;
+    }
 }
 
 /* comment section */
@@ -981,3 +1098,4 @@ html {
 	flex-direction: row;
 	gap: 15px;
 }
+
