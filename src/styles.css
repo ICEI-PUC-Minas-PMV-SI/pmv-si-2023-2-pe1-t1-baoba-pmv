@@ -368,30 +368,39 @@ h2 {
 
 }
 
-.container-sus {
+.main-card-sus {
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	gap: 20px;
+	background-color: #EAE9DD !important;
+	border-radius: 10px;
+}
+
+
+.text-and-image-sus {
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
-	max-height: 450px;
+	gap: 20px;
+}
+
+
+.text-sus {
+	margin-left: 10px;
+	max-width: 70%;
+}
+
+
+.text-sus h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.image-sus img {
+	display: block;
 	width: 100%;
-	max-width: 1100px;
-	margin: 5px auto;
-	padding: 20px;
-	border: 1px solid #ccc;
-	background-color: #EAE9DD;
+	height: auto;
 	border-radius: 10px;
-	margin-top: 30px;
-}
-
-.container img {
-	width: 100%;
-	height: 100%;
-	object-fit: cover;
-}
-
-.container p {
-	flex: 1;
-	margin-right: 20px;
 }
 
 .caixa-texto ol {
@@ -551,7 +560,8 @@ html {
 .carousel {
 	display: flex;
 	transition: transform 0.5s ease;
-	margin-top: 15px;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 
@@ -627,7 +637,7 @@ html {
 	justify-content: start;
 	background-color: transparent;
 	border: none;
-	margin: 0px;
+	margin: 10px;
 	margin-left: 10px;
 }
 
@@ -651,6 +661,32 @@ html {
 .eco-destinos h2 {
 	margin: 0;
 	margin-right: 30px;
+}
+
+@media only screen and (max-width:360px) {
+	.text-and-image-eco {
+		display: flex;
+		flex-direction: column;
+		margin: 0 auto;
+		gap: 20px;
+	}
+
+	.text-eco h1 {
+		margin: 1rem
+	}
+
+	.eco-destinos h2 {
+		font-size: 16px;
+	}
+
+	.meu-botao {
+		padding: 3px 7px;
+	}
+
+	.carousel-item {
+		min-width: 45%;
+		margin: 3px;
+	}
 }
 
 
