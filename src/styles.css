@@ -242,7 +242,7 @@ header a {
 
 
 .sobre__info-text h1,
-h2 {
+.sobre__info-text h2{
 	text-align: center;
 }
 
@@ -255,6 +255,40 @@ h2 {
 .sobre__info-text.colorida p:last-child {
 	text-align: left;
 }
+
+@media (max-width: 768px) {
+	.sobre__info {
+	  flex-direction: column;
+	  margin-left: 1rem;
+	}
+  
+	.sobre__info-img, 
+	.sobre__info-text {
+	  width: 100%; 
+	  margin: 1rem 0; 
+	}
+  
+	.sobre__info-text {
+	  margin-left: 0;
+	  margin-right: 0;
+	}
+  }
+  
+  @media (max-width: 480px) {
+	.sobre__info {
+	  margin-left: 0.5rem;
+	}
+  
+	.sobre__info-text.colorida {
+	  padding: 15px;
+	  border-radius: 5px;
+	}
+  
+	.sobre__info-text h1,
+	.sobre__info-text h2 {
+	  font-size: smaller; 
+	}
+  }
 
 /* css especifico para pagina pesquisa */
 
