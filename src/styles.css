@@ -300,19 +300,50 @@ header a {
 	width: 80%;
 	min-height: 120px;
 	text-align: left;
-	margin: 1rem 1rem 0 1rem;
+	margin: 1rem;
 	padding: 0.5rem;
 	border-radius: 10px;
-}
-
-.pesquisa-resultados h2 {
+  }
+  
+  .pesquisa-resultados h2 {
 	text-align: left;
-}
-
-.pesquisa-resultados a {
+  }
+  
+  .pesquisa-resultados a {
 	text-decoration: none;
-	color: #35200e
-}
+	color: #35200e;
+  }
+  
+  /* Media queries para tablets */
+  @media (max-width: 768px) {
+	.pesquisa-resultados {
+	  width: 90%; /* Aumenta a largura para ocupar mais espaço na tela do tablet */
+	  padding: 0.5rem 1rem; /* Aumenta o padding horizontal */
+	}
+  
+	.pesquisa-resultados h2 {
+	  font-size: 1.25rem; /* Ajusta o tamanho da fonte, se necessário */
+	}
+  }
+  
+  /* Media queries para smartphones */
+  @media (max-width: 480px) {
+	.pesquisa-resultados {
+	  width: 95%; /* Aumenta a largura para ocupar quase toda a tela do smartphone */
+	  margin: 0.5rem; /* Reduz o margin para ter mais espaço na tela */
+	  padding: 0.5rem; /* Ajusta o padding se necessário */
+	  border-radius: 5px; /* Suaviza os cantos arredondados */
+	}
+  
+	.pesquisa-resultados h2 {
+	  font-size: 1rem; /* Diminui o tamanho da fonte para se adequar a telas menores */
+	}
+  
+	.pesquisa-resultados a {
+	  font-size: 0.9rem; /* Ajusta o tamanho da fonte dos links para melhor legibilidade */
+	}
+  }
+  
 
 
 /* css especifico para pagina forum */
