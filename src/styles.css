@@ -696,7 +696,16 @@ header a {
 	padding-bottom: 10px;
 }
 
+iframe {
+	height: 500px;
+}
+
 @media only screen and (max-width:480px) {
+
+	iframe {
+		height: 850px;
+	}
+
 	.main-card-sus {
 		margin: 20px auto;
 	}
