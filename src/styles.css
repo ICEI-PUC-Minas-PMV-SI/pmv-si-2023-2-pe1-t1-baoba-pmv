@@ -891,13 +891,18 @@ html {
 	border-radius: 10px;
 }
 
+.animais__info-img>.imagem {
+	width: 600px;
+	height: 276px;
+}
+
 .animais__info-text {
 	margin: 2rem;
 }
 
 
 .animais__tundra-txt {
-	margin-left: -1040px;
+	display: flex;
 	margin-bottom: 10px;
 	margin-top: 100px;
 }
@@ -928,7 +933,6 @@ html {
 }
 
 .animais__taiga-txt {
-	margin-left: -1060px;
 	margin-bottom: 10px;
 	margin-top: 100px;
 }
@@ -959,7 +963,6 @@ html {
 }
 
 .animais__floresta-tropical-txt {
-	margin-left: -930px;
 	margin-bottom: 10px;
 	margin-top: 100px;
 }
@@ -990,7 +993,6 @@ html {
 }
 
 .animais__floresta-temperada-txt {
-	margin-left: -890px;
 	margin-bottom: 10px;
 	margin-top: 100px;
 }
@@ -1021,7 +1023,6 @@ html {
 }
 
 .animais__savana-txt {
-	margin-left: -1040px;
 	margin-bottom: 10px;
 	margin-top: 100px;
 }
@@ -1052,7 +1053,6 @@ html {
 }
 
 .animais__deserto-txt {
-	margin-left: -1040px;
 	margin-bottom: 10px;
 	margin-top: 100px;
 }
@@ -1083,7 +1083,6 @@ html {
 }
 
 .animais__campo-txt {
-	margin-left: -1040px;
 	margin-bottom: 10px;
 	margin-top: 100px;
 }
@@ -1120,13 +1119,14 @@ html {
 	flex-direction: column;
 }
 
-@media only screen and (max-width: 1250px) {
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
 
 	.animais__info {
 		display: flex;
 		flex-direction: column;
 		margin: 0;
 		gap: 20px;
+		height: auto;
 	}
 
 	.animais__info-img {
@@ -1135,8 +1135,15 @@ html {
 		gap: 20px;
 	}
 
+	.animais__info-img>.imagem {
+		aspect-ratio: 16 / 9;
+		width: 600px;
+		height: 276px;
+	}
+
 	.animais__tundra-txt h2 {
-		font-size: 16px;
+		font-size: 20 px;
+		display: flex;
 	}
 
 	.animais__tundra {
@@ -1149,6 +1156,353 @@ html {
 		margin: 3px;
 		display: flex;
 		flex-direction: row;
+	}
+
+	.animais__taiga-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__taiga {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-taiga {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__floresta-tropical-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__floresta-tropical {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-floresta-tropical {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__floresta-temperada-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__floresta-temperada {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-floresta-temperada {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__savana-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__savana {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-savana {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__deserto-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__deserto {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-deserto {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+
+	.animais__campo-txt h2 {
+		font-size: 20 px;
+		display: flex;
+	}
+
+	.animais__campo {
+		min-width: 45%;
+		margin: 3px;
+	}
+
+	.container-campo {
+		min-width: 45%;
+		margin: 3px;
+		display: flex;
+		flex-direction: row;
+	}
+}
+
+@media (max-width: 640px) {
+	.animais__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.animais__info-img>.imagem {
+		aspect-ratio: 16 / 9;
+		width: 100%;
+		height: 276px;
+		display: flex;
+	}
+
+	.animais__tundra-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-tundra>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-tundra {
+		overflow: initial;
+	}
+
+	.container-tundra {
+		overflow: scroll;
+	}
+
+	.animais__taiga-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-taiga>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-taiga {
+		overflow: initial;
+	}
+
+	.container-taiga {
+		overflow: scroll;
+	}
+
+	.animais__floresta-tropical-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-floresta-tropical>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-floresta-tropical {
+		overflow: initial;
+	}
+
+	.container-floresta-tropical {
+		overflow: scroll;
+	}
+
+	.animais__floresta-temperada-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-floresta-temperada>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-floresta-temperada {
+		overflow: initial;
+	}
+
+	.container-floresta-temperada {
+		overflow: scroll;
+	}
+
+	.animais__savana-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-savana>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-savana {
+		overflow: initial;
+	}
+
+	.container-savana {
+		overflow: scroll;
+	}
+
+	.animais__deserto-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-deserto>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-deserto {
+		overflow: initial;
+	}
+
+	.container-deserto {
+		overflow: scroll;
+	}
+
+	.animais__campo-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.animais-extincao-campo>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-campo {
+		overflow: initial;
+	}
+
+	.container-campo {
+		overflow: scroll;
+	}
+}
+
+@media (max-width: 1280px) {
+
+	.animais__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.animais__info-img>.imagem {
+		width: 100%;
+		height: 400px;
+	}
+
+	.animais-extincao-tundra>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-tundra {
+		overflow: initial;
+	}
+
+	.container-tundra {
+		overflow: scroll;
+	}
+
+	.animais-extincao-taiga>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-taiga {
+		overflow: initial;
+	}
+
+	.container-taiga {
+		overflow: scroll;
+	}
+
+	.animais-extincao-floresta-tropical>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-floresta-tropical {
+		overflow: initial;
+	}
+
+	.container-floresta-tropical {
+		overflow: scroll;
+	}
+
+	.animais-extincao-floresta-temperada>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-floresta-temperada {
+		overflow: initial;
+	}
+
+	.container-floresta-temperada {
+		overflow: scroll;
+	}
+
+	.animais-extincao-savana>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-savana {
+		overflow: initial;
+	}
+
+	.container-savana {
+		overflow: scroll;
+	}
+
+	.animais-extincao-deserto>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-deserto {
+		overflow: initial;
+	}
+
+	.container-deserto {
+		overflow: scroll;
+	}
+
+	.animais-extincao-campo>img {
+		border-radius: 10px;
+	}
+
+	.animais-extincao-campo {
+		overflow: initial;
+	}
+
+	.container-campo {
+		overflow: scroll;
+	}
+}
+
+
+@media (max-width: 647px) {
+
+	.animais__info-img>.imagem {
+		width: 100%;
+		height: 276px;
 	}
 }
 
@@ -1175,7 +1529,6 @@ html {
 }
 
 .biomas-txt {
-	margin-left: -1040px;
 	margin-bottom: 10px;
 	margin-top: 100px;
 }
@@ -1205,57 +1558,115 @@ html {
 	gap: 15px;
 }
 
-@media (max-width: 678px) {
+@media only screen and (min-width: 640px) and (max-width: 1024px) {
 
 	.biomas__info {
-		height: 276px;
-		display: flex;
-		gap: 20px;
-		background-color: #EAE9DD;
-		border-radius: 10px;
-	}
-
-	.biomas__info-text {
-		margin: 2rem;
-		margin-top: 60px;
-	}
-
-	.main-biomas {
-		margin: 20px auto;
-		width: 80%;
 		display: flex;
 		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
 	}
 
-	.biomas-txt {
-		margin-left: -1040px;
-		margin-bottom: 10px;
-		margin-top: 100px;
-	}
-
-	.bioma-geral {
-		position: relative;
+	.biomas__info-img {
+		margin: 0;
 		display: flex;
-		width: fit-content;
-		border-radius: 10px;
-		overflow: hidden;
+		gap: 20px;
 	}
 
-	.card-opaco-biomas {
-		position: absolute;
-		left: 0;
-		bottom: 0;
-		padding: 5px;
+	.biomas__info-img>.imagem {
+		aspect-ratio: 16 / 9;
+		width: 600px;
+		height: 276px;
+	}
+
+	.biomas-txt h2 {
+		font-size: 20 px;
 		display: flex;
-		width: 100%;
-		justify-content: center;
-		background-color: rgba(255, 255, 255, 0.5);
+	}
+
+	.biomas {
+		min-width: 45%;
+		margin: 3px;
 	}
 
 	.container-biomas {
+		min-width: 45%;
+		margin: 3px;
 		display: flex;
 		flex-direction: row;
-		gap: 15px;
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 640px) {
+	.biomas__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
 	}
 
+	.biomas__info-img>.imagem {
+		aspect-ratio: 16 / 9;
+		width: 100%;
+		height: 276px;
+		display: flex;
+	}
+
+	.biomas-txt h2 {
+		font-size: 16px;
+		display: flex;
+	}
+
+	.bioma-geral>img {
+		border-radius: 10px;
+	}
+
+	.bioma-geral {
+		overflow: initial;
+	}
+
+	.container-biomas {
+		overflow: scroll;
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 1280px) {
+
+	.biomas__info {
+		display: flex;
+		flex-direction: column;
+		margin: 0;
+		gap: 20px;
+		height: auto;
+	}
+
+	.biomas__info-img>.imagem {
+		width: 100%;
+		height: 400px;
+	}
+
+	.bioma-geral>img {
+		border-radius: 10px;
+	}
+
+	.bioma-geral {
+		overflow: initial;
+	}
+
+	.container-biomas {
+		overflow: scroll;
+		margin-bottom: 70px;
+	}
+}
+
+@media (max-width: 647px) {
+
+	.biomas__info-img>.imagem {
+		width: 100%;
+		height: 276px;
+	}
 }
