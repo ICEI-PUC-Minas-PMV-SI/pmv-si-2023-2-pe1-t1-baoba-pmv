@@ -24,7 +24,7 @@ h4 {
 body {
 	background-color: #ffffff;
 	color: #000000;
-	text-align: center;
+	text-align: left;
 	min-height: 100%;
 }
 
@@ -112,7 +112,7 @@ header a {
 }
 
 .home__info-text {
-	text-align: justify;
+	text-align: left;
 	margin-right: 2rem;
 }
 
@@ -224,7 +224,7 @@ header a {
 }
 
 .sobre__info-text {
-	text-align: justify;
+	text-align: left;
 	margin: 2rem 0 2rem 2rem;
 }
 
@@ -243,12 +243,12 @@ header a {
 
 .sobre__info-text h1,
 .sobre__info-text h2 {
-	text-align: center;
+	text-align: left;
 }
 
 
 .sobre__info-text p {
-	text-align: center;
+	text-align: left;
 }
 
 
