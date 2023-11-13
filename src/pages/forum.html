@@ -42,17 +42,19 @@
             <section class="forum__container-posts">
                 <div class="forum__post-list" id="forum__posts" >
                    
-                    
                 </div>
                 <div class="forum__post-new">
-                    <div class="forum__post-new--upper">
-                        <input placeholder="Informe um nome..." >
-                        <input placeholder="Informe um título..." >
-                    </div>
-                    <div class="forum__post-new--lower">
-                        <input placeholder="Insira o conteúdo"></input>
-                        <button class="forum__post-new--button">Enviar</button>
-                    </div>
+                    <form>
+                        <div class="forum__post-new--upper">
+                            <input placeholder="Informe um nome..." id="new-post-username" >
+                            <input placeholder="Informe um título..." id="new-post-title" >
+                        </div>
+                        <div class="forum__post-new--lower">
+                            <input placeholder="Insira o conteúdo" id="new-post-content"></input>
+                            <button class="forum__post-new--button" onclick="createPost()" >Enviar</button>
+                        </div>
+                    </form>
+                    
 
                 </div>
             </section>

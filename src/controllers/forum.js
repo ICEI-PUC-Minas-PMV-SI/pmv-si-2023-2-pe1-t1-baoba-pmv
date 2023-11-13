@@ -1,12 +1,16 @@
-async function getPosts(req, res) {
-  const posts = await fetch("http://localhost:3000/posts").then((data)=> {
-    return data.json();
-  }).catch((err) => {
-    console.log(err);
-    return err;
-  }); 
+async function onPageLoad() {
+    const posts = await getPosts();
+    setPosts(posts);
+}
 
-  setPosts(posts);
+async function getPosts() {
+    try {
+        const res = await fetch("http://localhost:3000/posts");
+        const data = await res.json();
+        return data;
+    } catch (error) {
+        throw new Error(error);
+    }
 }
 
 function setPosts(posts) {
@@ -31,11 +35,71 @@ function setPosts(posts) {
         </div>
     </div>`;
     }
-
     document.querySelector("#forum__posts").innerHTML = htmlPostsForum;
 }
 
-function onPageLoad() {
-    getPosts();
+async function createPost() {
+    const title = document.querySelector("#new-post-title").value;
+    const content = document.querySelector("#new-post-content").value;
+    const likes = 0;
+    const comments = 0;
+    const post = {
+        title,
+        content,
+        likes,
+        comments
+    };
+    try {
+        const res = await fetch("http://localhost:3000/posts", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(post)
+        });
+        const data = await res.json();
+        return data;
+    } catch (error) {
+        throw new Error(error);
+    }
+}
 
+async function deletePost(id) {
+    try {
+        const res = await fetch(`http://localhost:3000/posts/${id}`, {
+            method: "DELETE"
+        });
+        const data = await res.json();
+        return data;
+    } catch (error) {
+        throw new Error(error);
+    }
+}
+
+async function updatePost(id) {
+    const title = document.querySelector("#edit-post-title").value;
+    const content = document.querySelector("#edit-post-content").value;
+    const post = {
+        title,
+        content
+    };
+    try {
+        const res = await fetch(`http://localhost:3000/posts/${id}`, {
+            method: "PUT",
+            headers: {
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify(post)
+        });
+        const data = await res.json();
+        return data;
+    } catch (error) {
+        throw new Error(error);
+    }
+}
+
+async function onSubmit() {
+    const post = await createPost();
+    const posts = await getPosts();
+    setPosts(posts);
 }
