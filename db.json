@@ -1,0 +1,7 @@
+{
+    "posts": [
+        {"id": 1, "title": "Cientistas divulgaram novos dados sobre espécie X. Vocês viram?", "likes": 1300, "comments": 400},
+        {"id": 2, "title": "Parque ecológico ameaçado por mineradora aqui na região. O que pode ser feito?", "likes": 2456, "comments": 143},
+        {"id": 3, "title": "Casal brasileiro refloresta 600 hectares de área para dar lar a 500 espécies ameaçadas de extinção", "likes": 3895, "comments": 57}
+    ]
+}

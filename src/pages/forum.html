@@ -13,9 +13,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
         rel="stylesheet">
+    
+    <script src="../controllers/forum.js" ></script>
 </head>
 
-<body>
+<body onload="onPageLoad()" >
     <header>
         <img width="80" height="60" src="../img/logo.png" alt="Logo">
         <h1>Baobá</h1>
@@ -38,8 +40,9 @@
     <main>
         <div class="forum__container">
             <section class="forum__container-posts">
-                <div class="forum__post-list">
-                    <div class="forum__post-item">
+                <div class="forum__post-list" id="forum__posts" >
+                   
+                    <!-- <div class="forum__post-item">
                         <span>Cientistas divulgaram novos dados sobre espécie X. Vocês viram?</span>
                         <div class="forum__post-item--options">
                             <div class="forum__options--first">
@@ -114,7 +117,7 @@
                                 <span>Compartilhar</span>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
                 <div class="forum__post-new">
                     <div class="forum__post-new--upper">
