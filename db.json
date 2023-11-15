@@ -1,204 +1,224 @@
 {
-  "posts": [
-    {
-      "id": 1,
-      "title": "Cientistas divulgaram novos dados sobre espécie X. Vocês viram?",
-      "likes": 1300,
-      "comments": 400
-    },
-    {
-      "id": 2,
-      "title": "Parque ecológico ameaçado por mineradora aqui na região. O que pode ser feito?",
-      "likes": 2456,
-      "comments": 143
-    },
-    {
-      "id": 3,
-      "title": "Casal brasileiro refloresta 600 hectares de área para dar lar a 500 espécies ameaçadas de extinção",
-      "likes": 3895,
-      "comments": 57
-    }
-  ]
-}
-
-{
-"animals_Tundra" [
-  {
-    "id": 1,
-    "name": "Urso Polar",
-    "img_url": "../img/animais/Urso Polar.jfif",
-    "about": "O urso-polar, também chamado de urso-branco e cientificamente designado Ursus maritimus, é um mamífero carnívoro da família Ursidae, encontrado no círculo polar Ártico. É o maior carnívoro terrestre e o maior urso, compartilhando semelhanças de tamanho com o urso-de-kodiak. Evoluiu para se adaptar a um nicho ecológico específico, com características morfológicas ajustadas às baixas temperaturas, movimento sobre neve, gelo e água, e a caça de focas, que constituem a maior parte de sua dieta.",
-    "preservation_text": "O urso-polar foi classificado como \"vulnerável\" pela União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN) desde 2006. Antes de 2005, a espécie era considerada de \"pouca preocupação\", mas sua classificação foi elevada devido a suspeitas de uma redução na população superior a 30% dentro de três gerações, resultante do declínio na área de ocupação, na extensão da distribuição e na qualidade do habitat. O urso-polar está no \"Apêndice II\" da CITES e, em 2014, a Noruega propôs incluí-lo no mesmo apêndice da Convenção sobre a Conservação das Espécies Migratórias de Animais Silvestres (CMS). \n\nOs Estados Unidos, em 2008, listaram o urso-polar como uma espécie ameaçada sob o \"Endangered Species Act\", e no Canadá, em 2008, foi recomendada sua classificação como uma espécie de interesse especial de conservação. Na Rússia, está no \"Red Data Book of the Russian Federation\", e na Noruega, a espécie está protegida contra caça predatória desde 1920.\n\nNo passado, a população de ursos-polares enfrentou significativa redução devido à caça predatória na Groenlândia, União Soviética e nos Estados Unidos. Em 1973, os países que abrigavam a espécie assinaram o \"International Agreement on the Conservation of Polar Bears\", proibindo a caça não regulamentada e o uso de aeronaves e quebra-gelos nas caçadas. Esse acordo e ações subsequentes contribuíram para a recuperação da população, considerada estável desde os anos 1980.\n\nEm 2005, a população foi estimada entre 20.000 e 25.000 durante um encontro internacional, e em 2009, permaneceu estável, com dezenove subpopulações, sendo uma em crescimento, três estáveis, oito em declínio, e sete sem dados suficientes para determinar a tendência populacional."
-  },
-  {
-    "id": 2,
-    "name": "Raposa do Ártico",
-    "img_url": "..img/animais/Raposa do Artico.jpeg",
-    "about": "A raposa-do-ártico, também referida como raposa-polar e cientificamente designada como Vulpes lagopus, é uma pequena raposa que habita naturalmente as regiões árticas do hemisfério norte, sendo comum em todo o bioma da tundra ártica. Ela possui uma adaptação significativa para viver em ambientes frios, sendo mais notável pelo seu denso e quente pelo, utilizado também como camuflagem. Na natureza, a maioria dos indivíduos não ultrapassa o primeiro ano de vida, mas alguns conseguem sobreviver até 11 anos.\n\nApesar de ter sido anteriormente classificada em um gênero próprio, Alopex, evidências genéticas recentes a posicionam agora no gênero Vulpes, juntamente com a maioria das outras raposas.",
-    "preservation_text": "Atualmente, a raposa-do-ártico encontra-se classificada como uma espécie de \"menor preocupação\" de acordo com a Lista Vermelha de Espécies Ameaçadas da IUCN (União Internacional para a Conservação da Natureza).\n\nA sua condição de conservação é largamente atribuída à sua alta adaptabilidade aos hábitos humanos. As raposas-do-ártico têm sido amplamente adotadas como \"animais de companhia\" por residentes em áreas próximas às regiões árticas. Entretanto, manter uma raposa como animal de estimação, além de não ser recomendado devido ao seu status como animal selvagem suscetível ao estresse e à transmissão de zoonoses aos seres humanos, é também proibido na maioria dos países.\n\nÉ válido destacar que as raposas do ártico possuem poucos predadores na natureza, uma vez que os ursos polares geralmente as ignoram, sendo os lobos e as corujas suas principais \"ameaças naturais\". Adicionalmente, é importante mencionar que a caça às raposas-do-ártico diminuiu nos últimos anos, resultado tanto de mudanças nos estilos de vida das pessoas quanto de campanhas de sensibilização sobre a sua importância nos ecossistemas."
-  }
-  {
-    "id": 3,
-    "name": "Beluga",
-    "img_url": "../img/animais/Beluga.jpg",
-    "about": "A beluga, também conhecida como baleia-branca, é um cetáceo odontoceto que habita a região ártica e subártica. Diferenciando-se de outros cetáceos, ela não possui barbatana dorsal e é a única espécie do gênero Delphinapterus, pertencendo à família Monodontidae junto ao narval. Adaptada ao ambiente ártico, destaca-se pela coloração branca, ausência de nadadeira dorsal, e pelo melão proeminente, que abriga um órgão volumoso. Possui tamanho intermediário entre baleias e golfinhos, com machos atingindo até 5,5 metros e 1600 kg. Com uma audição altamente desenvolvida e habilidade de ecolocalização, é capaz de se movimentar e encontrar aberturas em blocos de gelo.\n\nEsses animais gregários, formando grupos de média de dez indivíduos, se reúnem em grande número durante o verão. Adaptados ao mergulho, alcançam mais de 700 metros de profundidade e possuem uma dieta oportunista, alimentando-se de peixes, crustáceos e invertebrados. Com uma população global estimada em 150.000, sua distribuição abrange o Ártico e as áreas adjacentes da América do Norte, Rússia e Gronelândia. Realizam migrações sazonais, algumas populações são sedentárias, e historicamente foram fonte de subsistência para comunidades nativas. Desde 1973, estão protegidas internacionalmente, com exceções para caça de subsistência por inuítes. Enfrentam ameaças como predadores naturais, poluição e doenças infecciosas. Classificadas como quase ameaçadas pela UICN, algumas subpopulações estão em perigo crítico, enquanto são mantidas em cativeiro em aquários de todo o mundo.",
-    "preservation_text": "Embora globalmente as belugas não estejam sob ameaça, três populações são classificadas como Criticamente Ameaçadas devido a impactos humanos, como ruído, poluição, tráfego marítimo e atividade industrial, resultando em doenças, degradação do habitat e contaminação alimentar.\n\nA contaminação por químicos tóxicos representa uma das principais ameaças de longo prazo para as populações de belugas. No Rio St. Lawrence, no Canadá, belugas adultas foram encontradas com níveis tão elevados de PBC e DDT que foram consideradas resíduos perigosos sob a legislação canadense. A população de belugas em St. Lawrence apresentou uma taxa anual de câncer maior do que outros cetáceos e semelhante à dos humanos. Como predadoras no topo da cadeia alimentar, as belugas consomem presas mais contaminadas, transferindo toxinas para as crias através do leite materno.\n\nA contínua redução das calotas polares pode resultar no aumento da atividade humana em áreas anteriormente inacessíveis no Ártico, atraindo navios, exploração de petróleo e gás, e pesca comercial. Essas atividades aumentam os riscos de poluição, perturbação ambiental e sonora. Além disso, a diminuição do gelo alterará a cadeia alimentar ártica, afetando os hábitos alimentares dos mamíferos marinhos. O gelo marinho e as águas frias servem como barreira a espécies de mamíferos marinhos não nativas do Ártico. O aumento da temperatura da água pode resultar em maior competição por alimentos, aumentar o risco de doenças e tornar as populações de belugas mais suscetíveis à predação por orcas." 
-  }
-]
-}
-
-{
-"animals_Taiga" [
-  {
-    "id": 1,
-    "name": "Vison Europeu",
-    "img_url": "..img/animais/Vision europeu.webp",
-    "about": "O vison europeu (Mustela lutreola), também conhecido como vison-europeu-de-colar, é uma pequena e graciosa espécie de mamífero pertencente à família Mustelidae. Essa espécie é nativa de regiões aquáticas e úmidas da Europa, sendo particularmente associada a habitats de água doce, como rios, riachos e pântanos.\n\nEste mamífero apresenta uma pelagem espessa e sedosa, geralmente de tonalidade marrom escuro a negra, com manchas claras em volta do pescoço, conferindo-lhe uma aparência distintiva. Seu corpo alongado e esguio é adaptado para a vida semiaquática, permitindo-lhe nadar habilmente em busca de presas, como peixes, anfíbios e invertebrados aquáticos.\n\nO vison europeu é conhecido por seu comportamento noturno e habilidades de caça afiadas. Sua dieta diversificada reflete sua adaptabilidade, sendo capaz de explorar tanto ambientes aquáticos quanto terrestres em busca de alimento. Além disso, durante a época de reprodução, que geralmente ocorre na primavera, os visons europeus exibem comportamento territorial e monogâmico.",
-    "preservation_text": "A conservação do vison europeu (Mustela lutreola) tornou-se uma prioridade crucial devido às crescentes ameaças que essa espécie enfrenta em seu habitat natural. Como um mamífero semiaquático nativo das regiões aquáticas e úmidas da Europa, o vison europeu tem visto seu ambiente enfrentar mudanças significativas devido à degradação e perda de habitats, bem como à competição com espécies invasoras.\n\nA destruição de áreas úmidas e a canalização de rios representam sérias ameaças ao vison europeu, privando-o de seus locais de caça e reprodução. Além disso, a introdução do vison-americano em alguns locais europeus aumentou a competição por recursos e trouxe o risco de hibridização, ameaçando ainda mais a sobrevivência do vison europeu.\n\nOs esforços de conservação concentram-se em várias estratégias para proteger e restaurar o habitat do vison europeu. Isso inclui a implementação de práticas sustentáveis de gestão da água, a criação de corredores ecológicos para conectar habitats fragmentados e a restauração de áreas úmidas degradadas. A reintrodução em locais apropriados, onde as condições são favoráveis, também faz parte dos programas de conservação para fortalecer as populações existentes.\n\nAlém disso, medidas de controle e erradicação do vison-americano invasor são essenciais para reduzir a competição e prevenir a hibridização prejudicial. A pesquisa contínua sobre a ecologia e comportamento do vison europeu é fundamental para desenvolver estratégias eficazes de conservação."
-  }
-  {
-    "id": 2,
-    "name": "Leopardo de Amur",
-    "img_url":"..img/animais/leopardo-de-amur.jpg",
-    "about": "Os leopardos (Panthera pardus) são um grupo de animais que estão dentro dos felinos, especificamente na subfamília Pantherinae. Se distinguem em oito subespécies e, mesmo que mantenham uma estreita relação, bem como traços em comum, apresentam certas diferenças entre elas, principalmente no habitat onde se desenvolvem. Por isso, nesta ficha do PeritoAnimal queremos nos concentrar em uma delas, o leopardo-de-amur.\n\nEstes felinos são animais encantadores que têm certos comportamentos impressionantes, como sua agilidade e força. O leopardo-de-amur (Panthera pardus orientalis) apresenta certas características que o convertem em um ser único. Siga lendo e conheça todas as características do leopardo-de-amur.",
-    "preservation_text": "A espécie está em estado de ameaça crítica, com menos de 50 espécimes em estado selvagem, devido à degradação do seu habitat por causa de explorações silvícolas e agrícolas, bem como dos incêndios florestais e da caça clandestina, motivada pelo elevado valor comercial do seu pêlo. A última contagem realizada pela WWF revelou que se têm verificado aumentos modestos nas populações de selvagens destes leopardos, porque, num espaço de quatro anos, se descobriram doze espécimes de leopardos-de-amur, onde antes só tinham sido contabilizados sete, o que traz perspectivas positivas sobre o aumento da população.\n\nGraças aos esforços de proteção na Rússia, estes leopardos criticamente ameaçados renovaram a esperança de evitar a extinção. Em Abril de 2018 contabilizaram-se 103 exemplares, ultrapassando-se assim, pela primeira vez em décadas a fasquia dos 100 espécimes para a população de leopardos-de-amur."
-  }
-  {
-    "id": 3,
-    "name": "Tigre de Amur",
-    "img_url":"..img/animais/tigre de amur.jfif",
-    "about": "O tigre-siberiano (nome científico: Panthera tigris tigris), também conhecido como tigre-de-amur, é uma das 6 populações de tigre ainda existentes. É a população de tigre mais setentrional e a maior de todas. Habita áreas próximas ao Rio Amur na Sibéria no extremo leste da Rússia, e uma pequena área no nordeste da China.\n\nAntes considerado uma subespécie (Panthera tigris altaica), desde 2017 o tigre-siberiano e todas as restantes populações continentais asiáticas foram reagrupadas sob a nomenclatura científica de Panthera tigris tigris.\n\nO tigre-siberiano além disso é o 3.° maior mamífero carnívoro terrestre estando depois do Urso-pardo e do Urso-polar.",
-    "preservation_text": "A conservação do tigre de Amur (Panthera tigris altaica) representa uma prioridade crucial para a preservação desta subespécie ameaçada, que habita as florestas temperadas do extremo leste da Rússia e partes da China. Diante das ameaças persistentes, como a perda de habitat e a caça ilegal, estratégias abrangentes foram implementadas para assegurar a sobrevivência desses majestosos felinos.\n\nA expansão e preservação de habitats críticos, como a floresta boreal, desempenham um papel central nas iniciativas de conservação. Essa abordagem visa garantir áreas suficientemente vastas e variadas para atender às necessidades territoriais e de caça dos tigres de Amur. Paralelamente, esforços concentrados em reduzir conflitos entre humanos e tigres, muitas vezes relacionados à escassez de presas naturais, são fundamentais para a coexistência harmoniosa.\n\nA prevenção da caça ilegal e do comércio de partes de tigres é uma peça-chave na estratégia de conservação, com a participação ativa das comunidades locais desempenhando um papel crucial. Programas de monitoramento e pesquisa contribuem para o entendimento aprofundado do comportamento e das necessidades dos tigres de Amur, fornecendo dados valiosos para orientar as estratégias de conservação. A cooperação internacional é essencial para unir esforços e enfrentar os desafios que transcendem fronteiras, garantindo um futuro mais promissor para essa espécie icônica."
-  }
-]
-}
-
-{
-"animals_Floresta-tropical" [
-  {
-    "id": 1,
-    "name": "Boto-cor-de-Rosa",
-    "img_url": "..img/animais/boto cor de rosa.jpeg",
-    "about": "O boto-cor-de-rosa, também conhecido como boto-vermelho, boto-rosa, boto-malhado, boto, costa-quadrada, cabeça-de-balde ou uiara, refere-se a três espécies de golfinhos fluviais do gênero Inia, distribuídas nas bacias dos rios Amazonas e Solimões (I. geoffrensis), sub-bacia Boliviana (I. boliviensis), e bacia do rio Araguaia (I. araguaiaensis). Diferentemente dos golfinhos marinhos, essas espécies pertencem à família Inidae.\n\nConsiderado o maior golfinho de água doce, o boto-cor-de-rosa exibe notável dimorfismo sexual, com os machos medindo e pesando 16% e 55% a mais do que as fêmeas. A coloração rosada é mais proeminente nos machos adultos, que também apresentam um órgão chamado melão utilizado para ecolocalização. Com uma pequena nadadeira dorsal, nadadeiras peitorais grandes e uma estrutura cervical que permite grande manobrabilidade, o boto-cor-de-rosa navega eficientemente na floresta inundada em busca de presas, que incluem peixes, tartarugas e caranguejos.",
-    "preservation_text": "O boto foi classificado como vulnerável pela União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN) até 2011, quando foi reclassificado para uma categoria de espécies com dados insuficientes devido a quantia limitada de informações disponíveis sobre ameaças, ecologia e do número e tendência da população. Na Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), está listada no \"Apêndice II\", e na Convenção sobre a Conservação das Espécies Migratórias de Animais Silvestres (CMS) também aparece no \"Apêndice II\".\n\nNas áreas onde os botos foram estudados, a espécie parece estar bem distribuída e é relativamente abundante. Entretanto, estas áreas representam só uma pequena proporção da distribuição total da espécie e, frequentemente, são lugares com alguma proteção. Por esse motivo, as informações dessas regiões podem não ser representativas e/ou válidas a longo prazo.\n\nCativeiro\n\nRecinto para botos no Zoológico de Duisburgo.O boto-cor-de-rosa está presente em diversos aquários ao redor do mundo. A primeira captura registrada foi em fevereiro de 1956, em Leticia, na Colômbia, quando uma expedição do Silver Springs Nature Theme Park capturou quatro exemplares para expor nos Estados Unidos.",
-  }
-  {
-    "id": 2,
-    "name": "Onça Pintada",
-    "img_url":"..img/animais/onca pintada.jfif",
-    "about": "A onça-pintada, ou jaguar, é um carnívoro da família dos felídeos encontrado nas Américas, sendo o maior felino do continente e o terceiro maior do mundo. Presente desde o sul dos Estados Unidos até o norte da Argentina, é associada a ambientes de florestas tropicais e tem preferência por áreas próximas à água, destacando-se por sua habilidade de nadar. Com peso variando de 56 a 92 quilos e comprimento de 1,12 a 1,85 m (sem a cauda), esse felino é conhecido por sua coloração e manchas distintas.\n\nApresentando mandíbulas excepcionalmente fortes, a onça-pintada é um predador de topo da cadeia alimentar, caçando emboscando e utilizando métodos únicos de ataque, como perfurar a casca dura de répteis. Com hábitos crepusculares e solitários, desempenha um papel crucial na estabilização dos ecossistemas, regulando populações de presas. A espécie, classificada como \"quase ameaçada\" pela IUCN, enfrenta declínio populacional devido à perda de habitat, fragmentação e caça ilegal, embora sua ampla distribuição geográfica sugira boas chances de sobrevivência a longo prazo na Amazônia e no Pantanal. A onça-pintada é também culturalmente significativa em diversas culturas indígenas americanas, embora ainda enfrente ameaças significativas, como a caça por fazendeiros na América do Sul.",
-    "preservation_text": "A onça-pintada, classificada como \"quase ameaçada\" pela UICN devido à sua ampla distribuição geográfica, está protegida pelo Appêndice I da CITES, proibindo o comércio internacional. A caça é proibida em vários países, incluindo Argentina, Colômbia e Estados Unidos, mas é permitida em casos de \"animais-problemas\" em alguns locais. Estudos indicam a perda de 37% da distribuição histórica da espécie, com desconhecimento do estado de conservação em 17% de sua área atual.\n\nAs maiores ameaças à onça-pintada incluem a fragmentação do habitat, caça e atropelamentos em áreas alteradas pelo homem. A caça por fazendeiros, considerando a onça uma ameaça ao gado, contribui para extinções locais. Apesar de desafios na conservação, a probabilidade de sobrevivência a longo prazo é considerada alta em 70% do habitat, especialmente na Amazônia, Gran Chaco e Pantanal. Estratégias de conservação envolvem educação ambiental, integração com comunidades locais e corredores ecológicos para mitigar a fragmentação do habitat. O comércio internacional de peles, que foi um grande problema, foi significativamente reduzido após a implementação da CITES em 1973."
-  }
-  {
-    "id": 3,
-    "name": "Tatu-Canastra",
-    "img_url":"..img/animais/tatu canastra.jpg",
-    "about": "O tatu-canastra (Priodontes maximus), também conhecido como canastra e tatuaçu, é a maior espécie viva de tatu (embora seus parentes extintos, os gliptodontes, fossem muito maiores). Vive na América do Sul cisandina, estendendo-se até o norte da Argentina. Esta espécie é considerada vulnerável à extinção, sobretudo pela caça e destruição de seu habitat. Chega a medir mais de um metro de comprimento. Os tatus-canastra têm o corpo coberto por poucos pelos e patas anteriores dotadas de garras enormes, que auxiliam na escavação de buracos. Preferem cupins e algumas formigas e ocasionalmente insetos, aranhas, minhocas, larvas, cobras e carniça.",
-    "preservation_text": "Caçado em toda sua distribuição geográfica, o tatu-canastra é uma importante fonte de carne para alguns povos indígenas, sendo frequentemente capturado vivo para o mercado negro, resultando em mortes durante o transporte ou em cativeiro. Apesar da ampla variedade da espécie, sua presença local é rara, agravada pela perda de habitat causada pelo desmatamento. Estimativas recentes apontam para um declínio populacional significativo de 30% a 50% nas últimas três décadas, indicando uma tendência preocupante sem intervenção.\n\nNo Brasil, o tatu-canastra foi classificado como criticamente em perigo no Espírito Santo (2005), vulnerável no Pará (2007), em perigo em Minas Gerais (2010), em perigo em São Paulo (2014), vulnerável na Bahia (2017) e vulnerável pelo ICMBio (2018). Internacionalmente, está classificado como vulnerável pela UICN desde 2002 e listado no Apêndice I da CITES, sendo protegido por lei em vários países, incluindo Colômbia, Guiana, Brasil, Argentina, Paraguai, Suriname e Peru. Apesar das medidas de proteção, a caça para alimentação e o comércio ilegal persistem, embora algumas populações estejam presentes em reservas protegidas, como o Parque das Emas no Brasil e a Reserva Natural do Suriname Central."
-  }
-]
-}
-
-{
-"animals_Floresta Temperada" [
-  {
-    "id": 1,
-    "name": "Lince Ibérico",
-    "img_url": "..img/animais/lince iberico.png",
-    "about": "a",
-    "preservation_text": "s",
-  }
-  {
-    "id": 2,
-    "name": "Pica-Pau",
-    "img_url":"..img/animais/pica pau.webp",
-    "about": "a",
-    "preservation_text": "s"
-  }
-  {
-    "id": 3,
-    "name": "Panda Vermelho",
-    "img_url":"..img/animais/panda-vermelho.webp",
-    "about": "a",
-    "preservation_text": "s"
-  }
-]
-}
-
-{
-"animals_Bioma Savana" [
-  {
-    "id": 1,
-    "name": "Elefante",
-    "img_url": "..img/animais/elefante.jpg",
-    "about": "a",
-    "preservation_text": "s",
-  }
-  {
-    "id": 2,
-    "name": "Rinocerante",
-    "img_url":"..img/animais/rinocerante.webp",
-    "about": "a",
-    "preservation_text": "s"
-  }
-  {
-    "id": 3,
-    "name": "Zebra de Grévy",
-    "img_url":"..img/animais/zebra.jfif",
-    "about": "a",
-    "preservation_text": "s"
-  }
-]
-}
-
-{
-"animals_Deserto" [
-  {
-    "id": 1,
-    "name": "Gazella-dorcas",
-    "img_url": "..img/animais/gazela.jfif",
-    "about": "a",
-    "preservation_text": "s",
-  }
-  {
-    "id": 2,
-    "name": "Víbora Chifruda",
-    "img_url":"..img/animais/vibora chifruda.jpg",
-    "about": "a",
-    "preservation_text": "s"
-  }
-  {
-    "id": 3,
-    "name": "Lagarto-monitor",
-    "img_url":"..img/animais/lagarto monitor.jpg",
-    "about": "a",
-    "preservation_text": "s"
-  }
-]
-}
-
-{
-"animals_Campo" [
-  {
-    "id": 1,
-    "name": "Tamanduá Bandeira",
-    "img_url": "..img/animais/tamanduabandeira.jpg",
-    "about": "a",
-    "preservation_text": "s",
-  }
-  {
-    "id": 2,
-    "name": "Anta",
-    "img_url":"..img/animais/anta.jpg",
-    "about": "a",
-    "preservation_text": "s"
-  }
-  {
-    "id": 3,
-    "name": "Queixada",
-    "img_url":"..img/animais/queixada.webp",
-    "about": "a",
-    "preservation_text": "s"
-  }
-]
+	"posts": [
+		{
+			"id": 1,
+			"title": "Cientistas divulgaram novos dados sobre espécie X. Vocês viram?",
+			"likes": 1300,
+			"comments": 400
+		},
+		{
+			"id": 2,
+			"title": "Parque ecológico ameaçado por mineradora aqui na região. O que pode ser feito?",
+			"likes": 2456,
+			"comments": 143
+		},
+		{
+			"id": 3,
+			"title": "Casal brasileiro refloresta 600 hectares de área para dar lar a 500 espécies ameaçadas de extinção",
+			"likes": 3895,
+			"comments": 57
+		}
+	],
+	"animals": [
+		{
+			"id": 1,
+			"name": "Urso Polar",
+			"img_url": "../img/animais/Urso Polar.jfif",
+			"about": "O urso-polar, também chamado de urso-branco e cientificamente designado Ursus maritimus, é um mamífero carnívoro da família Ursidae, encontrado no círculo polar Ártico. É o maior carnívoro terrestre e o maior urso, compartilhando semelhanças de tamanho com o urso-de-kodiak. Evoluiu para se adaptar a um nicho ecológico específico, com características morfológicas ajustadas às baixas temperaturas, movimento sobre neve, gelo e água, e a caça de focas, que constituem a maior parte de sua dieta.",
+			"biome": "tundra",
+			"preservation_text": "O urso-polar foi classificado como \"vulnerável\" pela União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN) desde 2006. Antes de 2005, a espécie era considerada de \"pouca preocupação\", mas sua classificação foi elevada devido a suspeitas de uma redução na população superior a 30% dentro de três gerações, resultante do declínio na área de ocupação, na extensão da distribuição e na qualidade do habitat. O urso-polar está no \"Apêndice II\" da CITES e, em 2014, a Noruega propôs incluí-lo no mesmo apêndice da Convenção sobre a Conservação das Espécies Migratórias de Animais Silvestres (CMS). \n\nOs Estados Unidos, em 2008, listaram o urso-polar como uma espécie ameaçada sob o \"Endangered Species Act\", e no Canadá, em 2008, foi recomendada sua classificação como uma espécie de interesse especial de conservação. Na Rússia, está no \"Red Data Book of the Russian Federation\", e na Noruega, a espécie está protegida contra caça predatória desde 1920.\n\nNo passado, a população de ursos-polares enfrentou significativa redução devido à caça predatória na Groenlândia, União Soviética e nos Estados Unidos. Em 1973, os países que abrigavam a espécie assinaram o \"International Agreement on the Conservation of Polar Bears\", proibindo a caça não regulamentada e o uso de aeronaves e quebra-gelos nas caçadas. Esse acordo e ações subsequentes contribuíram para a recuperação da população, considerada estável desde os anos 1980.\n\nEm 2005, a população foi estimada entre 20.000 e 25.000 durante um encontro internacional, e em 2009, permaneceu estável, com dezenove subpopulações, sendo uma em crescimento, três estáveis, oito em declínio, e sete sem dados suficientes para determinar a tendência populacional."
+		},
+		{
+			"id": 2,
+			"name": "Raposa do Ártico",
+			"img_url": "..img/animais/Raposa do Artico.jpeg",
+			"about": "A raposa-do-ártico, também referida como raposa-polar e cientificamente designada como Vulpes lagopus, é uma pequena raposa que habita naturalmente as regiões árticas do hemisfério norte, sendo comum em todo o bioma da tundra ártica. Ela possui uma adaptação significativa para viver em ambientes frios, sendo mais notável pelo seu denso e quente pelo, utilizado também como camuflagem. Na natureza, a maioria dos indivíduos não ultrapassa o primeiro ano de vida, mas alguns conseguem sobreviver até 11 anos.\n\nApesar de ter sido anteriormente classificada em um gênero próprio, Alopex, evidências genéticas recentes a posicionam agora no gênero Vulpes, juntamente com a maioria das outras raposas.",
+			"biome": "tundra",
+			"preservation_text": "Atualmente, a raposa-do-ártico encontra-se classificada como uma espécie de \"menor preocupação\" de acordo com a Lista Vermelha de Espécies Ameaçadas da IUCN (União Internacional para a Conservação da Natureza).\n\nA sua condição de conservação é largamente atribuída à sua alta adaptabilidade aos hábitos humanos. As raposas-do-ártico têm sido amplamente adotadas como \"animais de companhia\" por residentes em áreas próximas às regiões árticas. Entretanto, manter uma raposa como animal de estimação, além de não ser recomendado devido ao seu status como animal selvagem suscetível ao estresse e à transmissão de zoonoses aos seres humanos, é também proibido na maioria dos países.\n\nÉ válido destacar que as raposas do ártico possuem poucos predadores na natureza, uma vez que os ursos polares geralmente as ignoram, sendo os lobos e as corujas suas principais \"ameaças naturais\". Adicionalmente, é importante mencionar que a caça às raposas-do-ártico diminuiu nos últimos anos, resultado tanto de mudanças nos estilos de vida das pessoas quanto de campanhas de sensibilização sobre a sua importância nos ecossistemas."
+		},
+		{
+			"id": 3,
+			"name": "Beluga",
+			"img_url": "../img/animais/Beluga.jpg",
+			"about": "A beluga, também conhecida como baleia-branca, é um cetáceo odontoceto que habita a região ártica e subártica. Diferenciando-se de outros cetáceos, ela não possui barbatana dorsal e é a única espécie do gênero Delphinapterus, pertencendo à família Monodontidae junto ao narval. Adaptada ao ambiente ártico, destaca-se pela coloração branca, ausência de nadadeira dorsal, e pelo melão proeminente, que abriga um órgão volumoso. Possui tamanho intermediário entre baleias e golfinhos, com machos atingindo até 5,5 metros e 1600 kg. Com uma audição altamente desenvolvida e habilidade de ecolocalização, é capaz de se movimentar e encontrar aberturas em blocos de gelo.\n\nEsses animais gregários, formando grupos de média de dez indivíduos, se reúnem em grande número durante o verão. Adaptados ao mergulho, alcançam mais de 700 metros de profundidade e possuem uma dieta oportunista, alimentando-se de peixes, crustáceos e invertebrados. Com uma população global estimada em 150.000, sua distribuição abrange o Ártico e as áreas adjacentes da América do Norte, Rússia e Gronelândia. Realizam migrações sazonais, algumas populações são sedentárias, e historicamente foram fonte de subsistência para comunidades nativas. Desde 1973, estão protegidas internacionalmente, com exceções para caça de subsistência por inuítes. Enfrentam ameaças como predadores naturais, poluição e doenças infecciosas. Classificadas como quase ameaçadas pela UICN, algumas subpopulações estão em perigo crítico, enquanto são mantidas em cativeiro em aquários de todo o mundo.",
+			"biome": "tundra",
+			"preservation_text": "Embora globalmente as belugas não estejam sob ameaça, três populações são classificadas como Criticamente Ameaçadas devido a impactos humanos, como ruído, poluição, tráfego marítimo e atividade industrial, resultando em doenças, degradação do habitat e contaminação alimentar.\n\nA contaminação por químicos tóxicos representa uma das principais ameaças de longo prazo para as populações de belugas. No Rio St. Lawrence, no Canadá, belugas adultas foram encontradas com níveis tão elevados de PBC e DDT que foram consideradas resíduos perigosos sob a legislação canadense. A população de belugas em St. Lawrence apresentou uma taxa anual de câncer maior do que outros cetáceos e semelhante à dos humanos. Como predadoras no topo da cadeia alimentar, as belugas consomem presas mais contaminadas, transferindo toxinas para as crias através do leite materno.\n\nA contínua redução das calotas polares pode resultar no aumento da atividade humana em áreas anteriormente inacessíveis no Ártico, atraindo navios, exploração de petróleo e gás, e pesca comercial. Essas atividades aumentam os riscos de poluição, perturbação ambiental e sonora. Além disso, a diminuição do gelo alterará a cadeia alimentar ártica, afetando os hábitos alimentares dos mamíferos marinhos. O gelo marinho e as águas frias servem como barreira a espécies de mamíferos marinhos não nativas do Ártico. O aumento da temperatura da água pode resultar em maior competição por alimentos, aumentar o risco de doenças e tornar as populações de belugas mais suscetíveis à predação por orcas."
+		},
+		{
+			"id": 4,
+			"name": "Vison Europeu",
+			"img_url": "..img/animais/Vision europeu.webp",
+			"about": "O vison europeu (Mustela lutreola), também conhecido como vison-europeu-de-colar, é uma pequena e graciosa espécie de mamífero pertencente à família Mustelidae. Essa espécie é nativa de regiões aquáticas e úmidas da Europa, sendo particularmente associada a habitats de água doce, como rios, riachos e pântanos.\n\nEste mamífero apresenta uma pelagem espessa e sedosa, geralmente de tonalidade marrom escuro a negra, com manchas claras em volta do pescoço, conferindo-lhe uma aparência distintiva. Seu corpo alongado e esguio é adaptado para a vida semiaquática, permitindo-lhe nadar habilmente em busca de presas, como peixes, anfíbios e invertebrados aquáticos.\n\nO vison europeu é conhecido por seu comportamento noturno e habilidades de caça afiadas. Sua dieta diversificada reflete sua adaptabilidade, sendo capaz de explorar tanto ambientes aquáticos quanto terrestres em busca de alimento. Além disso, durante a época de reprodução, que geralmente ocorre na primavera, os visons europeus exibem comportamento territorial e monogâmico.",
+			"biome": "taiga",
+			"preservation_text": "A conservação do vison europeu (Mustela lutreola) tornou-se uma prioridade crucial devido às crescentes ameaças que essa espécie enfrenta em seu habitat natural. Como um mamífero semiaquático nativo das regiões aquáticas e úmidas da Europa, o vison europeu tem visto seu ambiente enfrentar mudanças significativas devido à degradação e perda de habitats, bem como à competição com espécies invasoras.\n\nA destruição de áreas úmidas e a canalização de rios representam sérias ameaças ao vison europeu, privando-o de seus locais de caça e reprodução. Além disso, a introdução do vison-americano em alguns locais europeus aumentou a competição por recursos e trouxe o risco de hibridização, ameaçando ainda mais a sobrevivência do vison europeu.\n\nOs esforços de conservação concentram-se em várias estratégias para proteger e restaurar o habitat do vison europeu. Isso inclui a implementação de práticas sustentáveis de gestão da água, a criação de corredores ecológicos para conectar habitats fragmentados e a restauração de áreas úmidas degradadas. A reintrodução em locais apropriados, onde as condições são favoráveis, também faz parte dos programas de conservação para fortalecer as populações existentes.\n\nAlém disso, medidas de controle e erradicação do vison-americano invasor são essenciais para reduzir a competição e prevenir a hibridização prejudicial. A pesquisa contínua sobre a ecologia e comportamento do vison europeu é fundamental para desenvolver estratégias eficazes de conservação."
+		},
+		{
+			"id": 5,
+			"name": "Leopardo de Amur",
+			"img_url": "..img/animais/leopardo-de-amur.jpg",
+			"about": "Os leopardos (Panthera pardus) são um grupo de animais que estão dentro dos felinos, especificamente na subfamília Pantherinae. Se distinguem em oito subespécies e, mesmo que mantenham uma estreita relação, bem como traços em comum, apresentam certas diferenças entre elas, principalmente no habitat onde se desenvolvem. Por isso, nesta ficha do PeritoAnimal queremos nos concentrar em uma delas, o leopardo-de-amur.\n\nEstes felinos são animais encantadores que têm certos comportamentos impressionantes, como sua agilidade e força. O leopardo-de-amur (Panthera pardus orientalis) apresenta certas características que o convertem em um ser único. Siga lendo e conheça todas as características do leopardo-de-amur.",
+			"biome": "taiga",
+			"preservation_text": "A espécie está em estado de ameaça crítica, com menos de 50 espécimes em estado selvagem, devido à degradação do seu habitat por causa de explorações silvícolas e agrícolas, bem como dos incêndios florestais e da caça clandestina, motivada pelo elevado valor comercial do seu pêlo. A última contagem realizada pela WWF revelou que se têm verificado aumentos modestos nas populações de selvagens destes leopardos, porque, num espaço de quatro anos, se descobriram doze espécimes de leopardos-de-amur, onde antes só tinham sido contabilizados sete, o que traz perspectivas positivas sobre o aumento da população.\n\nGraças aos esforços de proteção na Rússia, estes leopardos criticamente ameaçados renovaram a esperança de evitar a extinção. Em Abril de 2018 contabilizaram-se 103 exemplares, ultrapassando-se assim, pela primeira vez em décadas a fasquia dos 100 espécimes para a população de leopardos-de-amur."
+		},
+		{
+			"id": 6,
+			"name": "Tigre de Amur",
+			"img_url": "..img/animais/tigre de amur.jfif",
+			"about": "O tigre-siberiano (nome científico: Panthera tigris tigris), também conhecido como tigre-de-amur, é uma das 6 populações de tigre ainda existentes. É a população de tigre mais setentrional e a maior de todas. Habita áreas próximas ao Rio Amur na Sibéria no extremo leste da Rússia, e uma pequena área no nordeste da China.\n\nAntes considerado uma subespécie (Panthera tigris altaica), desde 2017 o tigre-siberiano e todas as restantes populações continentais asiáticas foram reagrupadas sob a nomenclatura científica de Panthera tigris tigris.\n\nO tigre-siberiano além disso é o 3.° maior mamífero carnívoro terrestre estando depois do Urso-pardo e do Urso-polar.",
+			"biome": "taiga",
+			"preservation_text": "A conservação do tigre de Amur (Panthera tigris altaica) representa uma prioridade crucial para a preservação desta subespécie ameaçada, que habita as florestas temperadas do extremo leste da Rússia e partes da China. Diante das ameaças persistentes, como a perda de habitat e a caça ilegal, estratégias abrangentes foram implementadas para assegurar a sobrevivência desses majestosos felinos.\n\nA expansão e preservação de habitats críticos, como a floresta boreal, desempenham um papel central nas iniciativas de conservação. Essa abordagem visa garantir áreas suficientemente vastas e variadas para atender às necessidades territoriais e de caça dos tigres de Amur. Paralelamente, esforços concentrados em reduzir conflitos entre humanos e tigres, muitas vezes relacionados à escassez de presas naturais, são fundamentais para a coexistência harmoniosa.\n\nA prevenção da caça ilegal e do comércio de partes de tigres é uma peça-chave na estratégia de conservação, com a participação ativa das comunidades locais desempenhando um papel crucial. Programas de monitoramento e pesquisa contribuem para o entendimento aprofundado do comportamento e das necessidades dos tigres de Amur, fornecendo dados valiosos para orientar as estratégias de conservação. A cooperação internacional é essencial para unir esforços e enfrentar os desafios que transcendem fronteiras, garantindo um futuro mais promissor para essa espécie icônica."
+		},
+		{
+			"id": 7,
+			"name": "Boto-cor-de-Rosa",
+			"img_url": "..img/animais/boto cor de rosa.jpeg",
+			"about": "O boto-cor-de-rosa, também conhecido como boto-vermelho, boto-rosa, boto-malhado, boto, costa-quadrada, cabeça-de-balde ou uiara, refere-se a três espécies de golfinhos fluviais do gênero Inia, distribuídas nas bacias dos rios Amazonas e Solimões (I. geoffrensis), sub-bacia Boliviana (I. boliviensis), e bacia do rio Araguaia (I. araguaiaensis). Diferentemente dos golfinhos marinhos, essas espécies pertencem à família Inidae.\n\nConsiderado o maior golfinho de água doce, o boto-cor-de-rosa exibe notável dimorfismo sexual, com os machos medindo e pesando 16% e 55% a mais do que as fêmeas. A coloração rosada é mais proeminente nos machos adultos, que também apresentam um órgão chamado melão utilizado para ecolocalização. Com uma pequena nadadeira dorsal, nadadeiras peitorais grandes e uma estrutura cervical que permite grande manobrabilidade, o boto-cor-de-rosa navega eficientemente na floresta inundada em busca de presas, que incluem peixes, tartarugas e caranguejos.",
+			"biome": "floresta_tropical",
+			"preservation_text": "O boto foi classificado como vulnerável pela União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN) até 2011, quando foi reclassificado para uma categoria de espécies com dados insuficientes devido a quantia limitada de informações disponíveis sobre ameaças, ecologia e do número e tendência da população. Na Convenção sobre o Comércio Internacional das Espécies da Fauna e da Flora Silvestres Ameaçadas de Extinção (CITES), está listada no \"Apêndice II\", e na Convenção sobre a Conservação das Espécies Migratórias de Animais Silvestres (CMS) também aparece no \"Apêndice II\".\n\nNas áreas onde os botos foram estudados, a espécie parece estar bem distribuída e é relativamente abundante. Entretanto, estas áreas representam só uma pequena proporção da distribuição total da espécie e, frequentemente, são lugares com alguma proteção. Por esse motivo, as informações dessas regiões podem não ser representativas e/ou válidas a longo prazo.\n\nCativeiro\n\nRecinto para botos no Zoológico de Duisburgo.O boto-cor-de-rosa está presente em diversos aquários ao redor do mundo. A primeira captura registrada foi em fevereiro de 1956, em Leticia, na Colômbia, quando uma expedição do Silver Springs Nature Theme Park capturou quatro exemplares para expor nos Estados Unidos."
+		},
+		{
+			"id": 8,
+			"name": "Onça Pintada",
+			"img_url": "..img/animais/onca pintada.jfif",
+			"about": "A onça-pintada, ou jaguar, é um carnívoro da família dos felídeos encontrado nas Américas, sendo o maior felino do continente e o terceiro maior do mundo. Presente desde o sul dos Estados Unidos até o norte da Argentina, é associada a ambientes de florestas tropicais e tem preferência por áreas próximas à água, destacando-se por sua habilidade de nadar. Com peso variando de 56 a 92 quilos e comprimento de 1,12 a 1,85 m (sem a cauda), esse felino é conhecido por sua coloração e manchas distintas.\n\nApresentando mandíbulas excepcionalmente fortes, a onça-pintada é um predador de topo da cadeia alimentar, caçando emboscando e utilizando métodos únicos de ataque, como perfurar a casca dura de répteis. Com hábitos crepusculares e solitários, desempenha um papel crucial na estabilização dos ecossistemas, regulando populações de presas. A espécie, classificada como \"quase ameaçada\" pela IUCN, enfrenta declínio populacional devido à perda de habitat, fragmentação e caça ilegal, embora sua ampla distribuição geográfica sugira boas chances de sobrevivência a longo prazo na Amazônia e no Pantanal. A onça-pintada é também culturalmente significativa em diversas culturas indígenas americanas, embora ainda enfrente ameaças significativas, como a caça por fazendeiros na América do Sul.",
+			"biome": "floresta_tropical",
+			"preservation_text": "A onça-pintada, classificada como \"quase ameaçada\" pela UICN devido à sua ampla distribuição geográfica, está protegida pelo Appêndice I da CITES, proibindo o comércio internacional. A caça é proibida em vários países, incluindo Argentina, Colômbia e Estados Unidos, mas é permitida em casos de \"animais-problemas\" em alguns locais. Estudos indicam a perda de 37% da distribuição histórica da espécie, com desconhecimento do estado de conservação em 17% de sua área atual.\n\nAs maiores ameaças à onça-pintada incluem a fragmentação do habitat, caça e atropelamentos em áreas alteradas pelo homem. A caça por fazendeiros, considerando a onça uma ameaça ao gado, contribui para extinções locais. Apesar de desafios na conservação, a probabilidade de sobrevivência a longo prazo é considerada alta em 70% do habitat, especialmente na Amazônia, Gran Chaco e Pantanal. Estratégias de conservação envolvem educação ambiental, integração com comunidades locais e corredores ecológicos para mitigar a fragmentação do habitat. O comércio internacional de peles, que foi um grande problema, foi significativamente reduzido após a implementação da CITES em 1973."
+		},
+		{
+			"id": 9,
+			"name": "Tatu-Canastra",
+			"img_url": "..img/animais/tatu canastra.jpg",
+			"about": "O tatu-canastra (Priodontes maximus), também conhecido como canastra e tatuaçu, é a maior espécie viva de tatu (embora seus parentes extintos, os gliptodontes, fossem muito maiores). Vive na América do Sul cisandina, estendendo-se até o norte da Argentina. Esta espécie é considerada vulnerável à extinção, sobretudo pela caça e destruição de seu habitat. Chega a medir mais de um metro de comprimento. Os tatus-canastra têm o corpo coberto por poucos pelos e patas anteriores dotadas de garras enormes, que auxiliam na escavação de buracos. Preferem cupins e algumas formigas e ocasionalmente insetos, aranhas, minhocas, larvas, cobras e carniça.",
+			"biome": "floresta_tropical",
+			"preservation_text": "Caçado em toda sua distribuição geográfica, o tatu-canastra é uma importante fonte de carne para alguns povos indígenas, sendo frequentemente capturado vivo para o mercado negro, resultando em mortes durante o transporte ou em cativeiro. Apesar da ampla variedade da espécie, sua presença local é rara, agravada pela perda de habitat causada pelo desmatamento. Estimativas recentes apontam para um declínio populacional significativo de 30% a 50% nas últimas três décadas, indicando uma tendência preocupante sem intervenção.\n\nNo Brasil, o tatu-canastra foi classificado como criticamente em perigo no Espírito Santo (2005), vulnerável no Pará (2007), em perigo em Minas Gerais (2010), em perigo em São Paulo (2014), vulnerável na Bahia (2017) e vulnerável pelo ICMBio (2018). Internacionalmente, está classificado como vulnerável pela UICN desde 2002 e listado no Apêndice I da CITES, sendo protegido por lei em vários países, incluindo Colômbia, Guiana, Brasil, Argentina, Paraguai, Suriname e Peru. Apesar das medidas de proteção, a caça para alimentação e o comércio ilegal persistem, embora algumas populações estejam presentes em reservas protegidas, como o Parque das Emas no Brasil e a Reserva Natural do Suriname Central."
+		},
+		{
+			"id": 10,
+			"name": "Lince Ibérico",
+			"img_url": "..img/animais/lince iberico.png",
+			"about": "a",
+			"biome": "floresta_tropical",
+			"preservation_text": "s"
+		},
+		{
+			"id": 11,
+			"name": "Pica-Pau",
+			"img_url": "..img/animais/pica pau.webp",
+			"about": "a",
+			"biome": "floresta_tropical",
+			"preservation_text": "s"
+		},
+		{
+			"id": 12,
+			"name": "Panda Vermelho",
+			"img_url": "..img/animais/panda-vermelho.webp",
+			"about": "a",
+			"biome": "floresta_tropical",
+			"preservation_text": "s"
+		},
+		{
+			"id": 13,
+			"name": "Elefante",
+			"img_url": "..img/animais/elefante.jpg",
+			"about": "a",
+			"biome": "savana",
+			"preservation_text": "s"
+		},
+		{
+			"id": 14,
+			"name": "Rinocerante",
+			"img_url": "..img/animais/rinocerante.webp",
+			"about": "a",
+			"biome": "savana",
+			"preservation_text": "s"
+		},
+		{
+			"id": 15,
+			"name": "Zebra de Grévy",
+			"img_url": "..img/animais/zebra.jfif",
+			"about": "a",
+			"biome": "savana",
+			"preservation_text": "s"
+		},
+		{
+			"id": 16,
+			"name": "Gazella-dorcas",
+			"img_url": "..img/animais/gazela.jfif",
+			"about": "a",
+			"biome": "deserto",
+			"preservation_text": "s"
+		},
+		{
+			"id": 17,
+			"name": "Víbora Chifruda",
+			"img_url": "..img/animais/vibora chifruda.jpg",
+			"about": "a",
+			"biome": "deserto",
+			"preservation_text": "s"
+		},
+		{
+			"id": 18,
+			"name": "Lagarto-monitor",
+			"img_url": "..img/animais/lagarto monitor.jpg",
+			"about": "a",
+			"biome": "deserto",
+			"preservation_text": "s"
+		},
+		{
+			"id": 19,
+			"name": "Tamanduá Bandeira",
+			"img_url": "..img/animais/tamanduabandeira.jpg",
+			"about": "a",
+			"biome": "campo",
+			"preservation_text": "s"
+		},
+		{
+			"id": 20,
+			"name": "Anta",
+			"img_url": "..img/animais/anta.jpg",
+			"about": "a",
+			"biome": "campo",
+			"preservation_text": "s"
+		},
+		{
+			"id": 21,
+			"name": "Queixada",
+			"img_url": "..img/animais/queixada.webp",
+			"about": "a",
+			"biome": "campo",
+			"preservation_text": "s"
+		}
+	],
+	"biomes": [
+		{
+			"id": 1,
+			"name": "tundra",
+			"about": ""
+		},
+		{
+			"id": 2,
+			"name": "taiga",
+			"about": ""
+		},
+		{
+			"id": 3,
+			"name": "floresta_tropical",
+			"about": ""
+		},
+		{
+			"id": 4,
+			"name": "savana",
+			"about": ""
+		},
+		{
+			"id": 5,
+			"name": "deserto",
+			"about": ""
+		},
+		{
+			"id": 6,
+			"name": "campo",
+			"about": ""
+		}
+	]
 }
