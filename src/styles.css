@@ -79,6 +79,10 @@ header a {
 	margin-left: 4rem;
 }
 
+.clickableIcon {
+	cursor: pointer;
+}
+
 .menu li {
 	display: inline-block;
 }
@@ -126,8 +130,6 @@ header a {
 	align-items: center;
 }
 
-
-
 .home__topics-container {
 	display: flex;
 	flex-direction: column;
@@ -159,9 +161,7 @@ header a {
 	}
 }
 
-
 @media (max-width: 678px) {
-
 	header h1 {
 		display: none;
 	}
@@ -208,7 +208,6 @@ header a {
 	}
 }
 
-
 /* css especifico para pagina sobre */
 
 .sobre__info {
@@ -229,28 +228,24 @@ header a {
 }
 
 .sobre__info-text.colorida {
-	background-color: #F8EEE5;
+	background-color: #f8eee5;
 	padding: 20px;
 	border-radius: 10px;
 }
-
 
 .sobre__info-text ul {
 	list-style-type: disc;
 	margin-left: 20px;
 }
 
-
 .sobre__info-text h1,
 .sobre__info-text h2 {
 	text-align: left;
 }
 
-
 .sobre__info-text p {
 	text-align: left;
 }
-
 
 .sobre__info-text.colorida p:last-child {
 	text-align: left;
@@ -293,7 +288,7 @@ header a {
 /* css especifico para pagina pesquisa */
 
 .pesquisa-resultados {
-	background-color: #F8EEE5;
+	background-color: #f8eee5;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -350,6 +345,44 @@ header a {
 	display: grid;
 	grid-template-columns: 2fr 1fr;
 	font-size: 0.8rem;
+	height: 80vh;
+}
+
+.forum__container-posts {
+	overflow-y: auto;
+	height: 100%;
+    direction: rtl;
+}
+
+.forum__container-posts {
+	overflow: hidden;
+	scrollbar-gutter: stable both-edges;
+}
+
+.forum__container-posts:hover,
+.forum__container-posts:active,
+.forum__container-posts:focus {
+	overflow-y: scroll;
+}
+
+.forum__container-posts::-webkit-scrollbar {
+	width: 0.5em;
+}
+
+.forum__container-posts::-webkit-scrollbar-track {
+	background-color: hsl(250 15% 93%);
+}
+
+.forum__container-posts::-webkit-scrollbar-thumb {
+	background-color: hsl(250 15% 60%);
+}
+
+.forum__container-posts::-webkit-scrollbar-thumb:hover {
+	background-color: hsl(250 15% 27%);
+}
+
+.forum__post-list {
+    direction: ltr;
 }
 
 .forum__post-item {
@@ -381,7 +414,7 @@ header a {
 	width: 80%;
 }
 
-.forum__post-new input {
+.forum__post-new input, textarea {
 	background-color: #eae9dd;
 	border: none;
 	border-radius: 10px;
@@ -407,6 +440,12 @@ header a {
 	width: 85%;
 }
 
+#new-post-content {
+    height: 100px;
+    width: 100%;
+    resize: none;
+}
+
 .forum__post-new--button {
 	background-color: #426b1f;
 	border: none;
@@ -416,6 +455,7 @@ header a {
 	margin-left: 0.5rem;
 	height: 45px;
 	width: 80px;
+    align-self: flex-end;
 }
 
 .forum__trending-content {
@@ -442,12 +482,7 @@ header a {
 	font-size: 0.8rem;
 }
 
-
 @media (max-width: 678px) {
-
-	.forum__container {
-		height: auto;
-	}
 
 	.forum__post-item--options {
 		display: grid;
@@ -467,9 +502,9 @@ header a {
 		grid-area: third;
 	}
 
-	.forum__post-new {
-		margin-bottom: 5rem;
-	}
+    .forum__post-new {
+        margin: 2rem 1rem 0 0;
+    }
 
 	.forum__post-new--upper {
 		flex-direction: column;
@@ -497,6 +532,14 @@ header a {
 		align-self: flex-end;
 		margin-top: 1rem;
 	}
+    
+    #new-post-content {
+        height: 100px;
+    }
+
+    .forum__trending-content {
+        margin: 1rem 1rem 0 0;
+    }
 }
 
 /* comment section */
@@ -509,7 +552,6 @@ header a {
 	text-align: left;
 	margin: 1rem 1rem 0 1rem;
 	padding: 0.5rem;
-
 }
 
 .comment__item--main {
@@ -556,7 +598,6 @@ header a {
 		display: flex;
 		justify-content: space-between;
 	}
-
 }
 
 .main-card-sus {
@@ -564,10 +605,9 @@ header a {
 	width: 80%;
 	display: flex;
 	gap: 20px;
-	background-color: #EAE9DD !important;
+	background-color: #eae9dd !important;
 	border-radius: 10px;
 }
-
 
 .text-and-image-sus {
 	display: flex;
@@ -575,12 +615,10 @@ header a {
 	gap: 20px;
 }
 
-
 .text-sus {
 	margin-left: 10px;
 	max-width: 70%;
 }
-
 
 .text-sus h1 {
 	font-size: 24px;
@@ -605,7 +643,7 @@ header a {
 }
 
 .caixa-texto {
-	background-color: #F8EEE5;
+	background-color: #f8eee5;
 	margin-top: 30px;
 	margin-bottom: 30px;
 	padding: 10px;
@@ -651,7 +689,7 @@ header a {
 }
 
 .botao-parceiros {
-	background-color: #E7ECE3;
+	background-color: #e7ece3;
 	border-radius: 10px;
 	padding: 5px;
 	margin-bottom: 20px;
@@ -660,7 +698,7 @@ header a {
 }
 
 .botao-parceiros:hover {
-	background-color: #426B1F;
+	background-color: #426b1f;
 	color: white;
 }
 
@@ -671,11 +709,11 @@ header a {
 
 .btn-custom {
 	color: white;
-	background-color: #426B1F
+	background-color: #426b1f;
 }
 
 .card-empresa {
-	background-color: #E7ECE3;
+	background-color: #e7ece3;
 	border-radius: 10px;
 	margin-right: 10px;
 }
@@ -700,8 +738,7 @@ iframe {
 	height: 500px;
 }
 
-@media only screen and (max-width:480px) {
-
+@media only screen and (max-width: 480px) {
 	iframe {
 		height: 850px;
 	}
@@ -718,7 +755,7 @@ iframe {
 	}
 
 	.text-sus h1 {
-		margin: 1rem .3rem;
+		margin: 1rem 0.3rem;
 		text-align: center;
 	}
 
@@ -759,10 +796,7 @@ iframe {
 		padding-top: 8px;
 		padding-bottom: 5px;
 	}
-
 }
-
-
 
 /* css página de ecoturismo */
 
@@ -773,16 +807,14 @@ html {
 	overflow-x: hidden;
 }
 
-
 .main-card-eco {
 	margin: 20px auto;
 	width: 80%;
 	display: flex;
 	gap: 20px;
-	background-color: #EAE9DD;
+	background-color: #eae9dd;
 	border-radius: 10px;
 }
-
 
 .text-and-image-eco {
 	display: flex;
@@ -790,11 +822,9 @@ html {
 	gap: 20px;
 }
 
-
 .text-eco {
 	margin-left: 10px;
 }
-
 
 .text-eco h1 {
 	font-size: 24px;
@@ -807,13 +837,11 @@ html {
 	height: auto;
 }
 
-
 .carousel-container {
 	width: 100%;
 	overflow: hidden;
 	position: relative;
 }
-
 
 .carousel {
 	display: flex;
@@ -822,14 +850,12 @@ html {
 	margin-bottom: 10px;
 }
 
-
 .carousel-item {
 	min-width: 20%;
 	margin: 10px;
 	position: relative;
 	overflow: hidden;
 }
-
 
 .carousel-item img {
 	width: 100%;
@@ -839,7 +865,6 @@ html {
 	display: block;
 	object-fit: cover;
 }
-
 
 .carousel-control {
 	position: absolute;
@@ -854,16 +879,13 @@ html {
 	border-radius: 10px;
 }
 
-
 .carousel-control.prev {
 	left: 10px;
 }
 
-
 .carousel-control.next {
 	right: 10px;
 }
-
 
 .card-opaco {
 	position: absolute;
@@ -888,7 +910,6 @@ html {
 	margin-left: 20px;
 }
 
-
 .container-ecoturismo {
 	display: flex;
 	align-items: center;
@@ -899,9 +920,8 @@ html {
 	margin-left: 10px;
 }
 
-
 .meu-botao {
-	background-color: #E7ECE3;
+	background-color: #e7ece3;
 	color: #000000;
 	padding: 10px 20px;
 	border: none;
@@ -912,7 +932,7 @@ html {
 }
 
 .meu-botao:hover {
-	background-color: #426B1F;
+	background-color: #426b1f;
 	color: white;
 }
 
@@ -921,7 +941,7 @@ html {
 	margin-right: 30px;
 }
 
-@media only screen and (max-width:480px) {
+@media only screen and (max-width: 480px) {
 	.text-and-image-eco {
 		display: flex;
 		flex-direction: column;
@@ -930,7 +950,7 @@ html {
 	}
 
 	.text-eco h1 {
-		margin: 1rem
+		margin: 1rem;
 	}
 
 	.eco-destinos h2 {
@@ -946,7 +966,6 @@ html {
 		margin: 3px;
 		margin-bottom: 1rem;
 	}
-
 }
 
 /* css para pagina de animais */
@@ -955,11 +974,11 @@ html {
 	height: 276px;
 	display: flex;
 	gap: 20px;
-	background-color: #EAE9DD;
+	background-color: #eae9dd;
 	border-radius: 10px;
 }
 
-.animais__info-img>.imagem {
+.animais__info-img > .imagem {
 	width: 600px;
 	height: 276px;
 }
@@ -967,7 +986,6 @@ html {
 .animais__info-text {
 	margin: 2rem;
 }
-
 
 .animais__tundra-txt {
 	display: flex;
@@ -1188,7 +1206,6 @@ html {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
-
 	.animais__info {
 		display: flex;
 		flex-direction: column;
@@ -1203,7 +1220,7 @@ html {
 		gap: 20px;
 	}
 
-	.animais__info-img>.imagem {
+	.animais__info-img > .imagem {
 		aspect-ratio: 16 / 9;
 		width: 600px;
 		height: 276px;
@@ -1338,7 +1355,7 @@ html {
 		height: auto;
 	}
 
-	.animais__info-img>.imagem {
+	.animais__info-img > .imagem {
 		aspect-ratio: 16 / 9;
 		width: 100%;
 		height: 276px;
@@ -1350,7 +1367,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-tundra>img {
+	.animais-extincao-tundra > img {
 		border-radius: 10px;
 	}
 
@@ -1367,7 +1384,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-taiga>img {
+	.animais-extincao-taiga > img {
 		border-radius: 10px;
 	}
 
@@ -1384,7 +1401,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-floresta-tropical>img {
+	.animais-extincao-floresta-tropical > img {
 		border-radius: 10px;
 	}
 
@@ -1401,7 +1418,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-floresta-temperada>img {
+	.animais-extincao-floresta-temperada > img {
 		border-radius: 10px;
 	}
 
@@ -1418,7 +1435,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-savana>img {
+	.animais-extincao-savana > img {
 		border-radius: 10px;
 	}
 
@@ -1435,7 +1452,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-deserto>img {
+	.animais-extincao-deserto > img {
 		border-radius: 10px;
 	}
 
@@ -1452,7 +1469,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-campo>img {
+	.animais-extincao-campo > img {
 		border-radius: 10px;
 	}
 
@@ -1466,7 +1483,6 @@ html {
 }
 
 @media (max-width: 1280px) {
-
 	.animais__info {
 		display: flex;
 		flex-direction: column;
@@ -1475,12 +1491,12 @@ html {
 		height: auto;
 	}
 
-	.animais__info-img>.imagem {
+	.animais__info-img > .imagem {
 		width: 100%;
 		height: 400px;
 	}
 
-	.animais-extincao-tundra>img {
+	.animais-extincao-tundra > img {
 		border-radius: 10px;
 	}
 
@@ -1492,7 +1508,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-taiga>img {
+	.animais-extincao-taiga > img {
 		border-radius: 10px;
 	}
 
@@ -1504,7 +1520,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-floresta-tropical>img {
+	.animais-extincao-floresta-tropical > img {
 		border-radius: 10px;
 	}
 
@@ -1516,7 +1532,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-floresta-temperada>img {
+	.animais-extincao-floresta-temperada > img {
 		border-radius: 10px;
 	}
 
@@ -1528,7 +1544,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-savana>img {
+	.animais-extincao-savana > img {
 		border-radius: 10px;
 	}
 
@@ -1540,7 +1556,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-deserto>img {
+	.animais-extincao-deserto > img {
 		border-radius: 10px;
 	}
 
@@ -1552,7 +1568,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-campo>img {
+	.animais-extincao-campo > img {
 		border-radius: 10px;
 	}
 
@@ -1565,10 +1581,8 @@ html {
 	}
 }
 
-
 @media (max-width: 647px) {
-
-	.animais__info-img>.imagem {
+	.animais__info-img > .imagem {
 		width: 100%;
 		height: 276px;
 	}
@@ -1580,7 +1594,7 @@ html {
 	height: 276px;
 	display: flex;
 	gap: 20px;
-	background-color: #EAE9DD;
+	background-color: #eae9dd;
 	border-radius: 10px;
 }
 
@@ -1627,7 +1641,6 @@ html {
 }
 
 @media only screen and (min-width: 640px) and (max-width: 1024px) {
-
 	.biomas__info {
 		display: flex;
 		flex-direction: column;
@@ -1642,7 +1655,7 @@ html {
 		gap: 20px;
 	}
 
-	.biomas__info-img>.imagem {
+	.biomas__info-img > .imagem {
 		aspect-ratio: 16 / 9;
 		width: 600px;
 		height: 276px;
@@ -1676,7 +1689,7 @@ html {
 		height: auto;
 	}
 
-	.biomas__info-img>.imagem {
+	.biomas__info-img > .imagem {
 		aspect-ratio: 16 / 9;
 		width: 100%;
 		height: 276px;
@@ -1688,7 +1701,7 @@ html {
 		display: flex;
 	}
 
-	.bioma-geral>img {
+	.bioma-geral > img {
 		border-radius: 10px;
 	}
 
@@ -1703,7 +1716,6 @@ html {
 }
 
 @media (max-width: 1280px) {
-
 	.biomas__info {
 		display: flex;
 		flex-direction: column;
@@ -1712,12 +1724,12 @@ html {
 		height: auto;
 	}
 
-	.biomas__info-img>.imagem {
+	.biomas__info-img > .imagem {
 		width: 100%;
 		height: 400px;
 	}
 
-	.bioma-geral>img {
+	.bioma-geral > img {
 		border-radius: 10px;
 	}
 
@@ -1732,8 +1744,7 @@ html {
 }
 
 @media (max-width: 647px) {
-
-	.biomas__info-img>.imagem {
+	.biomas__info-img > .imagem {
 		width: 100%;
 		height: 276px;
 	}

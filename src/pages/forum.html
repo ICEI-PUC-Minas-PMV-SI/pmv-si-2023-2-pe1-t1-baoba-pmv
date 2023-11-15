@@ -13,11 +13,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
         rel="stylesheet">
-    
-    <script src="../controllers/forum.js" ></script>
+
+    <script src="../js/forum.js"></script>
 </head>
 
-<body onload="onPageLoad()" >
+<body onload="onPageLoad()">
     <header>
         <img width="80" height="60" src="../img/logo.png" alt="Logo">
         <h1>Baobá</h1>
@@ -40,23 +40,11 @@
     <main>
         <div class="forum__container">
             <section class="forum__container-posts">
-                <div class="forum__post-list" id="forum__posts" >
-                   
-                </div>
-                <div class="forum__post-new">
-                    <form>
-                        <div class="forum__post-new--upper">
-                            <input placeholder="Informe um nome..." id="new-post-username" >
-                            <input placeholder="Informe um título..." id="new-post-title" >
-                        </div>
-                        <div class="forum__post-new--lower">
-                            <input placeholder="Insira o conteúdo" id="new-post-content"></input>
-                            <button class="forum__post-new--button" onclick="createPost()" >Enviar</button>
-                        </div>
-                    </form>
-                    
+                <div class="forum__post-list" id="forum__posts">
 
                 </div>
+
+
             </section>
             <section class="forum__container-trending">
                 <div class="forum__trending-content">
@@ -64,11 +52,26 @@
                         <h4>Posts em alta</h4>
                     </span>
                     <div class="forum__trending-topics">
-                        <span><a href="comment.html" style="text-decoration: none;" >Casal refloresta 600 hectares</a></span>
+                        <span><a href="comment.html" style="text-decoration: none;">Casal refloresta 600
+                                hectares</a></span>
                         <span>Parque ecológico ameaçado</span>
                         <span>Material pode revolucionar mercado de embalagens</span>
                     </div>
 
+                </div>
+
+                <div class="forum__post-new">
+                    <h4>Novo post</h4>
+                    <form onsubmit="" >
+                        <div class="forum__post-new--upper">
+                            <input required placeholder="Informe um nome..." id="new-post-username">
+                            <input required placeholder="Informe um título..." id="new-post-title">
+                        </div>
+                        <div class="forum__post-new--lower">
+                            <textarea required placeholder="Insira o conteúdo" type="textarea" id="new-post-content"></textarea>
+                            <button class="forum__post-new--button" onclick="createPost()">Enviar</button>
+                        </div>
+                    </form>
                 </div>
             </section>
         </div>
