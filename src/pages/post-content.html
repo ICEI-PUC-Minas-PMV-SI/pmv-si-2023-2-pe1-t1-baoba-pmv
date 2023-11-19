@@ -40,12 +40,13 @@
     <main>
         <div class="post-content__page">
             <div class="post-content__container" id="post__content-container"></div>
-            <form class="post-content__comment-form" id="post__comment-form" onsubmit="addComment()">
-                <input type="hidden" id="post__comment-id" name="id">
-                <input class="post__comment-user" name="user" placeholder="Nome">
-                <textarea class="post-content__comment-textarea" id="post__comment-textarea" name="comment"
+
+            <form class="post-content__comment-form" id="post__comment-form">
+                <span>Insira um comentário</span>
+                <input class="post__comment-user" id="post-content__comment-author" name="user" placeholder="Nome">
+                <textarea class="post-content__comment-textarea" id="post-content__comment-body" name="comment"
                     placeholder="Escreva seu comentário aqui..."></textarea>
-                <button class="post-content__comment-button" type="submit">Enviar</button>
+                <button class="post-content__comment-button" type="submit"  onclick="addComment()" >Enviar</button>
             </form>
         </div>
         

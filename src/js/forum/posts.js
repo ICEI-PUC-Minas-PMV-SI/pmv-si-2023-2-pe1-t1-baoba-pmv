@@ -8,7 +8,7 @@ async function setPosts(posts) {
 	let htmlPostsForum = ``;
 	for (let i = 0; i < posts.length; i++) {
 		htmlPostsForum += `<div class="forum__post-item">
-        <span>${posts[i].title}</span>
+        <span><a href="post-content.html" onclick="setSessionStoragePostId(${posts[i].id})" >${posts[i].title}</a></span>
         <div class="forum__post-item--options">
             <div class="forum__options--first">
                 <i class="clickableIcon" onclick="likesInteraction('${posts[i].id}', ${posts[i].likes}, 'like')"  ><img src="../img/svg/arrow-up.svg"></i>
@@ -16,8 +16,10 @@ async function setPosts(posts) {
                 <i class="clickableIcon" onclick="likesInteraction('${posts[i].id}', ${posts[i].likes}, 'dislike')" ><img src="../img/svg/arrow-down.svg"></i>
             </div>
             <div class="forum__options--second">
+            <a href="post-content.html" onclick="setSessionStoragePostId(${posts[i].id})">
                 <i><img src="../img/svg/bubble-chat.svg"></i>
-                <span>${posts[i].comments}</span>
+                <span >${posts[i].comments_count}</span>
+                </a>
             </div>
             <div class="forum__options--third">
                 <i><img src="../img/svg/share.svg"></i>
@@ -67,12 +69,12 @@ async function createPost() {
 		return alert("Preencha todos os campos corretamente");
 
 	const likes = 0;
-	const comments = 0;
+	const comments_count = 0;
 	const post = {
 		title,
 		content,
 		likes,
-		comments,
+		comments_count,
 	};
 	try {
 		const res = await fetch("http://localhost:3000/posts", {

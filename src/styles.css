@@ -64,6 +64,11 @@ input, textarea::placeholder {
     font-family: "Poppins", sans-serif;
 }
 
+a, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
 .header {
 	display: flex;
 	justify-content: space-between;
@@ -350,12 +355,14 @@ input, textarea::placeholder {
 	grid-template-columns: 2fr 1fr;
 	font-size: 0.8rem;
 	height: 80vh;
+
 }
 
 .forum__container-posts {
 	overflow-y: auto;
 	height: 100%;
 	direction: rtl;
+    
 }
 
 .forum__container-posts {
@@ -496,6 +503,10 @@ textarea {
 }
 
 @media (max-width: 678px) {
+    .forum__container {
+        margin-bottom: 12rem;
+    }
+
 	.forum__post-item--options {
 		display: grid;
 		grid-template-columns: 1fr 1fr;
@@ -539,7 +550,6 @@ textarea {
 
 	.forum__post-new--button {
 		height: 30px;
-		width: 50px;
 		text-align: center;
 		align-self: flex-end;
 		margin-top: 1rem;
@@ -552,6 +562,14 @@ textarea {
 	.forum__trending-content {
 		margin: 1rem 1rem 0 0;
 	}
+
+    .forum__trending-topics {
+        font-size: 0.6rem;
+    }
+
+    .forum__trending-topics > *{
+        margin: 0.3rem;
+    }
 }
 
 /* comment section */
@@ -567,7 +585,7 @@ textarea {
 	justify-content: space-around;
 	width: 90%;
 	text-align: left;
-	margin: 1rem 1rem 0 1rem;
+	margin: 1rem 1rem 4rem 1rem;
 	padding: 0.5rem;
 }
 
@@ -578,6 +596,7 @@ textarea {
 	background-color: #eae9dd;
 	align-items: start;
 	border-radius: 10px;
+    padding: 0.5rem;
 }
 
 .post-content__main span {
