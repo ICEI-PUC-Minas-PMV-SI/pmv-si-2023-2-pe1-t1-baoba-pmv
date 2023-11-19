@@ -552,7 +552,7 @@ header a {
 
 /* comment section */
 
-.comment__container {
+.post-content__container {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
@@ -562,9 +562,18 @@ header a {
 	padding: 0.5rem;
 }
 
-.comment__item--main {
+.post-content__main {
 	display: flex;
+    flex-direction: column;
 	align-items: center;
+    background-color: #eae9dd;
+    align-items: start;
+    border-radius: 10px;
+    width: inherit
+}
+
+.post-content__main span {
+    margin: 0.4rem;
 }
 
 .comment__item {

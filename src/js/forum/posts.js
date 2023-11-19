@@ -155,7 +155,7 @@ async function setTrendingPosts() {
 	let htmlTrendingPosts = ``;
 	for (let i = 0; i < trendingPosts.length; i++) {
 		htmlTrendingPosts += `<span  style="text-decoration: none;" >
-        <a href="comment.html" onclick="setSessionStoragePostId(${trendingPosts[i].id})" style="text-decoration: none;">
+        <a href="post-content.html" onclick="setSessionStoragePostId(${trendingPosts[i].id})" style="text-decoration: none;">
         ${trendingPosts[i].title}</span>`;
 	}
 	document.querySelector("#forum__trending").innerHTML = htmlTrendingPosts;
@@ -164,17 +164,3 @@ async function setTrendingPosts() {
 async function setSessionStoragePostId(id) {
     sessionStorage.setItem("post_id", id);
 }
-
-// async function loadComment(id) {
-//     const post = await getPost(id);
-//     const comments = await getComments(id);
-//     let htmlComments = ``;
-//     for (let i = 0; i < comments.length; i++) {
-//         htmlComments += `<div class="forum__comment-item">
-//         <span>${comments[i].content}</span>
-//     </div>`;
-//     }
-//     document.querySelector("#forum__comments").innerHTML = htmlComments;
-//     document.querySelector("#forum__post-title").innerHTML = post.title;
-//     document.querySelector("#forum__post-content").innerHTML = post.content;
-// }
