@@ -1,6 +1,7 @@
 async function onPageLoad() {
 	const posts = await getPosts();
 	await setPosts(posts);
+	await setTrendingPosts();
 }
 
 async function setPosts(posts) {
@@ -60,7 +61,7 @@ async function getPosts() {
 async function createPost() {
 	const title = document.querySelector("#new-post-title").value;
 	const content = document.querySelector("#new-post-content").value;
-    const user = document.querySelector("#new-post-username").value;
+	const user = document.querySelector("#new-post-username").value;
 
 	if (title.length === 0 || content.length === 0 || user.length === 0)
 		return alert("Preencha todos os campos corretamente");
@@ -137,3 +138,43 @@ async function patchPostLikes(id, likes) {
 		throw new Error(error);
 	}
 }
+
+async function getTrendingPosts() {
+	try {
+		const res = await fetch("http://localhost:3000/posts?_sort=likes&_order=desc");
+		const data = await res.json();
+		const trendingPosts = await data.slice(0, 3);
+		return trendingPosts;
+	} catch (error) {
+		throw new Error(error);
+	}
+}
+
+async function setTrendingPosts() {
+	const trendingPosts = await getTrendingPosts();
+	let htmlTrendingPosts = ``;
+	for (let i = 0; i < trendingPosts.length; i++) {
+		htmlTrendingPosts += `<span  style="text-decoration: none;" >
+        <a href="comment.html" onclick="setSessionStoragePostId(${trendingPosts[i].id})" style="text-decoration: none;">
+        ${trendingPosts[i].title}</span>`;
+	}
+	document.querySelector("#forum__trending").innerHTML = htmlTrendingPosts;
+}
+
+async function setSessionStoragePostId(id) {
+    sessionStorage.setItem("post_id", id);
+}
+
+// async function loadComment(id) {
+//     const post = await getPost(id);
+//     const comments = await getComments(id);
+//     let htmlComments = ``;
+//     for (let i = 0; i < comments.length; i++) {
+//         htmlComments += `<div class="forum__comment-item">
+//         <span>${comments[i].content}</span>
+//     </div>`;
+//     }
+//     document.querySelector("#forum__comments").innerHTML = htmlComments;
+//     document.querySelector("#forum__post-title").innerHTML = post.title;
+//     document.querySelector("#forum__post-content").innerHTML = post.content;
+// }

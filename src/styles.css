@@ -446,15 +446,20 @@ header a {
     resize: none;
 }
 
+.forum__post-button-container {
+    display: flex;
+    justify-content: center;
+}
+
 .forum__post-new--button {
 	background-color: #426b1f;
 	border: none;
 	border-radius: 10px;
 	color: #ffffff;
 	padding: 0.5rem;
-	margin-left: 0.5rem;
+	margin-top: 1rem;
 	height: 45px;
-	width: 80px;
+	width: 100%;
     align-self: flex-end;
 }
 
@@ -466,9 +471,12 @@ header a {
 	min-height: 180px;
 	text-align: left;
 	margin: 1rem 1rem 0 1rem;
-	padding: 0.5rem;
 	background-color: #eae9dd;
 	border-radius: 10px;
+}
+
+.forum__trending-content > * {
+    padding: 0.5rem;
 }
 
 .forum__trending-topics {

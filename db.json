@@ -4,47 +4,34 @@
       "id": 1,
       "title": "Cientistas divulgaram novos dados sobre espécie X. Vocês viram?",
       "likes": 1290,
-      "comments": 400
+      "comments": 10,
+      "content": "bla asdasd bla bla tlaasldas aoisdjhasnfsdf asdfjsadljfasd faslkdfasd fasdnfdslfnksdnff sdflasdjhfas,df asdflasdfnsdfnsdalkfl "
     },
     {
       "id": 2,
       "title": "Parque ecológico ameaçado por mineradora aqui na região. O que pode ser feito?",
       "likes": 2458,
-      "comments": 143
+      "comments": 14,
+      "content": "bla asdasd bla bla tlaasldas aoisdjhasnfsdf asdfjsadljfasd faslkdfasd fasdnfdslfnksdnff sdflasdjhfas,df asdflasdfnsdfnsdalkfl "
     },
     {
       "id": 3,
       "title": "Casal brasileiro refloresta 600 hectares de área para dar lar a 500 espécies ameaçadas de extinção",
       "likes": 3879,
-      "comments": 57
+      "comments": 57,
+      "content": "bla asdasd bla bla tlaasldas aoisdjhasnfsdf asdfjsadljfasd faslkdfasd fasdnfdslfnksdnff sdflasdjhfas,df asdflasdfnsdfnsdalkfl "
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "post comment bla bla",
+      "post_id": 1
     },
     {
-      "title": "asdasd",
-      "content": "sdfsdfsdf",
-      "likes": 3,
-      "comments": 0,
-      "id": 4
-    },
-    {
-      "title": "aa",
-      "content": "asdasd",
-      "likes": 0,
-      "comments": 0,
-      "id": 5
-    },
-    {
-      "title": "sdf",
-      "content": "dsfagsd",
-      "likes": 0,
-      "comments": 0,
-      "id": 6
-    },
-    {
-      "title": "d",
-      "content": "f",
-      "likes": 0,
-      "comments": 0,
-      "id": 7
+      "id": 2,
+      "body": "post comment bla bla 2",
+      "post_id": 1
     }
   ],
   "animals": [

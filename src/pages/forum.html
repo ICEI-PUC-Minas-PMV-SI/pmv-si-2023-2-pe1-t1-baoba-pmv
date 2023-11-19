@@ -14,7 +14,7 @@
         href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
         rel="stylesheet">
 
-    <script src="../js/forum.js"></script>
+    <script src="../js/forum/posts.js"></script>
 </head>
 
 <body onload="onPageLoad()">
@@ -51,26 +51,28 @@
                     <span>
                         <h4>Posts em alta</h4>
                     </span>
-                    <div class="forum__trending-topics">
-                        <span><a href="comment.html" style="text-decoration: none;">Casal refloresta 600
-                                hectares</a></span>
-                        <span>Parque ecológico ameaçado</span>
-                        <span>Material pode revolucionar mercado de embalagens</span>
+                    <div  class="forum__trending-topics" id="forum__trending" onload="setTrendingTopics()">
+
                     </div>
 
                 </div>
 
                 <div class="forum__post-new">
                     <h4>Novo post</h4>
-                    <form onsubmit="" >
+                    <form onsubmit="">
                         <div class="forum__post-new--upper">
                             <input required placeholder="Informe um nome..." id="new-post-username">
                             <input required placeholder="Informe um título..." id="new-post-title">
                         </div>
                         <div class="forum__post-new--lower">
-                            <textarea required placeholder="Insira o conteúdo" type="textarea" id="new-post-content"></textarea>
+                            <textarea required placeholder="Insira o conteúdo" type="textarea"
+                                id="new-post-content"></textarea>
+
+                        </div>
+                        <div class="forum__post-button-container">
                             <button class="forum__post-new--button" onclick="createPost()">Enviar</button>
                         </div>
+
                     </form>
                 </div>
             </section>
