@@ -45,15 +45,13 @@ async function renderPost(post, comments) {
                     <div class="post-content__user-icon" >
                         <i class="fa-solid fa-user"></i>
                     </div>
-                    <div class="forum__post-item">
+                    <div class="post-content__comment-items">
                         <span>${comments[i].author}</span>
                         <span>${comments[i].body}</span>
                     </div>
                 </div>`;
             }
         }
-
-        console.log(htmlContent)
 
     postContainer.innerHTML = htmlContent;
 } 

@@ -17,7 +17,7 @@
     <script src="../js/forum/post-content.js"></script>
 </head>
 
-<body onload="loadPostContent()" >
+<body onload="loadPostContent()">
     <header>
         <img width="80" height="60" src="../img/logo.png" alt="Logo">
         <h1>Baobá</h1>
@@ -38,21 +38,18 @@
         </form>
     </header>
     <main>
-        <div class="post-content__container" id="post__content-container">
-            
-            
+        <div class="post-content__page">
+            <div class="post-content__container" id="post__content-container"></div>
+            <form class="post-content__comment-form" id="post__comment-form" onsubmit="addComment()">
+                <input type="hidden" id="post__comment-id" name="id">
+                <input class="post__comment-user" name="user" placeholder="Nome">
+                <textarea class="post-content__comment-textarea" id="post__comment-textarea" name="comment"
+                    placeholder="Escreva seu comentário aqui..."></textarea>
+                <button class="post-content__comment-button" type="submit">Enviar</button>
+            </form>
         </div>
-        <div class="forum__post-new">
-            <div class="forum__post-new--upper">
-                <input placeholder="Informe um nome..." >
-                <input placeholder="Informe um título..." >
-            </div>
-            <div class="forum__post-new--lower">
-                <input placeholder="Insira o conteúdo"></input>
-                <button class="forum__post-new--button">Enviar</button>
-            </div>
-
-        </div>
+        
+        
     </main>
     <footer>
         <div class="redes-sociais">
