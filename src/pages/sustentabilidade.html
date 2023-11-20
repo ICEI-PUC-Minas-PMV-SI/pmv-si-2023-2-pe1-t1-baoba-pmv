@@ -23,9 +23,7 @@
       window.addEventListener(
         "message",
         function (event) {
-          // Certifique-se de verificar a origem do evento aqui para segurança
           if (event.origin === "http://exemplo.com") {
-            // Substitua pelo domínio correto
             const iframe = document.getElementById("meuIframe");
             if (event.data.frameHeight) {
               iframe.style.height = event.data.frameHeight + "px";
