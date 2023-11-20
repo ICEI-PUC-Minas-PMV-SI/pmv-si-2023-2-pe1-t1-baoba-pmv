@@ -371,23 +371,23 @@
       "id": 20,
       "name": "Leão",
       "img_url": "..img/animais/leão.jpg",
-      "about": "a",
+      "about": "O leão (Panthera leo) é um mamífero carnívoro da família Felidae, encontrado na África subsaariana e na Ásia, com uma população em perigo na Índia. Historicamente, era difundido globalmente, mas foi extinto em várias regiões. É um dos quatro grandes felinos, podendo pesar mais de 250 kg, sendo superado em tamanho apenas pelo tigre. Os leões têm pelagem castanha e os machos possuem uma juba distintiva. Eles vivem em grupos sociais, caçam principalmente grandes ungulados, e são ativos principalmente à noite e ao amanhecer. Leões selvagens vivem cerca de 10-14 anos, enquanto em cativeiro podem alcançar até 30 anos. Alguns se tornaram notórios por atacar humanos.",
       "biome": "savana",
-      "preservation_text": "s"
+      "preservation_text": "O leão é classificado como \"vulnerável\" pela União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN), com um declínio de 30-50% na população africana nas últimas duas décadas. Na Ásia, onde está limitado a uma área protegida com cerca de 350 indivíduos, é considerado \"em perigo\". As principais ameaças incluem a perda de habitat e conflitos com humanos. Historicamente, o leão é um símbolo de bravura e nobreza em várias culturas e é amplamente representado em arte, bandeiras, brasões, e na mídia moderna."
     },
     {
       "id": 21,
       "name": "Gazella-dorcas",
       "img_url": "..img/animais/gazela.jfif",
-      "about": "a",
+      "about": "A gazela-dorcas (Gazella dorcas) é um mamífero da família dos bovídeos, habitando desertos e semidesertos do norte da África e sudoeste da Ásia, sendo o único antílope presente em ambos os continentes. Possui coloração pardo-clara, barriga branca, e chifres em forma de lira. É notável por sua capacidade de viver no deserto sem água, sendo comum no Saara. Para comunicação, emite um ruído de alarme semelhante ao grasnar de um pato.",
       "biome": "deserto",
-      "preservation_text": "s"
+      "preservation_text": "As gazela-dorcas estão na lista vermelha da União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN) de \"animais vulneráveis\", tendo em vista a redução drástica de sua população nas últimas duas décadas desde 1990."
     },
     {
       "id": 22,
-      "name": "Víbora Chifruda",
+      "name": "Víbora-de-Chifres",
       "img_url": "..img/animais/vibora chifruda.jpg",
-      "about": "a",
+      "about": "A \"víbora-de-chifres\" (Cerastes cerastes) é uma víbora venenosa encontrada nos desertos do Norte da África e do Oriente Médio. Caracteriza-se por \"chifres\" supraorbitais, embora alguns indivíduos sejam desprovidos deles. Adultos têm em média 30-60 cm de comprimento, com fêmeas sendo maiores que os machos. A espécie exibe dimorfismo sexual, com machos possuindo cabeças e olhos maiores. Sua coloração varia de cinza amarelado a castanho claro, com manchas escuras dorsais e barriga branca. A cauda é fina e pode ter a ponta preta.",
       "biome": "deserto",
       "preservation_text": "s"
     },
@@ -395,25 +395,25 @@
       "id": 23,
       "name": "Lagarto-monitor",
       "img_url": "..img/animais/lagarto monitor.jpg",
-      "about": "a",
+      "about": "Os lagartos-monitores, pertencentes ao gênero Varanus, são nativos da África, Ásia, Oceania, e uma espécie é invasora nas Américas. Existem cerca de 80 espécies, variando em tamanho de 20 centímetros a mais de 3 metros, como o dragão de Komodo. Alguns são terrestres, outros arbóreos ou semiaquáticos. Embora a maioria seja carnívora, alimentando-se de uma ampla gama de presas, incluindo invertebrados e vertebrados, algumas espécies são frugívoras. Geralmente solitários, podem formar grupos em ambientes com recursos hídricos limitados.",
       "biome": "deserto",
-      "preservation_text": "s"
+      "preservation_text": "Segundo a Lista Vermelha da União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN), a maioria dos lagartos-monitores está na categoria de Menor Preocupação, mas há um declínio global na população. Exceto cinco espécies, todos são listados no Apêndice II da CITES, indicando que não estão imediatamente ameaçados de extinção, mas requerem regulamentação comercial rigorosa para prevenir riscos futuros. As cinco espécies restantes - V. bengalensis, V. flavescens, V. griseus, V. komodoensis, e V. nebulosus - estão no Apêndice I da CITES, que proíbe o comércio internacional dessas espécies."
     },
     {
       "id": 24,
       "name": "Mabeco",
       "img_url": "..img/animais/mabeco.png",
-      "about": "a",
+      "about": "O mabeco (Lycaon pictus), também conhecido como cão-selvagem-africano, é um canídeo endêmico da África, habitando savanas e vegetações esparsas. Sua distribuição se restringe principalmente ao sul da África. Atualmente, a espécie é considerada ameaçada, com a população estimada em 6.600 indivíduos, devido à fragmentação do habitat e conflitos com humanos. Os mabecos são altamente sociais, vivendo em alcateias lideradas por um casal alfa, e caçam em equipe ao amanhecer e ao anoitecer. São conhecidos por sua pelagem manchada e possuem grandes orelhas, pernas longas e finas, com patas de quatro dedos.",
       "biome": "deserto",
-      "preservation_text": "s"
+      "preservation_text": "O mabeco (Lycaon pictus) é listado pela IUCN como espécie em perigo de extinção. Originalmente comum em toda a África subsaariana, sua distribuição agora é limitada a populações isoladas, principalmente no sul da África. A espécie enfrenta ameaças significativas de atividades humanas, como fragmentação do habitat, conflitos com gado e humanos, doenças de animais domésticos, e mortes em acidentes de trânsito. A população estimada é de cerca de 6.600 indivíduos, com a maior concentração na Área de Conservação Transfronteiriça Okavango-Zambeze. As maiores ameaças incluem perseguição direta, atropelamentos, doenças e armadilhas. A conservação é desafiada pela baixa densidade populacional natural da espécie e pela vasta área que necessitam para vagar."
     },
     {
       "id": 25,
       "name": "Tamanduá Bandeira",
       "img_url": "..img/animais/tamanduabandeira.jpg",
-      "about": "a",
+      "about": "O tamanduá-bandeira (Myrmecophaga tridactyla), também conhecido por vários nomes como jurumi e tamanduá-açu, é o maior dos tamanduás e é encontrado na América Central e do Sul. Predominantemente terrestre, mede entre 1,8 e 2,1 metros e pesa até 41 kg, com um focinho longo e pelagem característica. Sua dieta é especializada em formigas e cupins, e possui garras longas nas patas dianteiras. Vive em vários ambientes, desde savanas a florestas, e é um nadador capaz. Predadores incluem grandes felinos e rapinantes que ameaçam filhotes. Geralmente solitário, interage com outros apenas para acasalamento ou cuidados com filhotes.",
       "biome": "campo",
-      "preservation_text": "s"
+      "preservation_text": "O tamanduá-bandeira está classificado como \"vulnerável\" pela IUCN, com extinção já confirmada em algumas áreas como o Uruguai e risco elevado de extinção na América Central. As principais ameaças à sua sobrevivência incluem caça, destruição de habitat, incêndios e atropelamentos. Apesar desses riscos, o animal é encontrado em diversas unidades de conservação, onde muitas vezes é abundante. A espécie é notável por sua morfologia única, que atraiu a atenção e representação em diversas culturas."
     },
     {
       "id": 26,
@@ -469,6 +469,101 @@
     {
       "id": 6,
       "name": "campo",
+      "about": ""
+    }
+  ],
+  "ecotourism": [
+    {
+      "id": 1,
+      "name": "Chapada Diamantina",
+      "img_url":"..img/ecoturismo/chapada-diamantina.jpg",
+      "about": "",
+      "location":"Bahia"
+    },
+    {
+      "id": 2,
+      "name": "Alter do Chão",
+      "img_url":"..img/ecoturismo/alter-do-chao.jpg",
+      "about": "",
+      "location":"Pará"
+    },
+    {
+      "id": 3,
+      "name": "Serra da Canastra",
+      "img_url":"..img/ecoturismo/canastra.jpeg",
+      "about": "",
+      "location":"Minas Gerais"
+    },
+    {
+      "id": 4,
+      "name": "Bonito",
+      "img_url":"..img/ecoturismo/bonito.jpg",
+      "about": "",
+      "location":"Mato Grosso do Sul"
+    },
+    {
+      "id": 5,
+      "name": "Chapada dos Veadeiros",
+      "img_url":"..img/ecoturismo/chapada-dos-veadeiros.jpg",
+      "about": "",
+      "location":"Goiás"
+    },
+    {
+      "id": 6,
+      "name": "Jalapão",
+      "img_url":"..img/ecoturismo/jalapao.jpg",
+      "about": "",
+      "location":"Tocantins"
+    },
+    {
+      "id": 7,
+      "name": "Parque do Itatiaia",
+      "img_url":"..img/ecoturismo/Parque-Itatiaia.jpg",
+      "about": "",
+      "location":"Rio de Janeiro"
+    }
+  ],
+  "ecoactivities": [
+    {
+      "id": 1,
+      "name": "Observação de fauna e flora",
+      "img_url":"..img/ecoturismo/Observacao.jpg",
+      "about": ""
+    },
+    {
+      "id": 2,
+      "name": "Trekking",
+      "img_url":"..img/ecoturismo/trekking.jpg",
+      "about": ""
+    },
+    {
+      "id": 3,
+      "name": "Tirolesa",
+      "img_url":"..img/ecoturismo/tirolesa.jpg",
+      "about": ""
+    },
+    {
+      "id": 4,
+      "name": "Snorkeling",
+      "img_url":"..img/ecoturismo/snorkeling.jpg",
+      "about": ""
+    },
+    {
+      "id": 5,
+      "name": "Cicloturismo",
+      "img_url":"..img/ecoturismo/cicloturismo.jpg",
+      "about": ""
+    },
+    {
+      "id": 6,
+      "name": "Asadelta",
+      "img_url":"..img/ecoturismo/asadelta.jpg",
+      "about": ""
+    },
+    {
+      "id": 7,
+      "name": "Geoturismo",
+      "img_url":"..img/ecoturismo/geoturismo.webp",
       "about": ""
     }
   ]
