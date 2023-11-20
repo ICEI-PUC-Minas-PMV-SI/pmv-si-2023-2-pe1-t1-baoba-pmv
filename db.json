@@ -419,57 +419,57 @@
       "id": 26,
       "name": "Anta",
       "img_url": "..img/animais/anta.jpg",
-      "about": "a",
+      "about": "A anta-brasileira (Tapirus terrestris), também conhecida como tapir, é um mamífero perissodáctilo nativo do sul da Venezuela até o norte da Argentina. É o maior mamífero terrestre do Brasil e o segundo da América do Sul, pesando até 300 kg e medindo até 242 cm. Caracteriza-se por uma crista sagital e uma crina, além de uma probóscide para coletar alimentos. Importante dispersora de sementes na Amazônia, especialmente de palmeiras, a anta enfrenta predadores como a onça-pintada e a onça-parda. Solitária, ocupa territórios de cerca de 5 km² e tem reprodução lenta, com gestações superiores a 400 dias e vida útil de até 35 anos.",
       "biome": "campo",
-      "preservation_text": "s"
+      "preservation_text": "A anta (Tapirus terrestris) é classificada como vulnerável pela União Internacional para a Conservação da Natureza e dos Recursos Naturais (IUCN). Seu estado de conservação varia geograficamente, sendo crítico na Argentina, nos llanos da Colômbia e em partes da Mata Atlântica brasileira. A espécie desapareceu do sul de sua área de distribuição, da Caatinga e regiões próximas aos Andes. As principais ameaças incluem caça predatória, devido ao seu lento ciclo reprodutivo, e perda de habitat por conversão em áreas de cultivo. No entanto, a anta ainda é encontrada em várias unidades de conservação e zoológicos."
     },
     {
       "id": 27,
       "name": "Queixada",
       "img_url": "..img/animais/queixada.webp",
-      "about": "a",
+      "about": "A queixada (Tayassu pecari), um grande e agressivo porco selvagem sul-americano, vive em grandes grupos e é conhecida por seu papel na dispersão de sementes. Alimenta-se principalmente de frutas, mas também de invertebrados, fungos e peixes. Sua gestação dura cerca de 250 dias, e os filhotes nascem com uma pelagem avermelhada. As queixadas são animais territoriais e nômades, diferindo de outros porcos selvagens em comportamentos de marcação de território. Seu impacto ambiental inclui danos à vegetação rasteira e mudas de árvores, podendo afetar a permanência de espécies arbóreas e o bioma como um todo.",
       "biome": "campo",
-      "preservation_text": "s"
+      "preservation_text": "No Brasil, a queixada (Tayassu pecari) está classificada em diferentes estados de conservação: em perigo no Espírito Santo, Paraná, Minas Gerais, Santa Catarina, São Paulo e Bahia; vulnerável no Rio Grande do Sul e pelo Instituto Chico Mendes de Conservação da Biodiversidade (ICMBio); e em perigo no Rio de Janeiro. Internacionalmente, a União Internacional para a Conservação da Natureza (IUCN) a lista como vulnerável, devido a um declínio populacional assumido, principalmente por perda de habitat. Contudo, não existem estudos detalhados sobre o número total de indivíduos da espécie."
     },
     {
       "id": 28,
       "name": "Macaco-prego",
       "img_url": "..img/animais/macaco prego.png",
-      "about": "a",
+      "about": "Sapajus é um gênero de primatas sul-americanos, incluindo várias espécies de macaco-prego, comuns na América do Sul. Originalmente classificados como Cebus, sua taxonomia é complexa, variando de uma a 12 espécies. Habitam desde a Mata Atlântica até a Amazônia, o sul do Paraguai e norte da Argentina, adaptando-se a diversos ambientes, incluindo florestas úmidas e semiárido. De porte médio, pesa entre 1,3 kg e 4,8 kg e possui uma cauda preênsil. São quadrúpedes com pelagem variável e cérebros complexos, adaptados para consumir alimentos duros.",
       "biome": "campo",
-      "preservation_text": "s"
+      "preservation_text": "Os macacos-pregos do gênero Sapajus enfrentam ameaças como destruição de habitat, caça e perturbação humana. Embora adaptáveis, algumas espécies estão em maior risco: S. apella e S. macrocephalus são listados como \"pouco preocupantes\" pela IUCN, embora S. a. margaritae esteja \"criticamente em perigo\". Na Mata Atlântica, S. nigritus é \"quase ameaçado\", enquanto S. flavius e S. xanthosternos são \"criticamente em perigo\". S. robustus também é considerado em perigo. No entanto, S. cay e S. libidinosus, habitantes de ambientes abertos como Pantanal e Cerrado, são listados como \"pouco preocupantes\" pela IUCN, apesar do aumento do desmatamento e da caça."
     }
   ],
   "biomes": [
     {
       "id": 1,
       "name": "tundra",
-      "about": ""
+      "about": "Existem dois tipos de Tundra: a ártica e a alpina. A tundra ártica, localizada perto do Polo Norte, é o bioma mais frio e seco da Terra, com invernos longos e verões curtos. Seu solo é caracterizado pela presença de permafrost. A vegetação inclui arbustos, musgos e liquens, suportando uma fauna de herbívoros e carnívoros, alguns dos quais são residentes e outros migratórios. \n\nA tundra alpina é encontrada no topo de montanhas altas, como os Alpes, e não possui permafrost. Seu clima é frio, com vegetação de ervas, arbustos e musgos, e a fauna inclui cabras da montanha, alces e carneiros."
     },
     {
       "id": 2,
       "name": "taiga",
-      "about": ""
+      "about": "A taiga, também conhecida como floresta boreal ou de coníferas, é um bioma do Hemisfério Norte em países como Estados Unidos, Canadá, Rússia e Japão. Caracterizada por um clima frio com neve frequente, possui solo raso e pobre. Sua vegetação é homogênea, dominada por grandes árvores com caules grossos e folhas aciculifoliadas, como pinheiros e cedros. A fauna é adaptada ao frio e inclui renas, alces, ursos-pardos, entre outros. A taiga se diferencia da tundra pela presença de árvores grandes e tem baixa diversidade vegetal devido às condições climáticas. \n\nA taiga é intensamente explorada para extração de madeira devido às suas grandes árvores com troncos grossos, usadas na construção civil, fabricação de móveis e na indústria de papel e celulose. Para combater a degradação, foram implementadas políticas de preservação, incluindo a criação de reservas naturais, incentivo ao reflorestamento, técnicas de manejo florestal sustentável e desenvolvimento do ecoturismo."
     },
     {
       "id": 3,
       "name": "floresta_tropical",
-      "about": ""
+      "about": "A floresta tropical e subtropical úmida é um ecossistema localizado entre os trópicos de Câncer e Capricórnio, abrangendo regiões na Ásia, Austrália, África, América do Sul, Central e ilhas do Pacífico e Índico. Caracteriza-se por altas temperaturas e chuvas abundantes, resultando em uma biodiversidade excepcional, com uma grande variedade de árvores, plantas, insetos e animais. A floresta é essencial para a descoberta de medicamentos e sustenta uma variedade enorme de espécies. No entanto, está ameaçada por desmatamento e atividades humanas prejudiciais, como caça e exploração inadequada de recursos."
     },
     {
       "id": 4,
       "name": "savana",
-      "about": ""
+      "about": "A savana, conhecida como anhara em Angola e cerrado no Brasil, é uma região plana dominada por gramíneas, com árvores e arbustos esparsos. O termo \"savana\" deriva do taíno \"habana\", passando pelo espanhol. Sua definição varia entre autores, com alguns a considerando um tipo de campo, enquanto outros, como na África francófona e belga, incluem certos campos na definição. No Brasil, é vista como uma vegetação independente, com o IBGE classificando várias formas do cerrado sob este termo. \n\nAs savanas são biomas de clima tropical com estação seca, variando em tipos como as tropicais e subtropicais, temperadas, mediterrâneas, pantanosas e montanhosas. Cada tipo possui características distintas de clima, solo, flora e fauna. A savana africana, como o Serengueti, é um exemplo clássico, marcado por extensas áreas de vegetação herbácea, clima de secas prolongadas, e diversidade de animais, incluindo grandes mamíferos herbívoros e predadores. No Brasil, o cerrado, uma forma de savana, é o segundo bioma mais ameaçado e inclui variações como Savana Florestada, Savana Arborizada, entre outras."
     },
     {
       "id": 5,
       "name": "deserto",
-      "about": ""
+      "about": "Desertos são regiões geográficas caracterizadas por baixa precipitação, geralmente abaixo de 400 mm anuais, resultando em um ambiente árido com vida limitada. Eles cobrem cerca de 20% da superfície terrestre e apresentam paisagens de solo arenoso, dunas e terrenos rochosos. Os desertos abrigam depósitos minerais valiosos e são importantes para a preservação de artefatos e fósseis. \n\nOs desertos são classificados baseados em critérios como precipitação anual e evapotranspiração. Existem tipos variados, incluindo desertos frios (como tundras e regiões de gelo permanente) e desertos não-polares, formados por fatores geográficos e climáticos. A flora e fauna dessas regiões são adaptadas à escassez de água, com muitos animais sendo noturnos e plantas especializadas na retenção de umidade."
     },
     {
       "id": 6,
       "name": "campo",
-      "about": ""
+      "about": "Campo ou prado é um bioma caracterizado pela predominância de vegetação graminóide, como gramíneas, ciperáceas e juncos, com arbustos e árvores em menor frequência. O IBGE define campo paisagístico como uma região com vegetação rasteira e arbustiva, principalmente gramíneas, e pequenas árvores agrupadas em matas nas margens de rios e lagos. O termo abrange tanto os pampas do sul do Brasil, Uruguai e Argentina, quanto os cerrados do centro-oeste do Brasil."
     }
   ],
   "ecotourism": [
