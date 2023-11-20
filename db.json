@@ -566,5 +566,66 @@
       "img_url":"..img/ecoturismo/geoturismo.webp",
       "about": ""
     }
+  ],
+  "Patners": [
+    {
+      "id": 1,
+      "name": "Compasso Aventuras",
+      "img_url": "..img/sustentabilidade/compasso_aventuras.png",
+      "about":"",
+      "area" :"Turismo"
+    },
+    {
+      "id": 2,
+      "name": "Pé na Estrada Viagens",
+      "img_url": "..img/sustentabilidade/pe_estrada.png",
+      "about": "",
+      "area" : "Turismo"
+    },
+    {
+      "id": 3,
+      "name": "ReciclaMais",
+      "img_url": "..img/sustentabilidade/recicla_mais.png",
+      "about": "",
+      "area" : "Reciclagem"
+    },
+    {
+      "id": 4,
+      "name": "Eco Viver",
+      "img_url": "..img/sustentabilidade/eco_viver.png",
+      "about": "",
+      "area" : "Reciclagem"
+    },
+    {
+      "id": 5,
+      "name": "ReciclArte",
+      "img_url": "..img/sustentabilidade/reciclarte.png",
+      "about": "",
+      "area" : "Reciclagem"
+    },
+    {
+      "id": 6,
+      "name": "Fubank",
+      "img_url": "..img/sustentabilidade/fubank.png",
+      "about": "",
+      "area" : "Instituição Financeira"
+    },
+    {
+      "id": 7,
+      "name": "Shopping Jardim Plaza",
+      "img_url": "..img/sustentabilidade/jardim_plaza.png",
+      "about": "",
+      "area" : "Comércio"
+    },
+    {
+      "id": 8,
+      "name": "Supermercado Verde ExtraNosso",
+      "img_url": "..img/sustentabilidade/verde_extranosso.png",
+      "about": "",
+      "area" : "Comércio"
+    }
+
+
   ]
+
 }
