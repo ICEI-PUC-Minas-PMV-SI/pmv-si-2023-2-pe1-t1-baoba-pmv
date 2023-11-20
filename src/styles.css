@@ -60,13 +60,17 @@ header a {
 	text-decoration: none;
 }
 
-input, textarea::placeholder {
-    font-family: "Poppins", sans-serif;
+input,
+textarea::placeholder {
+	font-family: "Poppins", sans-serif;
 }
 
-a, a:visited, a:hover, a:active {
-    text-decoration: none;
-    color: inherit;
+a,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: none;
+	color: inherit;
 }
 
 .header {
@@ -362,7 +366,7 @@ a, a:visited, a:hover, a:active {
 	overflow-y: auto;
 	height: 100%;
 	direction: rtl;
-    
+
 }
 
 .forum__container-posts {
@@ -487,7 +491,7 @@ textarea {
 	border-radius: 10px;
 }
 
-.forum__trending-content > * {
+.forum__trending-content>* {
 	padding: 0.5rem;
 }
 
@@ -503,9 +507,9 @@ textarea {
 }
 
 @media (max-width: 678px) {
-    .forum__container {
-        margin-bottom: 12rem;
-    }
+	.forum__container {
+		margin-bottom: 12rem;
+	}
 
 	.forum__post-item--options {
 		display: grid;
@@ -563,20 +567,20 @@ textarea {
 		margin: 1rem 1rem 0 0;
 	}
 
-    .forum__trending-topics {
-        font-size: 0.6rem;
-    }
+	.forum__trending-topics {
+		font-size: 0.6rem;
+	}
 
-    .forum__trending-topics > *{
-        margin: 0.3rem;
-    }
+	.forum__trending-topics>* {
+		margin: 0.3rem;
+	}
 }
 
 /* comment section */
 
 .post-content__page {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+	display: grid;
+	grid-template-columns: 2fr 1fr;
 }
 
 .post-content__container {
@@ -596,7 +600,7 @@ textarea {
 	background-color: #eae9dd;
 	align-items: start;
 	border-radius: 10px;
-    padding: 0.5rem;
+	padding: 0.5rem;
 }
 
 .post-content__main span {
@@ -608,7 +612,7 @@ textarea {
 	width: 85%;
 	justify-content: flex-end;
 	align-items: center;
-    margin: 0.5rem;
+	margin: 0.5rem;
 }
 
 .post-content__user-icon {
@@ -618,64 +622,64 @@ textarea {
 }
 
 .post-content__comment-items {
-    background-color: #eae9dd;
+	background-color: #eae9dd;
 	align-items: start;
 	border-radius: 10px;
 	width: 100%;
-    padding: 0.4rem;
-    margin: 0.5rem;
-    display: flex;
-    flex-direction: column;
+	padding: 0.4rem;
+	margin: 0.5rem;
+	display: flex;
+	flex-direction: column;
 }
 
-.post-content__comment-items > * {
-    margin: 0.2rem;
+.post-content__comment-items>* {
+	margin: 0.2rem;
 }
 
 .post-content__comment-form {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-    margin: 1rem 1rem 0 1rem;
-    padding: 0.5rem;
+	display: flex;
+	flex-direction: column;
+	width: 90%;
+	margin: 1rem 1rem 0 1rem;
+	padding: 0.5rem;
 }
 
 .post__comment-user {
-    background-color: #eae9dd;
-    border: none;
-    border-radius: 10px;
-    width: 40%;
-    margin: 0.5rem 0 0.5rem 0;
-    padding: 0.5rem;
+	background-color: #eae9dd;
+	border: none;
+	border-radius: 10px;
+	width: 40%;
+	margin: 0.5rem 0 0.5rem 0;
+	padding: 0.5rem;
 }
 
 .post-content__comment-textarea {
-    background-color: #eae9dd;
-    border: none;
-    border-radius: 10px;
-    margin: 0.5rem 0 0.5rem 0;
-    padding: 0.5rem;
-    resize: none;
-    height: 75px;
+	background-color: #eae9dd;
+	border: none;
+	border-radius: 10px;
+	margin: 0.5rem 0 0.5rem 0;
+	padding: 0.5rem;
+	resize: none;
+	height: 75px;
 }
 
 .post-content__comment-button {
-    background-color: #426b1f;
-    border: none;
-    border-radius: 10px;
-    color: #ffffff;
-    margin: 0.5rem 0 0.5rem 0;
-    height: 35px;
-    width: 100%;
-    align-self: flex-end;
+	background-color: #426b1f;
+	border: none;
+	border-radius: 10px;
+	color: #ffffff;
+	margin: 0.5rem 0 0.5rem 0;
+	height: 35px;
+	width: 100%;
+	align-self: flex-end;
 }
 
 @media (max-width: 678px) {
-    .post-content__page {
-        display: flex;
-        flex-direction: column;
-        margin-bottom: 5rem;
-    }
+	.post-content__page {
+		display: flex;
+		flex-direction: column;
+		margin-bottom: 5rem;
+	}
 }
 
 /* css página de sustentabilidade */
@@ -1072,6 +1076,54 @@ html {
 	}
 }
 
+/* css página de destino */
+
+body,
+html {
+	margin: 0;
+	padding: 0;
+	overflow-x: hidden;
+}
+
+.main-card-destino {
+	margin: 20px auto;
+	width: 80%;
+	display: flex;
+	gap: 20px;
+	background-color: #eae9dd;
+	border-radius: 10px;
+}
+
+.text-and-image-destino {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}
+
+.text-destino {
+	margin-left: 10px;
+}
+
+.text-destino h1 {
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.image-destino img {
+	display: block;
+	width: 100%;
+	height: auto;
+	max-height: 100%;
+}
+
+/* css para pagina de parceiros */
+
+.image-parceiros {
+	height: 5rem;
+	width: 5rem;
+	object-fit: fill;
+}
+
 /* css para pagina de animais */
 
 .animais__info {
@@ -1082,7 +1134,7 @@ html {
 	border-radius: 10px;
 }
 
-.animais__info-img > .imagem {
+.animais__info-img>.imagem {
 	width: 600px;
 	height: 276px;
 }
@@ -1324,7 +1376,7 @@ html {
 		gap: 20px;
 	}
 
-	.animais__info-img > .imagem {
+	.animais__info-img>.imagem {
 		aspect-ratio: 16 / 9;
 		width: 600px;
 		height: 276px;
@@ -1459,7 +1511,7 @@ html {
 		height: auto;
 	}
 
-	.animais__info-img > .imagem {
+	.animais__info-img>.imagem {
 		aspect-ratio: 16 / 9;
 		width: 100%;
 		height: 276px;
@@ -1471,7 +1523,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-tundra > img {
+	.animais-extincao-tundra>img {
 		border-radius: 10px;
 	}
 
@@ -1488,7 +1540,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-taiga > img {
+	.animais-extincao-taiga>img {
 		border-radius: 10px;
 	}
 
@@ -1505,7 +1557,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-floresta-tropical > img {
+	.animais-extincao-floresta-tropical>img {
 		border-radius: 10px;
 	}
 
@@ -1522,7 +1574,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-floresta-temperada > img {
+	.animais-extincao-floresta-temperada>img {
 		border-radius: 10px;
 	}
 
@@ -1539,7 +1591,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-savana > img {
+	.animais-extincao-savana>img {
 		border-radius: 10px;
 	}
 
@@ -1556,7 +1608,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-deserto > img {
+	.animais-extincao-deserto>img {
 		border-radius: 10px;
 	}
 
@@ -1573,7 +1625,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-campo > img {
+	.animais-extincao-campo>img {
 		border-radius: 10px;
 	}
 
@@ -1595,12 +1647,12 @@ html {
 		height: auto;
 	}
 
-	.animais__info-img > .imagem {
+	.animais__info-img>.imagem {
 		width: 100%;
 		height: 400px;
 	}
 
-	.animais-extincao-tundra > img {
+	.animais-extincao-tundra>img {
 		border-radius: 10px;
 	}
 
@@ -1612,7 +1664,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-taiga > img {
+	.animais-extincao-taiga>img {
 		border-radius: 10px;
 	}
 
@@ -1624,7 +1676,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-floresta-tropical > img {
+	.animais-extincao-floresta-tropical>img {
 		border-radius: 10px;
 	}
 
@@ -1636,7 +1688,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-floresta-temperada > img {
+	.animais-extincao-floresta-temperada>img {
 		border-radius: 10px;
 	}
 
@@ -1648,7 +1700,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-savana > img {
+	.animais-extincao-savana>img {
 		border-radius: 10px;
 	}
 
@@ -1660,7 +1712,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-deserto > img {
+	.animais-extincao-deserto>img {
 		border-radius: 10px;
 	}
 
@@ -1672,7 +1724,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-campo > img {
+	.animais-extincao-campo>img {
 		border-radius: 10px;
 	}
 
@@ -1686,7 +1738,7 @@ html {
 }
 
 @media (max-width: 647px) {
-	.animais__info-img > .imagem {
+	.animais__info-img>.imagem {
 		width: 100%;
 		height: 276px;
 	}
@@ -1759,7 +1811,7 @@ html {
 		gap: 20px;
 	}
 
-	.biomas__info-img > .imagem {
+	.biomas__info-img>.imagem {
 		aspect-ratio: 16 / 9;
 		width: 600px;
 		height: 276px;
@@ -1793,7 +1845,7 @@ html {
 		height: auto;
 	}
 
-	.biomas__info-img > .imagem {
+	.biomas__info-img>.imagem {
 		aspect-ratio: 16 / 9;
 		width: 100%;
 		height: 276px;
@@ -1805,7 +1857,7 @@ html {
 		display: flex;
 	}
 
-	.bioma-geral > img {
+	.bioma-geral>img {
 		border-radius: 10px;
 	}
 
@@ -1828,12 +1880,12 @@ html {
 		height: auto;
 	}
 
-	.biomas__info-img > .imagem {
+	.biomas__info-img>.imagem {
 		width: 100%;
 		height: 400px;
 	}
 
-	.bioma-geral > img {
+	.bioma-geral>img {
 		border-radius: 10px;
 	}
 
@@ -1848,7 +1900,7 @@ html {
 }
 
 @media (max-width: 647px) {
-	.biomas__info-img > .imagem {
+	.biomas__info-img>.imagem {
 		width: 100%;
 		height: 276px;
 	}

@@ -24,12 +24,11 @@ window.onload = function() {
     const altura = document.documentElement.scrollHeight;
     window.parent.postMessage({
         'frameHeight': altura
-    }, '*'); // Substitua '*' pelo domínio específico para maior segurança
+    }, '*');
 };
 
 window.addEventListener('message', function(event) {
-    // Certifique-se de verificar a origem do evento aqui para segurança
-    if (event.origin === "http://exemplo.com") { // Substitua pelo domínio correto
+    if (event.origin === "http://exemplo.com") { 
         const iframe = document.getElementById('meuIframe');
         if (event.data.frameHeight) {
             iframe.style.height = event.data.frameHeight + 'px';
