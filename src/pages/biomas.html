@@ -1,118 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Biomas</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Biomas</title>
-  <link rel="stylesheet" href="../reset.css">
-  <link rel="stylesheet" href="../styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <img width="80" height="60" src="../img/logo.png" alt="Logo">
-    <h1>Baobá</h1>
-    <nav class="menu">
-      <ul>
-        <li><a href="../index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="forum.html">Fórum</a></li>
-      </ul>
-    </nav>
-    <form class="search-form" action="pesquisa.html" method="get">
-      <div class="search-container">
-        <input type="text" name="q" placeholder="Pesquisar">
-        <button type="submit" class="search-button">
-          <i class="fas fa-search"> </i>
-        </button>
-      </div>
-    </form>
-  </header>
-  <main class="main-biomas">
-    <section class="biomas__info">
-      <section>
-        <div class="biomas__info-text">
-          <h1>Biomas</h1>
-          <p>
-            Bioma é um agrupamento de vida vegetal e animal em uma região com vegetação, geologia, clima semelhantes e
-            que compartilham uma história comum na formação da paisagem, levando a uma diversidade única de flora e
-            fauna.
-          </p>
+  <body>
+    <header>
+      <img width="80" height="60" src="../img/logo.png" alt="Logo" />
+      <h1>Baobá</h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="#">Biomas</a></li>
+          <li><a href="animais.html">Animais</a></li>
+          <li><a href="ecoturismo.html">Ecoturismo</a></li>
+          <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="forum.html">Fórum</a></li>
+        </ul>
+      </nav>
+      <form class="search-form" action="pesquisa.html" method="get">
+        <div class="search-container">
+          <input type="text" name="q" placeholder="Pesquisar" />
+          <button type="submit" class="search-button">
+            <i class="fas fa-search"> </i>
+          </button>
+        </div>
+      </form>
+    </header>
+    <main class="main-biomas">
+      <section class="biomas__info">
+        <section>
+          <div class="biomas__info-text">
+            <h1>Biomas</h1>
+            <p>
+              Bioma é um agrupamento de vida vegetal e animal em uma região com
+              vegetação, geologia, clima semelhantes e que compartilham uma
+              história comum na formação da paisagem, levando a uma diversidade
+              única de flora e fauna.
+            </p>
+          </div>
+        </section>
+        <div class="biomas__info-img">
+          <img
+            width="600"
+            height="276"
+            class="imagem"
+            src="../img/biomas/biomas.jpg"
+            alt="Biomas"
+          />
         </div>
       </section>
-      <div class="biomas__info-img">
-        <img width="600" height="276" class="imagem" src="../img/biomas/biomas.jpg" alt="Biomas">
-      </div>
-    </section>
 
-    <section class="biomas">
-      <div class="biomas-txt">
-        <h2>
-          Explorando a Diversidade da Terra
-        </h2>
+      <section class="biomas">
+        <div class="biomas-txt">
+          <h2>Explorando a Diversidade da Terra</h2>
+        </div>
+        <div class="container-biomas">
+          <div class="bioma-geral">
+            <img
+              width="382"
+              height="240"
+              src="../img/biomas/tundra.webp"
+              alt="Tundra"
+            />
+            <div class="card-opaco-biomas">
+              <p>Tundra</p>
+            </div>
+          </div>
+          <div class="bioma-geral">
+            <img
+              width="382"
+              height="240"
+              src="../img/biomas/taiga.webp"
+              alt="Taiga"
+            />
+            <div class="card-opaco-biomas">
+              <p>Taiga</p>
+            </div>
+          </div>
+          <div class="bioma-geral">
+            <img
+              width="382"
+              height="240"
+              src="../img/biomas/floresta tropical.jpg"
+              alt="Floresta Tropical"
+            />
+            <div class="card-opaco-biomas">
+              <p>Floresta Tropical</p>
+            </div>
+          </div>
+          <div class="bioma-geral">
+            <img
+              width="382"
+              height="240"
+              src="../img/biomas/floresta temperada.jfif"
+              alt="Floresta Temperada"
+            />
+            <div class="card-opaco-biomas">
+              <p>Floresta Temperada</p>
+            </div>
+          </div>
+          <div class="bioma-geral">
+            <img
+              width="382"
+              height="240"
+              src="../img/biomas/savana.jpg"
+              alt="Savana"
+            />
+            <div class="card-opaco-biomas">
+              <p>Savana</p>
+            </div>
+          </div>
+          <div class="bioma-geral">
+            <img
+              width="382"
+              height="240"
+              src="../img/biomas/deserto.jfif"
+              alt="Deserto"
+            />
+            <div class="card-opaco-biomas">
+              <p>Deserto</p>
+            </div>
+          </div>
+          <div class="bioma-geral">
+            <img
+              width="382"
+              height="240"
+              src="../img/biomas/campo.jfif"
+              alt="Campo"
+            />
+            <div class="card-opaco-biomas">
+              <p>Campo</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="redes-sociais">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
       </div>
-      <div class="container-biomas">
-        <div class="bioma-geral">
-          <img width="382" height="240" src="../img/biomas/tundra.webp" alt="Tundra">
-          <div class="card-opaco-biomas">
-            <p>Tundra</p>
-          </div>
-        </div>
-        <div class="bioma-geral">
-          <img width="382" height="240" src="../img/biomas/taiga.webp" alt="Taiga">
-          <div class="card-opaco-biomas">
-            <p>Taiga</p>
-          </div>
-        </div>
-        <div class="bioma-geral">
-          <img width="382" height="240" src="../img/biomas/floresta tropical.jpg" alt="Floresta Tropical">
-          <div class="card-opaco-biomas">
-            <p>Floresta Tropical</p>
-          </div>
-        </div>
-        <div class="bioma-geral">
-          <img width="382" height="240" src="../img/biomas/floresta temperada.jfif" alt="Floresta Temperada">
-          <div class="card-opaco-biomas">
-            <p>Floresta Temperada</p>
-          </div>
-        </div>
-        <div class="bioma-geral">
-          <img width="382" height="240" src="../img/biomas/savana.jpg" alt="Savana">
-          <div class="card-opaco-biomas">
-            <p>Savana</p>
-          </div>
-        </div>
-        <div class="bioma-geral">
-          <img width="382" height="240" src="../img/biomas/deserto.jfif" alt="Deserto">
-          <div class="card-opaco-biomas">
-            <p>Deserto</p>
-          </div>
-        </div>
-        <div class="bioma-geral">
-          <img width="382" height="240" src="../img/biomas/campo.jfif" alt="Campo">
-          <div class="card-opaco-biomas">
-            <p>Campo</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="redes-sociais">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-    </div>
-    <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
-  </footer>
-</body>
-
+      <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>

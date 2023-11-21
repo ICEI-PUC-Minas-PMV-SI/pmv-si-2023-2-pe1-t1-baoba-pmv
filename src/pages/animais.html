@@ -1,307 +1,441 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Animais</title>
+    <link rel="stylesheet" href="../reset.css" />
+    <link rel="stylesheet" href="../styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Animais</title>
-  <link rel="stylesheet" href="../reset.css">
-  <link rel="stylesheet" href="../styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <img width="80" height="60" src="../img/logo.png" alt="Logo">
-    <h1>Baobá</h1>
-    <nav class="menu">
-      <ul>
-        <li><a href="../index.html">Início</a></li>
-        <li><a href="sobre.html">Sobre</a></li>
-        <li><a href="forum.html">Fórum</a></li>
-      </ul>
-    </nav>
-    <form class="search-form" action="pesquisa.html" method="get">
-      <div class="search-container">
-        <input type="text" name="q" placeholder="Pesquisar">
-        <button type="submit" class="search-button">
-          <i class="fas fa-search"> </i>
-        </button>
-      </div>
-    </form>
-  </header>
-  <main class="main">
-    <section class="animais__info">
-      <section>
-        <div class="animais__info-text">
-          <h1>Animais em Extinção</h1>
-          <p>
-            Desmatamento, mudanças climáticas, caça ilegal e tráfico de animais são alguns dos motivos que têm colocado
-            muitos animais em extinção. Apesar de ser relativamente comum na natureza, o processo de extinção está sendo
-            intensificado pela ação humana.
-          </p>
+  <body>
+    <header>
+      <img width="80" height="60" src="../img/logo.png" alt="Logo" />
+      <h1>Baobá</h1>
+      <nav class="menu">
+        <ul>
+          <li><a href="../index.html">Início</a></li>
+          <li><a href="biomas.html">Biomas</a></li>
+          <li><a href="#">Animais</a></li>
+          <li><a href="ecoturismo.html">Ecoturismo</a></li>
+          <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="forum.html">Fórum</a></li>
+        </ul>
+      </nav>
+      <form class="search-form" action="pesquisa.html" method="get">
+        <div class="search-container">
+          <input type="text" name="q" placeholder="Pesquisar" />
+          <button type="submit" class="search-button">
+            <i class="fas fa-search"> </i>
+          </button>
+        </div>
+      </form>
+    </header>
+    <main class="main">
+      <section class="animais__info">
+        <section>
+          <div class="animais__info-text">
+            <h1>Animais em Extinção</h1>
+            <p>
+              Desmatamento, mudanças climáticas, caça ilegal e tráfico de
+              animais são alguns dos motivos que têm colocado muitos animais em
+              extinção. Apesar de ser relativamente comum na natureza, o
+              processo de extinção está sendo intensificado pela ação humana.
+            </p>
+          </div>
+        </section>
+        <div class="animais__info-img">
+          <img
+            class="imagem"
+            src="../img/animais/Animais em extinção.jpg"
+            alt="animais em extinção"
+          />
         </div>
       </section>
-      <div class="animais__info-img">
-        <img class="imagem" src="../img/animais/Animais em extinção.jpg" alt="animais em extinção">
-      </div>
-    </section>
 
-    <section class="animais__tundra">
-      <div class="animais__tundra-txt">
-        <h2>
-          Animais em extinção no Bioma Tundra
-        </h2>
-      </div>
-      <div class="container-tundra">
-        <div class="animais-extincao-tundra">
-          <img width="382" height="240" src="../img/animais/Urso Polar.jfif" alt="Urso Polar">
-          <div class="card-opaco-tundra">
-            <p>Urso Polar</p>
+      <section class="animais__tundra">
+        <div class="animais__tundra-txt">
+          <h2>Animais em extinção no Bioma Tundra</h2>
+        </div>
+        <div class="container-tundra">
+          <div class="animais-extincao-tundra">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/Urso Polar.jfif"
+              alt="Urso Polar"
+            />
+            <div class="card-opaco-tundra">
+              <p>Urso Polar</p>
+            </div>
+          </div>
+          <div class="animais-extincao-tundra">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/Raposa do Artico.jpeg"
+              alt="Raposa do Artico"
+            />
+            <div class="card-opaco-tundra">
+              <p>Raposa do Ártico</p>
+            </div>
+          </div>
+          <div class="animais-extincao-tundra">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/Beluga.jpg"
+              alt="Beluga"
+            />
+            <div class="card-opaco-tundra">
+              <p>Beluga</p>
+            </div>
+          </div>
+          <div class="animais-extincao-tundra">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/Morsa.jpg"
+              alt="Morsa"
+            />
+            <div class="card-opaco-tundra">
+              <p>Morsa</p>
+            </div>
           </div>
         </div>
-        <div class="animais-extincao-tundra">
-          <img width="382" height="240" src="../img/animais/Raposa do Artico.jpeg" alt="Raposa do Artico">
-          <div class="card-opaco-tundra">
-            <p>Raposa do Ártico</p>
-          </div>
-        </div>
-        <div class="animais-extincao-tundra">
-          <img width="382" height="240" src="../img/animais/Beluga.jpg" alt="Beluga">
-          <div class="card-opaco-tundra">
-            <p>Beluga</p>
-          </div>
-        </div>
-        <div class="animais-extincao-tundra">
-          <img width="382" height="240" src="../img/animais/Morsa.jpg" alt="Morsa">
-          <div class="card-opaco-tundra">
-            <p>Morsa</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="animais__taiga">
-      <div class="animais__taiga-txt">
-        <h2>
-          Animais em extinção no Bioma Taiga
-        </h2>
-      </div>
-      <div class="container-taiga">
-        <div class="animais-extincao-taiga">
-          <img width="382" height="240" src="../img/animais/Vision europeu.webp" alt="Vision Europeu">
-          <div class="card-opaco-taiga">
-            <p>Vision Europeu</p>
+      <section class="animais__taiga">
+        <div class="animais__taiga-txt">
+          <h2>Animais em extinção no Bioma Taiga</h2>
+        </div>
+        <div class="container-taiga">
+          <div class="animais-extincao-taiga">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/Vision europeu.webp"
+              alt="Vision Europeu"
+            />
+            <div class="card-opaco-taiga">
+              <p>Vision Europeu</p>
+            </div>
+          </div>
+          <div class="animais-extincao-taiga">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/leopardo-de-amur.jpg"
+              alt="Leopardo de Amur"
+            />
+            <div class="card-opaco-taiga">
+              <p>Leopardo de Amur</p>
+            </div>
+          </div>
+          <div class="animais-extincao-taiga">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/tigre de amur.jfif"
+              alt="Tigre de Amur"
+            />
+            <div class="card-opaco-taiga">
+              <p>Tigre de Amur</p>
+            </div>
+          </div>
+          <div class="animais-extincao-taiga">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/guindaste siberiano.png"
+              alt="Guindaste Siberiano"
+            />
+            <div class="card-opaco-taiga">
+              <p>Guindaste Siberiano</p>
+            </div>
           </div>
         </div>
-        <div class="animais-extincao-taiga">
-          <img width="382" height="240" src="../img/animais/leopardo-de-amur.jpg" alt="Leopardo de Amur">
-          <div class="card-opaco-taiga">
-            <p>Leopardo de Amur</p>
-          </div>
-        </div>
-        <div class="animais-extincao-taiga">
-          <img width="382" height="240" src="../img/animais/tigre de amur.jfif" alt="Tigre de Amur">
-          <div class="card-opaco-taiga">
-            <p>Tigre de Amur</p>
-          </div>
-        </div>
-        <div class="animais-extincao-taiga">
-          <img width="382" height="240" src="../img/animais/guindaste siberiano.png" alt="Guindaste Siberiano">
-          <div class="card-opaco-taiga">
-            <p>Guindaste Siberiano</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="animais__floresta-tropical">
-      <div class="animais__floresta-tropical-txt">
-        <h2>
-          Animais em extinção no Bioma Floresta Tropical
-        </h2>
-      </div>
-      <div class="container-floresta-tropical">
-        <div class="animais-extincao-floresta-tropical">
-          <img width="382" height="240" src="../img/animais/boto cor de rosa.jpeg" alt="Boto-cor-de-rosa">
-          <div class="card-opaco-floresta-tropical">
-            <p>Boto-cor-de-rosa</p>
+      <section class="animais__floresta-tropical">
+        <div class="animais__floresta-tropical-txt">
+          <h2>Animais em extinção no Bioma Floresta Tropical</h2>
+        </div>
+        <div class="container-floresta-tropical">
+          <div class="animais-extincao-floresta-tropical">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/boto cor de rosa.jpeg"
+              alt="Boto-cor-de-rosa"
+            />
+            <div class="card-opaco-floresta-tropical">
+              <p>Boto-cor-de-rosa</p>
+            </div>
+          </div>
+          <div class="animais-extincao-floresta-tropical">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/onca pintada.jfif"
+              alt="Onça Pintada"
+            />
+            <div class="card-opaco-floresta-tropical">
+              <p>Onça Pintada</p>
+            </div>
+          </div>
+          <div class="animais-extincao-floresta-tropical">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/tatu canastra.jpg"
+              alt="Tatu-Canastra"
+            />
+            <div class="card-opaco-floresta-tropical">
+              <p>Tatu-Canastra</p>
+            </div>
+          </div>
+          <div class="animais-extincao-floresta-tropical">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/ararajuba.png"
+              alt="Ararajuba"
+            />
+            <div class="card-opaco-floresta-tropical">
+              <p>Ararajuba</p>
+            </div>
           </div>
         </div>
-        <div class="animais-extincao-floresta-tropical">
-          <img width="382" height="240" src="../img/animais/onca pintada.jfif" alt="Onça Pintada">
-          <div class="card-opaco-floresta-tropical">
-            <p>Onça Pintada</p>
-          </div>
-        </div>
-        <div class="animais-extincao-floresta-tropical">
-          <img width="382" height="240" src="../img/animais/tatu canastra.jpg" alt="Tatu-Canastra">
-          <div class="card-opaco-floresta-tropical">
-            <p>Tatu-Canastra</p>
-          </div>
-        </div>
-        <div class="animais-extincao-floresta-tropical">
-          <img width="382" height="240" src="../img/animais/ararajuba.png" alt="Ararajuba">
-          <div class="card-opaco-floresta-tropical">
-            <p>Ararajuba</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="animais__floresta-temperada">
-      <div class="animais__floresta-temperada-txt">
-        <h2>
-          Animais em extinção no Bioma Floresta Temperada
-        </h2>
-      </div>
-      <div class="container-floresta-temperada">
-        <div class="animais-extincao-floresta-temperada">
-          <img width="382" height="240" src="../img/animais/lince iberico.png" alt="Lince Ibérico">
-          <div class="card-opaco-floresta-temperada">
-            <p>Lince Ibérico</p>
+      <section class="animais__floresta-temperada">
+        <div class="animais__floresta-temperada-txt">
+          <h2>Animais em extinção no Bioma Floresta Temperada</h2>
+        </div>
+        <div class="container-floresta-temperada">
+          <div class="animais-extincao-floresta-temperada">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/lince iberico.png"
+              alt="Lince Ibérico"
+            />
+            <div class="card-opaco-floresta-temperada">
+              <p>Lince Ibérico</p>
+            </div>
+          </div>
+          <div class="animais-extincao-floresta-temperada">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/pica pau.webp"
+              alt="Pica-Pau"
+            />
+            <div class="card-opaco-floresta-temperada">
+              <p>Pica-Pau</p>
+            </div>
+          </div>
+          <div class="animais-extincao-floresta-temperada">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/panda-vermelho.webp"
+              alt="Panda Vermelho"
+            />
+            <div class="card-opaco-floresta-temperada">
+              <p>Panda Vermelho</p>
+            </div>
+          </div>
+          <div class="animais-extincao-floresta-temperada">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/urdso pardo.jpg"
+              alt="Urso Pardo"
+            />
+            <div class="card-opaco-floresta-temperada">
+              <p>Urso Pardo</p>
+            </div>
           </div>
         </div>
-        <div class="animais-extincao-floresta-temperada">
-          <img width="382" height="240" src="../img/animais/pica pau.webp" alt="Pica-Pau">
-          <div class="card-opaco-floresta-temperada">
-            <p>Pica-Pau</p>
-          </div>
-        </div>
-        <div class="animais-extincao-floresta-temperada">
-          <img width="382" height="240" src="../img/animais/panda-vermelho.webp" alt="Panda Vermelho">
-          <div class="card-opaco-floresta-temperada">
-            <p>Panda Vermelho</p>
-          </div>
-        </div>
-        <div class="animais-extincao-floresta-temperada">
-          <img width="382" height="240" src="../img/animais/urdso pardo.jpg" alt="Urso Pardo">
-          <div class="card-opaco-floresta-temperada">
-            <p>Urso Pardo</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="animais__savana">
-      <div class="animais__savana-txt">
-        <h2>
-          Animais em extinção no Bioma Savana
-        </h2>
-      </div>
-      <div class="container-savana">
-        <div class="animais-extincao-savana">
-          <img width="382" height="240" src="../img/animais/elefante.jpg" alt="Elefante">
-          <div class="card-opaco-savana">
-            <p>Elefante</p>
+      <section class="animais__savana">
+        <div class="animais__savana-txt">
+          <h2>Animais em extinção no Bioma Savana</h2>
+        </div>
+        <div class="container-savana">
+          <div class="animais-extincao-savana">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/elefante.jpg"
+              alt="Elefante"
+            />
+            <div class="card-opaco-savana">
+              <p>Elefante</p>
+            </div>
+          </div>
+          <div class="animais-extincao-savana">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/rinoceronte.webp"
+              alt="Rinoceronte"
+            />
+            <div class="card-opaco-savana">
+              <p>Rinoceronte</p>
+            </div>
+          </div>
+          <div class="animais-extincao-savana">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/zebra.jfif"
+              alt="Zebra de Grévy"
+            />
+            <div class="card-opaco-savana">
+              <p>Zebra de Grévy</p>
+            </div>
+          </div>
+          <div class="animais-extincao-savana">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/leão.jpg"
+              alt="Leão"
+            />
+            <div class="card-opaco-savana">
+              <p>Leão</p>
+            </div>
           </div>
         </div>
-        <div class="animais-extincao-savana">
-          <img width="382" height="240" src="../img/animais/rinoceronte.webp" alt="Rinoceronte">
-          <div class="card-opaco-savana">
-            <p>Rinoceronte</p>
-          </div>
-        </div>
-        <div class="animais-extincao-savana">
-          <img width="382" height="240" src="../img/animais/zebra.jfif" alt="Zebra de Grévy">
-          <div class="card-opaco-savana">
-            <p>Zebra de Grévy</p>
-          </div>
-        </div>
-        <div class="animais-extincao-savana">
-          <img width="382" height="240" src="../img/animais/leão.jpg" alt="Leão">
-          <div class="card-opaco-savana">
-            <p>Leão</p>
-          </div>
-        </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="animais__deserto">
-      <div class="animais__deserto-txt">
-        <h2>
-          Animais em extinção no Bioma Deserto
-        </h2>
+      <section class="animais__deserto">
+        <div class="animais__deserto-txt">
+          <h2>Animais em extinção no Bioma Deserto</h2>
+        </div>
+        <div class="container-deserto">
+          <div class="animais-extincao-deserto">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/gazela.jfif"
+              alt="Gazella-dorcas"
+            />
+            <div class="card-opaco-deserto">
+              <p>Gazella-dorcas</p>
+            </div>
+          </div>
+          <div class="animais-extincao-deserto">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/vibora chifruda.jpg"
+              alt="Víbora Chifruda"
+            />
+            <div class="card-opaco-deserto">
+              <p>Víbora-de-Chifres</p>
+            </div>
+          </div>
+          <div class="animais-extincao-deserto">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/lagarto monitor.jpg"
+              alt="Lagarto-monitor"
+            />
+            <div class="card-opaco-deserto">
+              <p>Lagarto-monitor</p>
+            </div>
+          </div>
+          <div class="animais-extincao-deserto">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/mabeco.png"
+              alt="Mabeco"
+            />
+            <div class="card-opaco-deserto">
+              <p>Mabeco</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="animais__campo">
+        <div class="animais__campo-txt">
+          <h2>Animais em extinção no Bioma Campo</h2>
+        </div>
+        <div class="container-campo">
+          <div class="animais-extincao-campo">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/tamanduabandeira.jpg"
+              alt="Tamanduá-bandeira"
+            />
+            <div class="card-opaco-campo">
+              <p>Tamanduá-bandeira</p>
+            </div>
+          </div>
+          <div class="animais-extincao-campo">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/anta.jpg"
+              alt="Anta"
+            />
+            <div class="card-opaco-campo">
+              <p>Anta</p>
+            </div>
+          </div>
+          <div class="animais-extincao-campo">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/queixada.webp"
+              alt="Queixada"
+            />
+            <div class="card-opaco-campo">
+              <p>Queixada</p>
+            </div>
+          </div>
+          <div class="animais-extincao-campo">
+            <img
+              width="382"
+              height="240"
+              src="../img/animais/macaco prego.png"
+              alt="Macaco-prego"
+            />
+            <div class="card-opaco-campo">
+              <p>Macaco-prego</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="redes-sociais">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin"></i></a>
       </div>
-      <div class="container-deserto">
-        <div class="animais-extincao-deserto">
-          <img width="382" height="240" src="../img/animais/gazela.jfif" alt="Gazella-dorcas">
-          <div class="card-opaco-deserto">
-            <p>Gazella-dorcas</p>
-          </div>
-        </div>
-        <div class="animais-extincao-deserto">
-          <img width="382" height="240" src="../img/animais/vibora chifruda.jpg" alt="Víbora Chifruda">
-          <div class="card-opaco-deserto">
-            <p>Víbora-de-Chifres</p>
-          </div>
-        </div>
-        <div class="animais-extincao-deserto">
-          <img width="382" height="240" src="../img/animais/lagarto monitor.jpg" alt="Lagarto-monitor">
-          <div class="card-opaco-deserto">
-            <p>Lagarto-monitor</p>
-          </div>
-        </div>
-        <div class="animais-extincao-deserto">
-          <img width="382" height="240" src="../img/animais/mabeco.png" alt="Mabeco">
-          <div class="card-opaco-deserto">
-            <p>Mabeco</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="animais__campo">
-      <div class="animais__campo-txt">
-        <h2>
-          Animais em extinção no Bioma Campo
-        </h2>
-      </div>
-      <div class="container-campo">
-        <div class="animais-extincao-campo">
-          <img width="382" height="240" src="../img/animais/tamanduabandeira.jpg" alt="Tamanduá-bandeira">
-          <div class="card-opaco-campo">
-            <p>Tamanduá-bandeira</p>
-          </div>
-        </div>
-        <div class="animais-extincao-campo">
-          <img width="382" height="240" src="../img/animais/anta.jpg" alt="Anta">
-          <div class="card-opaco-campo">
-            <p>Anta</p>
-          </div>
-        </div>
-        <div class="animais-extincao-campo">
-          <img width="382" height="240" src="../img/animais/queixada.webp" alt="Queixada">
-          <div class="card-opaco-campo">
-            <p>Queixada</p>
-          </div>
-        </div>
-        <div class="animais-extincao-campo">
-          <img width="382" height="240" src="../img/animais/macaco prego.png" alt="Macaco-prego">
-          <div class="card-opaco-campo">
-            <p>Macaco-prego</p>
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-  <footer>
-    <div class="redes-sociais">
-      <a href="#"><i class="fab fa-facebook"></i></a>
-      <a href="#"><i class="fab fa-twitter"></i></a>
-      <a href="#"><i class="fab fa-instagram"></i></a>
-      <a href="#"><i class="fab fa-linkedin"></i></a>
-    </div>
-    <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
-  </footer>
-
-
-
-</body>
-
+      <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
+    </footer>
+  </body>
 </html>
