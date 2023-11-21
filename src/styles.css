@@ -1114,6 +1114,28 @@ html {
 	width: 100%;
 	height: auto;
 	max-height: 100%;
+	border-radius: 10px;
+}
+
+.caixa-texto-dest ol {
+	list-style-type: decimal;
+	padding-left: 40px;
+}
+
+.caixa-texto-dest ol li {
+	text-align: left;
+	margin-bottom: 15px;
+}
+
+.caixa-texto-dest {
+	background-color: #f8eee5;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	padding: 10px;
+}
+
+.clima {
+	overflow: auto;
 }
 
 /* css para pagina de parceiros */
