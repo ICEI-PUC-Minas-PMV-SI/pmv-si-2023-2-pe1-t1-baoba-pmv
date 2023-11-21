@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Cientistas divulgaram novos dados sobre espécie X. Vocês viram?",
-      "likes": 12900,
+      "likes": 12905,
       "comments_count": 10,
       "content": "Pesquisadores recentemente compartilharam descobertas surpreendentes sobre a espécie X. Os novos dados revelam padrões de comportamento até então desconhecidos e indicam possíveis estratégias de conservação. Vamos discutir essas informações fascinantes juntos!"
     },
@@ -476,95 +476,109 @@
     {
       "id": 1,
       "name": "Chapada Diamantina",
-      "img_url":"..img/ecoturismo/chapada-diamantina.jpg",
-      "about": "",
-      "location":"Bahia"
+      "img_url": "..img/ecoturismo/chapada-diamantina.jpg",
+      "about": "A Chapada Diamantina é uma região de incrível beleza natural localizada no coração do estado da Bahia, Brasil. É um destino que oferece uma combinação de aventura, beleza natural, riqueza cultural e história, atraindo visitantes de todo o mundo.",
+      "location": "Bahia",
+      "text": "Geografia e Paisagem Natural: A Chapada Diamantina é conhecida por suas impressionantes formações geológicas, incluindo montanhas, vales, cavernas e cachoeiras. A paisagem é marcada por vastos planaltos e picos íngremes, com o Pico do Barbado sendo o ponto mais alto da região e da Bahia. Biodiversidade: A área abriga uma rica biodiversidade, com diversas espécies de plantas e animais, muitas das quais são endêmicas. Os ecossistemas variam de cerrado a mata atlântica, oferecendo um habitat diversificado. Atividades Turísticas: A Chapada Diamantina é um destino popular para ecoturismo e aventura. As atividades incluem trekking,  escalada, visitas a cavernas, banhos em cachoeiras e rios, e observação da fauna e flora local. Parque Nacional da Chapada Diamantina: Criado em 1985, o Parque Nacional protege uma grande parte da região e é um dos principais atrativos para os turistas. O parque oferece trilhas, cachoeiras e uma variedade de paisagens naturais. Sustentabilidade e Conservação: A preservação do ambiente natural e da cultura local é um aspecto vital para a região. Há esforços contínuos para garantir o turismo sustentável e a proteção das áreas naturais."
     },
     {
       "id": 2,
       "name": "Alter do Chão",
-      "img_url":"..img/ecoturismo/alter-do-chao.jpg",
+      "img_url": "..img/ecoturismo/alter-do-chao.jpg",
       "about": "",
-      "location":"Pará"
+      "location": "Pará",
+      "text":""
     },
     {
       "id": 3,
       "name": "Serra da Canastra",
-      "img_url":"..img/ecoturismo/canastra.jpeg",
+      "img_url": "..img/ecoturismo/canastra.jpeg",
       "about": "",
-      "location":"Minas Gerais"
+      "location": "Minas Gerais",
+      "text":""
     },
     {
       "id": 4,
       "name": "Bonito",
-      "img_url":"..img/ecoturismo/bonito.jpg",
+      "img_url": "..img/ecoturismo/bonito.jpg",
       "about": "",
-      "location":"Mato Grosso do Sul"
+      "location": "Mato Grosso do Sul",
+      "text":""
     },
     {
       "id": 5,
       "name": "Chapada dos Veadeiros",
-      "img_url":"..img/ecoturismo/chapada-dos-veadeiros.jpg",
+      "img_url": "..img/ecoturismo/chapada-dos-veadeiros.jpg",
       "about": "",
-      "location":"Goiás"
+      "location": "Goiás",
+      "text":""
     },
     {
       "id": 6,
       "name": "Jalapão",
-      "img_url":"..img/ecoturismo/jalapao.jpg",
+      "img_url": "..img/ecoturismo/jalapao.jpg",
       "about": "",
-      "location":"Tocantins"
+      "location": "Tocantins",
+      "text":""
     },
     {
       "id": 7,
       "name": "Parque do Itatiaia",
-      "img_url":"..img/ecoturismo/Parque-Itatiaia.jpg",
+      "img_url": "..img/ecoturismo/Parque-Itatiaia.jpg",
       "about": "",
-      "location":"Rio de Janeiro"
+      "location": "Rio de Janeiro",
+      "text":""
     }
   ],
   "ecoactivities": [
     {
       "id": 1,
       "name": "Observação de fauna e flora",
-      "img_url":"..img/ecoturismo/Observacao.jpg",
-      "about": ""
+      "img_url": "..img/ecoturismo/Observacao.jpg",
+      "about": "É uma prática que envolve a exploração e apreciação da vida selvagem e vegetação em seus habitats naturais, muito valorizada tanto por seu aspecto educacional quanto recreativo.",
+      "text": ""
     },
     {
       "id": 2,
       "name": "Trekking",
-      "img_url":"..img/ecoturismo/trekking.jpg",
-      "about": ""
+      "img_url": "..img/ecoturismo/trekking.jpg",
+      "about": "",
+      "text":""
     },
     {
       "id": 3,
       "name": "Tirolesa",
-      "img_url":"..img/ecoturismo/tirolesa.jpg",
-      "about": ""
+      "img_url": "..img/ecoturismo/tirolesa.jpg",
+      "about": "",
+      "text":""
     },
     {
       "id": 4,
       "name": "Snorkeling",
-      "img_url":"..img/ecoturismo/snorkeling.jpg",
-      "about": ""
+      "img_url": "..img/ecoturismo/snorkeling.jpg",
+      "about": "",
+      "text":""
     },
     {
       "id": 5,
       "name": "Cicloturismo",
-      "img_url":"..img/ecoturismo/cicloturismo.jpg",
-      "about": ""
+      "img_url": "..img/ecoturismo/cicloturismo.jpg",
+      "about": "",
+      "text":""
     },
     {
       "id": 6,
       "name": "Asadelta",
-      "img_url":"..img/ecoturismo/asadelta.jpg",
-      "about": ""
+      "img_url": "..img/ecoturismo/asadelta.jpg",
+      "about": "",
+      "text":""
     },
     {
       "id": 7,
       "name": "Geoturismo",
-      "img_url":"..img/ecoturismo/geoturismo.webp",
-      "about": ""
+      "img_url": "..img/ecoturismo/geoturismo.webp",
+      "about": "",
+      "text":""
     }
   ],
   "Patners": [
@@ -572,60 +586,57 @@
       "id": 1,
       "name": "Compasso Aventuras",
       "img_url": "..img/sustentabilidade/compasso_aventuras.png",
-      "about":"",
-      "area" :"Turismo"
+      "about": "",
+      "area": "Turismo"
     },
     {
       "id": 2,
       "name": "Pé na Estrada Viagens",
       "img_url": "..img/sustentabilidade/pe_estrada.png",
       "about": "",
-      "area" : "Turismo"
+      "area": "Turismo"
     },
     {
       "id": 3,
       "name": "ReciclaMais",
       "img_url": "..img/sustentabilidade/recicla_mais.png",
       "about": "",
-      "area" : "Reciclagem"
+      "area": "Reciclagem"
     },
     {
       "id": 4,
       "name": "Eco Viver",
       "img_url": "..img/sustentabilidade/eco_viver.png",
       "about": "",
-      "area" : "Reciclagem"
+      "area": "Reciclagem"
     },
     {
       "id": 5,
       "name": "ReciclArte",
       "img_url": "..img/sustentabilidade/reciclarte.png",
       "about": "",
-      "area" : "Reciclagem"
+      "area": "Reciclagem"
     },
     {
       "id": 6,
       "name": "Fubank",
       "img_url": "..img/sustentabilidade/fubank.png",
       "about": "",
-      "area" : "Instituição Financeira"
+      "area": "Instituição Financeira"
     },
     {
       "id": 7,
       "name": "Shopping Jardim Plaza",
       "img_url": "..img/sustentabilidade/jardim_plaza.png",
       "about": "",
-      "area" : "Comércio"
+      "area": "Comércio"
     },
     {
       "id": 8,
       "name": "Supermercado Verde ExtraNosso",
       "img_url": "..img/sustentabilidade/verde_extranosso.png",
       "about": "",
-      "area" : "Comércio"
+      "area": "Comércio"
     }
-
-
   ]
-
 }
