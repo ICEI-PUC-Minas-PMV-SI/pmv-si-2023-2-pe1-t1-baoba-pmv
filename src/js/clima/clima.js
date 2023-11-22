@@ -1,28 +1,28 @@
-async function getWeather(cityName) {
-    const apiKey = "URxcFf1r5aSADU25ieYX4gGlGA3l929u";
-    const localKey = 'CIDADE_LOCAL_KEY';
+// async function getWeather(cityName) {
+//     const apiKey = "URxcFf1r5aSADU25ieYX4gGlGA3l929u";
+//     const localKey = 'CIDADE_LOCAL_KEY';
 
-    const url = `http://dataservice.accuweather.com/currentconditions/v1/${localKey}?apikey=${apiKey}&language=pt-br&details=true`;
+//     const url = `http://dataservice.accuweather.com/currentconditions/v1/${localKey}?apikey=${apiKey}&language=pt-br&details=true`;
 
-    fetch(url)
-    .then(response => {
-      if (!response.ok) {
-        throw new Error('Erro na solicitação da API');
-      }
-      return response.json();
-    })
-    .then(data => {
-      displayWeather(data);
-    })
-    .catch(error => {
-      console.error('Erro ao acessar a API do AccuWeather:', error);
-      document.getElementById('weather-container').innerHTML = 'Erro ao carregar dados.';
-    });
+//     fetch(url)
+//     .then(response => {
+//       if (!response.ok) {
+//         throw new Error('Erro na solicitação da API');
+//       }
+//       return response.json();
+//     })
+//     .then(data => {
+//       displayWeather(data);
+//     })
+//     .catch(error => {
+//       console.error('Erro ao acessar a API do AccuWeather:', error);
+//       document.getElementById('weather-container').innerHTML = 'Erro ao carregar dados.';
+//     });
   
-  function displayWeather(data) {
-      const container = document.getElementById('weather-container');
-  }
-}
+//   function displayWeather(data) {
+//       const container = document.getElementById('weather-container');
+//   }
+// }
 
 //curl -X GET
 
