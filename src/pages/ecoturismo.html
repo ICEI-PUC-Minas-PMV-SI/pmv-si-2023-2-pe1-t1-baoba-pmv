@@ -21,6 +21,8 @@
       type="text/css"
       href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
     />
+
+    <script src="../js/ecotourism/ecotourism.js"></script>
   </head>
 
   <body>
@@ -82,10 +84,13 @@
       <button class="meu-botao">Saiba mais</button>
       <button class="meu-botao">Outros destinos</button>
     </div>
+    <script type="text/javascript" >
+        setEcotourismPlaces();
+    </script>
     <div class="carousel-container">
       <button class="carousel-control prev">&lt;</button>
-      <div class="carousel">
-        <div class="carousel-item">
+      <div class="carousel" id="carousel-items-container">
+        <!-- <div class="carousel-item" onclick="setDestinyId(1)">
           <a href="destinos.html">
             <img
               src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTfz3FUTI6lMw1eBh0kUV_mOXkUpULbkouXhQ2lHnT9pSMGT6FY"
@@ -149,7 +154,7 @@
           <div class="card-opaco">
             <p>Parque do Itatiaia, Rio de Janeiro</p>
           </div>
-        </div>
+        </div> -->
       </div>
       <button class="carousel-control next">&gt;</button>
     </div>
@@ -224,7 +229,6 @@
         </div>
         <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
       </footer>
-      <script src="script.js"></script>
     </div>
   </body>
 </html>
