@@ -542,43 +542,43 @@
       "id": 2,
       "name": "Trekking",
       "img_url": "..img/ecoturismo/trekking.jpg",
-      "about": "",
-      "text":""
+      "about": "O trekking é uma atividade ao ar livre que envolve caminhadas longas e desafiadoras, geralmente em trilhas naturais e ambientes montanhosos. Proporciona uma alta imersão com a natureza, permitindo aos praticantes experimentar paisagens muitas vezes inacessíveis de outra forma.",
+      "text":"Exercício Físico Intenso: O trekking envolve caminhar longas distâncias, muitas vezes em terrenos acidentados, o que proporciona um excelente exercício cardiovascular e fortalecimento muscular. Desafio Mental e Físico: Além do aspecto físico, o trekking desafia mentalmente os praticantes, exigindo resistência, determinação e capacidade de superar obstáculos. Habilidades de Sobrevivência: Em trilhas mais longas e remotas, os trekkers desenvolvem habilidades de sobrevivência, como orientação, montagem de acampamentos e gestão de recursos. Benefícios para a Saúde Mental: A atividade ajuda a reduzir o estresse e a ansiedade, promovendo uma sensação de bem-estar e tranquilidade. Educação Ambiental: Muitos trekkers ganham uma maior consciência e apreciação pelo meio ambiente, tornando-se mais conscientes sobre questões de conservação."
     },
     {
       "id": 3,
       "name": "Tirolesa",
       "img_url": "..img/ecoturismo/tirolesa.jpg",
-      "about": "",
-      "text":""
+      "about": "A tirolesa é uma atividade de aventura que consiste em deslizar por um cabo de aço suspenso entre dois pontos. Esta atividade oferece uma combinação única de emoção e apreciação da natureza, proporcionando aos participantes a sensação de voar sobre o terreno abaixo. É uma experiência popular em parques de aventura, resorts de montanha, e em áreas turísticas que são conhecidas por suas paisagens naturais.",
+      "text":"Variedade de Configurações: As tirolesas variam em comprimento, altura e inclinação. Algumas são curtas e adequadas para iniciantes, enquanto outras são projetadas para entusiastas de adrenalina, oferecendo percursos longos e rápidos. Acessibilidade: A atividade é acessível para uma ampla gama de idades e habilidades físicas, tornando-a popular entre famílias, grupos de amigos e turistas. Impacto Ambiental: A tirolesa é considerada uma atividade de turismo ecológico quando projetada e operada de maneira a minimizar o impacto no meio ambiente. Benefícios Psicológicos: Além de ser emocionante, a tirolesa pode ajudar a superar medos, como o medo de alturas, e promover a confiança e a autoestima. Aspecto Educativo: Em algumas localidades, a tirolesa é usada como um meio de educar os participantes sobre o ecossistema local, a fauna e a flora da região. Potencial Turístico: A tirolesa atrai turistas, proporcionando um impulso econômico para as comunidades locais, especialmente aquelas situadas em áreas de beleza natural."
     },
     {
       "id": 4,
       "name": "Snorkeling",
       "img_url": "..img/ecoturismo/snorkeling.jpg",
-      "about": "",
-      "text":""
+      "about": "O snorkeling é uma atividade aquática que permite aos praticantes observar a vida marinha e os ecossistemas subaquáticos de perto, sem a necessidade de equipamentos complexos de mergulho. Esta atividade é realizada na superfície da água, com o uso de um snorkel (um tubo de respiração) e uma máscara de mergulho, que proporcionam a visibilidade e a respiração necessárias para explorar o ambiente aquático de forma confortável e segura.",
+      "text":"Facilidade de Acesso: O snorkeling é acessível para pessoas de todas as idades e habilidades físicas. Não requer treinamento especializado como o mergulho scuba, tornando-o uma atividade popular para famílias e turistas. Exploração Marinha: Oferece uma oportunidade única para observar a vida marinha em seu habitat natural. Os praticantes podem ver uma variedade de peixes, corais, plantas aquáticas e, às vezes, até animais maiores, como tartarugas e arraias. Equipamento Simples: A atividade requer apenas um snorkel, uma máscara e, frequentemente, nadadeiras. Isso torna o snorkeling uma opção de baixo custo e fácil para explorar ambientes aquáticos. Baixo Impacto Físico: Como é realizada na superfície da água, o snorkeling é menos exigente fisicamente do que o mergulho, o que o torna adequado para uma ampla gama de condições físicas e idades. Educação e Conscientização Ambiental: O contato direto com o ecossistema marinho ajuda a aumentar a conscientização e a educação sobre a importância da conservação marinha e dos recifes de coral. Além de que pode fazer parte do turismo ecológico, incentivando a preservação dos ambientes marinhos e o desenvolvimento sustentável das comunidades locais."
     },
     {
       "id": 5,
       "name": "Cicloturismo",
       "img_url": "..img/ecoturismo/cicloturismo.jpg",
-      "about": "",
-      "text":""
+      "about": "O cicloturismo é uma forma de turismo que combina a prática do ciclismo com a exploração de diferentes paisagens e culturas. Esta atividade envolve longas viagens de bicicleta, abrangendo desde passeios de um único dia até expedições que podem durar várias semanas ou meses. O cicloturismo é apreciado tanto por ciclistas recreativos quanto por entusiastas mais sérios, oferecendo uma maneira única e sustentável de viajar e conhecer novos lugares.",
+      "text":"Exploração e Aventura: Oferece a oportunidade de explorar novos lugares, culturas e paisagens de uma maneira íntima e detalhada, que não é possível através de outros meios de transporte. Conexão com a Natureza: Ao pedalar por diferentes terrenos e ambientes, os cicloturistas têm a chance de se conectar profundamente com a natureza e apreciar a beleza do mundo ao seu redor. Exercício Físico: É uma ótima forma de exercício, proporcionando benefícios à saúde cardiovascular, fortalecimento muscular e melhoria da resistência física. Flexibilidade e Personalização: As rotas e a duração das viagens podem ser adaptadas às habilidades e interesses dos ciclistas, tornando-o uma atividade acessível a uma ampla gama de pessoas. Sustentabilidade Ambiental: Como um meio de transporte ecológico, o cicloturismo promove a sustentabilidade e é uma maneira ecologicamente correta de viajar."
     },
     {
       "id": 6,
       "name": "Asadelta",
       "img_url": "..img/ecoturismo/asadelta.jpg",
-      "about": "",
-      "text":""
+      "about": "Asadelta é uma atividade aérea que proporciona aos praticantes a experiência de voar com o auxílio de uma estrutura leve. É uma forma de voo livre que não utiliza motor, dependendo do movimento do corpo do piloto para controlar a direção e a altitude. A decolagem geralmente ocorre de um ponto elevado, como um morro ou uma montanha.",
+      "text":"Sensação de Voo Livre: A asadelta oferece uma das experiências mais próximas de voar como um pássaro, proporcionando uma sensação de liberdade e leveza incomparável. Equipamento Especializado:  Além da própria asadelta, os pilotos utilizam equipamentos de segurança como capacetes, arneses e, muitas vezes, paraquedas de emergência. Treinamento e Certificação: Para praticar asadelta, é essencial passar por um treinamento adequado, para se garantir os conhecimentos e habilidades necessários para voar com segurança. Exploração de Paisagens: Permite explorar paisagens de um ponto de vista único, oferecendo vistas panorâmicas de montanhas, vales, praias e outras paisagens naturais. Aspectos Físicos e Mentais: Além de exigir condição física, também desafia mentalmente os praticantes, desenvolvendo a concentração, a tomada de decisão rápida e a capacidade de adaptação a diferentes situações. Impacto Ambiental: Sendo um esporte de baixo impacto ambiental, permite uma interação harmoniosa com o meio ambiente, sem emissão de poluentes ou ruídos significativos. Experiências Variadas: O asadelta pode ser praticado em vários níveis, desde voos tranquilos e panorâmicos até manobras acrobáticas para pilotos mais experientes."
     },
     {
       "id": 7,
       "name": "Geoturismo",
       "img_url": "..img/ecoturismo/geoturismo.webp",
-      "about": "",
-      "text":""
+      "about": "O geoturismo é uma forma de turismo sustentável que se concentra na exploração e apreciação das características geológicas e geomorfológicas de uma região. É especialmente atraente para aqueles interessados em ciências da terra, história natural e culturas indígenas, proporcionando uma compreensão mais profunda do planeta e de seu patrimônio geológico.",
+      "text":"Educação e Conscientização: O geoturismo oferece oportunidades educacionais únicas, permitindo que os visitantes aprendam sobre geologia, geomorfologia, ecologia e história. Isso inclui entender como a terra foi formada, como as paisagens evoluíram e como os processos geológicos afetam a vida na Terra. Conservação Ambiental: Uma parte fundamental do geoturismo é a ênfase na conservação. Ele promove a preservação de recursos naturais e geológicos, ajudando a proteger áreas de significado geológico para as gerações futuras. Experiência Cultural: O geoturismo muitas vezes se entrelaça com a cultura local, permitindo que os turistas experimentem e aprendam sobre as tradições, histórias e modos de vida das comunidades locais, especialmente aquelas que têm uma forte ligação com o ambiente geológico. Turismo Sustentável: Esta forma de turismo apoia práticas sustentáveis, incentivando um impacto ambiental mínimo, ao mesmo tempo que contribui para a economia local. Ela promove um turismo que respeita tanto o meio ambiente quanto as comunidades locais. Atividades Variadas: As atividades no geoturismo podem variar desde caminhadas e escaladas até visitas a museus e sítios arqueológicos, oferecendo algo para todos os níveis de habilidade e interesse."
     }
   ],
   "Patners": [
