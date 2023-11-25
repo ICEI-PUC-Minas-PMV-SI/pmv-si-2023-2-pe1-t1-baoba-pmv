@@ -118,6 +118,7 @@ a:active {
 .search-form {
 	flex: 3;
 	text-align: right;
+	margin-right: .7rem;
 }
 
 /* css especifico para pagina home */
@@ -775,6 +776,9 @@ textarea {
 }
 
 .imagem-meio {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 20px;
 }
 
@@ -881,6 +885,7 @@ iframe {
 		max-width: 100%;
 		height: auto;
 		object-fit: cover;
+		margin: auto;
 	}
 
 	.img-vector {
@@ -1141,9 +1146,22 @@ html {
 /* css para pagina de parceiros */
 
 .image-parceiros {
-	height: 5rem;
-	width: 5rem;
+	height: 6rem;
+	width: 6rem;
 	object-fit: fill;
+	border-radius: 8px;
+	border: 2px solid #243812;
+	padding: 3px;
+}
+
+.titulos-parceiros {
+	display: flex;
+	gap: 2rem;
+	padding: 3px;
+}
+
+.parceiros h2 {
+	margin: 2rem;
 }
 
 /* css para pagina de animais */
