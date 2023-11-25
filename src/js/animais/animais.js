@@ -26,7 +26,7 @@ async function setAnimals(biome, elementId) {
 
 		for (let i = 0; i < animals.length; i++) {
 			htmlContent += `
-        <div class="animais-extincao-tundra">
+        <a href="${biome}/${animals[i].id}" class="animais-extincao-tundra">
             <img
               width="382"
               height="240"
@@ -36,7 +36,7 @@ async function setAnimals(biome, elementId) {
             <div class="card-opaco-tundra">
               <p>${animals[i].name}</p>
             </div>
-          </div>
+          </a>
         `;
 		}
 
