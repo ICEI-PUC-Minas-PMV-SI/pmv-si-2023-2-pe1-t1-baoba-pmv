@@ -37,7 +37,7 @@ async function setDestinyData() {
 		sessionStorage.setItem("lon", destinyData.lon);
 
 		document.querySelector("#destiny-content").innerHTML = htmlContent;
-		await setWheatherData();
+		await setWheatherData(destinyData.name);
         await setMap(destinyData.lon, destinyData.lat);
 	} catch (error) {
 		throw new Error(error);
@@ -88,11 +88,11 @@ async function treatsWheatherData() {
 	}
 }
 
-async function setWheatherData() {
+async function setWheatherData(location) {
 	try {
 		const wheather = await treatsWheatherData();
 		const htmlContent = `
-        <h4>Previsão do Tempo para Chapada Diamantina</h4>
+        <h4>Previsão do Tempo para ${location}</h4>
         <div class="wheather-data">
             <div class="wheather-data-item">
                 <h4>Temperatura</h4>
