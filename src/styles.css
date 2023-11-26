@@ -118,7 +118,7 @@ a:active {
 .search-form {
 	flex: 3;
 	text-align: right;
-	margin-right: .7rem;
+	margin-right: 0.7rem;
 }
 
 /* css especifico para pagina home */
@@ -360,14 +360,12 @@ a:active {
 	grid-template-columns: 2fr 1fr;
 	font-size: 0.8rem;
 	height: 80vh;
-
 }
 
 .forum__container-posts {
 	overflow-y: auto;
 	height: 100%;
 	direction: rtl;
-
 }
 
 .forum__container-posts {
@@ -492,7 +490,7 @@ textarea {
 	border-radius: 10px;
 }
 
-.forum__trending-content>* {
+.forum__trending-content > * {
 	padding: 0.5rem;
 }
 
@@ -572,7 +570,7 @@ textarea {
 		font-size: 0.6rem;
 	}
 
-	.forum__trending-topics>* {
+	.forum__trending-topics > * {
 		margin: 0.3rem;
 	}
 }
@@ -633,7 +631,7 @@ textarea {
 	flex-direction: column;
 }
 
-.post-content__comment-items>* {
+.post-content__comment-items > * {
 	margin: 0.2rem;
 }
 
@@ -1141,17 +1139,53 @@ html {
 
 .clima {
 	overflow: auto;
+	width: 50%;
+}
+
+.clima-map-container {
+	display: flex;
+	flex-direction: row;
+    padding: 1rem;
 }
 
 .wheather-data {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    width: 50%;
-    min-height: 150px;
-    text-align: left;
-    margin: 1rem 1rem 0 1rem;
-    border-radius: 10px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 1rem;
+	width: 50%;
+	min-height: 150px;
+	text-align: left;
+	margin: 1rem 1rem 0 1rem;
+	border-radius: 10px;
 }
+
+.map-container {
+	width: 50%;
+}
+
+#map {
+	width: 350px;
+	height: 150px;
+	padding: 0;
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #323232;
+}
+
+@media (max-width: 678px) {
+    .clima-map-container {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .clima {
+        width: 100%;
+    }
+}
+
 
 /* css para pagina de parceiros */
 
@@ -1184,7 +1218,7 @@ html {
 	border-radius: 10px;
 }
 
-.animais__info-img>.imagem {
+.animais__info-img > .imagem {
 	width: 600px;
 	height: 276px;
 }
@@ -1426,7 +1460,7 @@ html {
 		gap: 20px;
 	}
 
-	.animais__info-img>.imagem {
+	.animais__info-img > .imagem {
 		aspect-ratio: 16 / 9;
 		width: 600px;
 		height: 276px;
@@ -1561,7 +1595,7 @@ html {
 		height: auto;
 	}
 
-	.animais__info-img>.imagem {
+	.animais__info-img > .imagem {
 		aspect-ratio: 16 / 9;
 		width: 100%;
 		height: 276px;
@@ -1573,7 +1607,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-tundra>img {
+	.animais-extincao-tundra > img {
 		border-radius: 10px;
 	}
 
@@ -1590,7 +1624,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-taiga>img {
+	.animais-extincao-taiga > img {
 		border-radius: 10px;
 	}
 
@@ -1607,7 +1641,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-floresta-tropical>img {
+	.animais-extincao-floresta-tropical > img {
 		border-radius: 10px;
 	}
 
@@ -1624,7 +1658,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-floresta-temperada>img {
+	.animais-extincao-floresta-temperada > img {
 		border-radius: 10px;
 	}
 
@@ -1641,7 +1675,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-savana>img {
+	.animais-extincao-savana > img {
 		border-radius: 10px;
 	}
 
@@ -1658,7 +1692,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-deserto>img {
+	.animais-extincao-deserto > img {
 		border-radius: 10px;
 	}
 
@@ -1675,7 +1709,7 @@ html {
 		display: flex;
 	}
 
-	.animais-extincao-campo>img {
+	.animais-extincao-campo > img {
 		border-radius: 10px;
 	}
 
@@ -1697,12 +1731,12 @@ html {
 		height: auto;
 	}
 
-	.animais__info-img>.imagem {
+	.animais__info-img > .imagem {
 		width: 100%;
 		height: 400px;
 	}
 
-	.animais-extincao-tundra>img {
+	.animais-extincao-tundra > img {
 		border-radius: 10px;
 	}
 
@@ -1714,7 +1748,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-taiga>img {
+	.animais-extincao-taiga > img {
 		border-radius: 10px;
 	}
 
@@ -1726,7 +1760,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-floresta-tropical>img {
+	.animais-extincao-floresta-tropical > img {
 		border-radius: 10px;
 	}
 
@@ -1738,7 +1772,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-floresta-temperada>img {
+	.animais-extincao-floresta-temperada > img {
 		border-radius: 10px;
 	}
 
@@ -1750,7 +1784,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-savana>img {
+	.animais-extincao-savana > img {
 		border-radius: 10px;
 	}
 
@@ -1762,7 +1796,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-deserto>img {
+	.animais-extincao-deserto > img {
 		border-radius: 10px;
 	}
 
@@ -1774,7 +1808,7 @@ html {
 		overflow: scroll;
 	}
 
-	.animais-extincao-campo>img {
+	.animais-extincao-campo > img {
 		border-radius: 10px;
 	}
 
@@ -1788,7 +1822,7 @@ html {
 }
 
 @media (max-width: 647px) {
-	.animais__info-img>.imagem {
+	.animais__info-img > .imagem {
 		width: 100%;
 		height: 276px;
 	}
@@ -1861,7 +1895,7 @@ html {
 		gap: 20px;
 	}
 
-	.biomas__info-img>.imagem {
+	.biomas__info-img > .imagem {
 		aspect-ratio: 16 / 9;
 		width: 600px;
 		height: 276px;
@@ -1895,7 +1929,7 @@ html {
 		height: auto;
 	}
 
-	.biomas__info-img>.imagem {
+	.biomas__info-img > .imagem {
 		aspect-ratio: 16 / 9;
 		width: 100%;
 		height: 276px;
@@ -1907,7 +1941,7 @@ html {
 		display: flex;
 	}
 
-	.bioma-geral>img {
+	.bioma-geral > img {
 		border-radius: 10px;
 	}
 
@@ -1930,12 +1964,12 @@ html {
 		height: auto;
 	}
 
-	.biomas__info-img>.imagem {
+	.biomas__info-img > .imagem {
 		width: 100%;
 		height: 400px;
 	}
 
-	.bioma-geral>img {
+	.bioma-geral > img {
 		border-radius: 10px;
 	}
 
@@ -1950,7 +1984,7 @@ html {
 }
 
 @media (max-width: 647px) {
-	.biomas__info-img>.imagem {
+	.biomas__info-img > .imagem {
 		width: 100%;
 		height: 276px;
 	}
