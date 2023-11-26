@@ -2,7 +2,6 @@ async function getDestinyData(id) {
 	try {
 		const res = await fetch(`http://localhost:3000/ecotourism/${id}`);
 		const data = await res.json();
-		console.log(data);
 		return data;
 	} catch (error) {
 		throw new Error(error);
@@ -34,8 +33,91 @@ async function setDestinyData() {
       </div>
         `;
 
+        sessionStorage.setItem("lat", destinyData.lat);
+        sessionStorage.setItem("lon", destinyData.lon);
+
 		document.querySelector("#destiny-content").innerHTML = htmlContent;
+        await setWheatherData();
 	} catch (error) {
 		throw new Error(error);
 	}
+
 }
+
+async function getWheatherData() {
+    try {
+        const lat = sessionStorage.getItem("lat");
+        const lon = sessionStorage.getItem("lon");
+        const api_key = "1ab81d8a84eeb81fede78f63c9376740";
+        const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${api_key}&units=metric&lang=pt_br`);
+        const weatherData = await data.json();
+
+        console.log(weatherData);
+        return weatherData;
+    } catch (error) {
+        throw new Error(error);
+    }
+}
+
+class WheatherData {
+    constructor(temp, feels_like, pressure, humidity, description) {
+        this.temp = temp;
+        this.feels_like = feels_like;
+        this.pressure = pressure;
+        this.humidity = humidity;
+        this.description = description;
+    }
+}
+
+async function treatsWheatherData() {
+    try {
+        const weatherData = await getWheatherData();
+        const wheather = new WheatherData(
+            weatherData.main.temp,
+            weatherData.main.feels_like,
+            weatherData.main.pressure,
+            weatherData.main.humidity,
+            weatherData.weather[0].description
+        );
+
+        return wheather;
+
+    } catch (error) {
+        throw new Error(error);
+    }
+}
+
+async function setWheatherData() {
+    try {
+        const wheather = await treatsWheatherData();
+        const htmlContent = `
+        <div class="wheather-data">
+            <div class="wheather-data-item">
+                <h4>Temperatura</h4>
+                <p>${wheather.temp}°C</p>
+            </div>
+            <div class="wheather-data-item">
+                <h4>Sensação Térmica</h4>
+                <p>${wheather.feels_like}°C</p>
+            </div>
+            <div class="wheather-data-item">
+                <h4>Pressão</h4>
+                <p>${wheather.pressure} hPa</p>
+            </div>
+            <div class="wheather-data-item">
+                <h4>Umidade</h4>
+                <p>${wheather.humidity}%</p>
+            </div>
+            <div class="wheather-data-item">
+                <h4>Descrição</h4>
+                <p>${wheather.description}</p>
+            </div>
+        </div>
+        `;
+
+        document.querySelector("#wheather-container").innerHTML = htmlContent;
+    } catch (error) {
+        throw new Error(error);
+    }
+}
+

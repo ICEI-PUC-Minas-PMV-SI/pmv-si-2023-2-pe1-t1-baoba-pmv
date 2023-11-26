@@ -481,6 +481,8 @@
   "ecotourism": [
     {
       "id": 1,
+      "lat": "-12.732857149661722",
+      "lon": "-41.34916118268976",
       "name": "Chapada Diamantina",
       "img_url": "../img/ecoturismo/chapada-diamantina.jpg",
       "about": "A Chapada Diamantina é uma região de incrível beleza natural localizada no coração do estado da Bahia, Brasil. É um destino que oferece uma combinação de aventura, beleza natural, riqueza cultural e história, atraindo visitantes de todo o mundo.",
@@ -489,6 +491,8 @@
     },
     {
       "id": 2,
+      "lat": "-2.507672819091443",
+      "lon": "-54.95384499979647",
       "name": "Alter do Chão",
       "img_url": "../img/ecoturismo/alter-do-chao.jpg",
       "about": "Alter do Chão, no Pará, destacou-se internacionalmente como um dos destinos mais belos entre as praias brasileiras, superando lugares como Fernando de Noronha, segundo o The Guardian. Rodeado pela exuberante vegetação amazônica e banhado pelos rios Tapajós e Arapiuns, oferece praias deslumbrantes e experiências únicas. Descubra este paraíso com dicas sobre como chegar, a melhor época, praias imperdíveis, opções de hospedagem, passeios e a incrível culinária local. Alter do Chão é mais acessível do que parece - uma viagem inesquecível aguarda você!",
@@ -497,6 +501,8 @@
     },
     {
       "id": 3,
+      "lat": "-20.313238118874683",
+      "lon": "-46.52788223039325",
       "name": "Serra da Canastra",
       "img_url": "../img/ecoturismo/canastra.jpeg",
       "about": "O Parque Nacional da Serra da Canastra, criado em 1972, é um dos mais importantes do Brasil, abrigando a nascente histórica do rio São Francisco em São Roque de Minas. Administrado pelo ICMBio, o parque protege uma área de 71.525 hectares, originando conflitos devido à intenção de desapropriação de parte da área originalmente prevista. Com o formato de um baú, a Serra da Canastra apresenta a imponente cachoeira Casca d'Anta, com 186 metros de altura, e uma elevação de 330 metros. O local destaca-se por sua transição de vegetação entre a Mata Atlântica e o Cerrado, abrigando espécies como lobo guará, tamanduá-bandeira, veado-campeiro, gaviões e ameaçadas de extinção, como o pato mergulhão e o tatu-canastra. As centenas de nascentes no parque são alimentadas pela umidade absorvida pela rocha fria, destacando a importância da água na região.",
@@ -505,6 +511,8 @@
     },
     {
       "id": 4,
+      "lat": "-21.09604670870062",
+      "lon": "-56.59358713363683",
       "name": "Bonito",
       "img_url": "../img/ecoturismo/bonito.jpg",
       "about": "Bonito, em Mato Grosso do Sul, é um destino paradisíaco conhecido por suas águas cristalinas e ecossistemas preservados. As atividades de mergulho e flutuação revelam a rica vida subaquática dos rios e nascentes, como o Rio da Prata e a Lagoa Misteriosa. Além das belezas naturais, Bonito se destaca pelo ecoturismo sustentável, priorizando a preservação ambiental e promovendo a conscientização. Com uma combinação de aventura, natureza e cultura, Bonito oferece uma experiência única e autêntica para os visitantes, destacando-se como um tesouro natural do Brasil.",
@@ -513,6 +521,8 @@
     },
     {
       "id": 5,
+      "lat": "-14.039189045945127",
+      "lon": "-47.62331462626686",
       "name": "Chapada dos Veadeiros",
       "img_url": "../img/ecoturismo/chapada-dos-veadeiros.jpg",
       "about": "A Chapada dos Veadeiros, localizada em Goiás, é um santuário natural de beleza intocada e biodiversidade única. Com formações rochosas imponentes, cânions, cachoeiras deslumbrantes e extensas áreas de cerrado, a região atrai entusiastas de ecoturismo. Destaques incluem a Cachoeira do Segredo, o Vale da Lua e o Mirante da Janela. Reconhecida pela UNESCO como Patrimônio Mundial Natural, a Chapada dos Veadeiros equilibra o turismo sustentável com a conservação, assegurando a preservação desse tesouro natural para as gerações futuras. Uma visita promete uma experiência inesquecível em um dos destinos mais emblemáticos do Brasil.",
@@ -521,6 +531,8 @@
     },
     {
       "id": 6,
+      "lat": "-10.293313887077735",
+      "lon": "-46.75368706248208",
       "name": "Jalapão",
       "img_url": "../img/ecoturismo/jalapao.jpg",
       "about": "O Jalapão, localizado no Tocantins, é um destino extraordinário caracterizado por dunas douradas, rios cristalinos e formações rochosas impressionantes. As Dunas do Jalapão oferecem vistas espetaculares, enquanto os fervedouros proporcionam uma experiência única de flutuação. Rios como o Rio Novo oferecem oportunidades para atividades aquáticas, e cachoeiras imponentes, como a Cachoeira da Velha, complementam a beleza cênica. Além de ser um paraíso natural, o Jalapão é um exemplo de conservação e turismo sustentável, protegendo sua diversidade de fauna e flora por meio de unidades de conservação. Uma viagem ao Jalapão promete uma experiência autêntica e revigorante em meio à natureza exuberante do Brasil.",
@@ -529,6 +541,8 @@
     },
     {
       "id": 7,
+      "lat": "-22.36658472278433",
+      "lon": "-44.644266224332334",
       "name": "Parque do Itatiaia",
       "img_url": "../img/ecoturismo/Parque-Itatiaia.jpg",
       "about": "O Parque Nacional do Itatiaia, situado no estado do Rio de Janeiro e fundado em 1937, é o mais antigo do Brasil. Com uma vasta área de montanhas, vales, florestas e picos imponentes, oferece oportunidades para trilhas e montanhismo, destacando-se o Pico das Agulhas Negras. Além das paisagens deslumbrantes, o parque abriga cachoeiras como a Véu de Noiva e uma rica biodiversidade, incluindo aves como o tucano-toco e mamíferos como a anta. Símbolo de conservação, o parque promove o equilíbrio entre turismo e preservação ambiental, sendo um refúgio para aqueles que buscam uma autêntica conexão com a natureza.",
