@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
       rel="stylesheet"
     />
+   
   </head>
 
   <body>
@@ -70,7 +71,12 @@
         <div class="biomas-txt">
           <h2>Explorando a Diversidade da Terra</h2>
         </div>
-        <div class="container-biomas">
+        <script type="text/javascript">
+          setBiomes();
+        </script>
+         <a href="conteudo-biomas.html" >
+        <div class="container-biomas" id="container-items-biomes">
+          <div class="bioma-geral" onclick="setBiomesId(1)"> </div>
           <div class="bioma-geral">
             <img
               width="382"
@@ -160,5 +166,6 @@
       </div>
       <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
     </footer>
+    <script src="../js/biomas/biomas.js"></script>
   </body>
 </html>
