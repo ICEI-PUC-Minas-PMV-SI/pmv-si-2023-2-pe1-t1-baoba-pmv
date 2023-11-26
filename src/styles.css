@@ -1148,6 +1148,12 @@ html {
     padding: 1rem;
 }
 
+#wheather-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .wheather-data {
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);

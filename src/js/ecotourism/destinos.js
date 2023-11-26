@@ -92,6 +92,7 @@ async function setWheatherData() {
 	try {
 		const wheather = await treatsWheatherData();
 		const htmlContent = `
+        <h4>Previsão do Tempo para Chapada Diamantina</h4>
         <div class="wheather-data">
             <div class="wheather-data-item">
                 <h4>Temperatura</h4>
