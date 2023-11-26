@@ -1091,7 +1091,6 @@ html {
 .main-card-destino {
 	margin: 20px auto;
 	width: 80%;
-	display: flex;
 	gap: 20px;
 	background-color: #eae9dd;
 	border-radius: 10px;
@@ -1189,6 +1188,10 @@ html {
 
     .clima {
         width: 100%;
+    }
+
+    #wheather-container {
+        align-items: start;
     }
 }
 

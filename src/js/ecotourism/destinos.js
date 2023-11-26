@@ -21,16 +21,21 @@ async function setDestinyData() {
               ${destinyData.about}
             </p>
           </div>
-          <div class="image-destino">
+          
+        </div>
+      <div class="caixa-texto-dest">
+        ${destinyData.text}
+      </div>
+      <div>
+      </div>
+      <div class="image-destino">
             <img
               src="${destinyData.img_url}"
               alt="${destinyData.name}"
             />
           </div>
         </div>
-      <div class="caixa-texto-dest">
-        ${destinyData.text}
-      </div>
+
         `;
 
 		sessionStorage.setItem("lat", destinyData.lat);
