@@ -550,112 +550,98 @@
       "text": "Geografia e Paisagem Natural: O Parque Nacional do Itatiaia, localizado no estado do Rio de Janeiro, apresenta uma geografia impressionante e uma diversidade de paisagens naturais. Com uma área abrangente, o parque é caracterizado por montanhas majestosas, vales profundos, florestas exuberantes e picos imponentes, sendo o Pico das Agulhas Negras o destaque máximo. Além disso, Itatiaia oferece uma variedade de ecossistemas, desde matas de altitude até campos de altitude, proporcionando uma experiência visualmente deslumbrante.\n\nBiodiversidade: A biodiversidade no Parque Nacional do Itatiaia é notável, abrigando uma rica variedade de flora e fauna. A região é lar de aves exóticas, como o tucano-toco, e mamíferos impressionantes, incluindo a anta e o sagui-de-tufos-brancos. Além disso, suas trilhas revelam uma grande diversidade de plantas, muitas delas endêmicas da região. Itatiaia destaca-se como um santuário natural que preserva e exibe a riqueza biológica do Brasil.\n\nSustentabilidade e Conservação: O Parque do Itatiaia é um exemplo notável de esforços em sustentabilidade e conservação ambiental. Com uma gestão focada na preservação dos ecossistemas frágeis, o parque implementa práticas de turismo responsável para minimizar o impacto ambiental. A promoção da conscientização ambiental e a educação dos visitantes são aspectos fundamentais, garantindo que a beleza natural de Itatiaia seja desfrutada de maneira responsável. Projetos de conservação visam proteger a biodiversidade local, consolidando Itatiaia como um modelo de equilíbrio entre a visitação humana e a preservação do ambiente natural."
     }
   ],
-  "ecoactivities": [
+  "activities": [
     {
       "id": 1,
       "name": "Observação de fauna e flora",
       "img_url": "../img/ecoturismo/Observacao.jpg",
       "about": "É uma prática que envolve a exploração e apreciação da vida selvagem e vegetação em seus habitats naturais, muito valorizada tanto por seu aspecto educacional quanto recreativo.",
-      "text": ""
+      "text": "<li><h3>Objetivo:</h3>O principal objetivo é permitir que as pessoas vivenciem e aprendam sobre diferentes espécies de animais e plantas, bem como seus ecossistemas, de maneira sustentável e respeitosa.</li><br/><li><h3>Localização:</h3>Geralmente ocorre em áreas naturais protegidas, como parques nacionais, reservas naturais, florestas, estuários e outros habitats selvagens.</li><br /><li><h3>Atividades Associadas:</h3>Caminhadas e trilhas, safáris fotográficos, observação de Aves, passeios de Barco, entre outros.</li><br/><li><h3>Equipamento:</h3>Frequentemente inclui binóculos, guias de campo, câmeras fotográficas, e, para observação noturna, lanternas e equipamentos de visão noturna.</li><br /><li><h3>Impacto Ambiental e Conservação:</h3>Baixo Impacto - O foco é causar o mínimo impacto possível ao meio ambiente, seguindo práticas de ecoturismo responsável.</li><br /><li><h3>Conscientização Ambiental:</h3>Aumenta a conscientização e o respeito pela natureza. Muitas vezes inclui componentes educacionais sobre conservação, biodiversidade e a importância de proteger os habitats naturais.</li><br/><li><h3>Apoio às Comunidades Locais:</h3>O ecoturismo apoia as economias locais e promove a conservação ambiental através do turismo sustentável.</li><br/><li><h3>Bem-Estar e Saúde:</h3>Proporciona benefícios para a saúde mental e física, conectando as pessoas com a natureza.</li><br/><h3>Considerações Éticas:</h3><li>É importante não perturbar a vida selvagem, evitando interferir ou perturbar os animais em seu habitat natural. Além espeitar as regras locais, seguindo todas as regulamentações e orientações fornecidas por guias ou autoridades da região.</li>"
     },
     {
       "id": 2,
       "name": "Trekking",
       "img_url": "../img/ecoturismo/trekking.jpg",
       "about": "O trekking é uma atividade ao ar livre que envolve caminhadas longas e desafiadoras, geralmente em trilhas naturais e ambientes montanhosos. Proporciona uma alta imersão com a natureza, permitindo aos praticantes experimentar paisagens muitas vezes inacessíveis de outra forma.",
-      "text": "Exercício Físico Intenso: O trekking envolve caminhar longas distâncias, muitas vezes em terrenos acidentados, o que proporciona um excelente exercício cardiovascular e fortalecimento muscular. Desafio Mental e Físico: Além do aspecto físico, o trekking desafia mentalmente os praticantes, exigindo resistência, determinação e capacidade de superar obstáculos. Habilidades de Sobrevivência: Em trilhas mais longas e remotas, os trekkers desenvolvem habilidades de sobrevivência, como orientação, montagem de acampamentos e gestão de recursos. Benefícios para a Saúde Mental: A atividade ajuda a reduzir o estresse e a ansiedade, promovendo uma sensação de bem-estar e tranquilidade. Educação Ambiental: Muitos trekkers ganham uma maior consciência e apreciação pelo meio ambiente, tornando-se mais conscientes sobre questões de conservação."
+      "text": "<li><h3>Exercício Físico Intenso:</h3>O trekking envolve caminhar longas distâncias, muitas vezes em terrenos acidentados, o que proporciona um excelente exercício cardiovascular e fortalecimento muscular.</li><br/><li><h3>Desafio Mental e Físico:</h3> Além do aspecto físico, o trekking desafia mentalmente os praticantes, exigindo resistência, determinação e capacidade de superar obstáculos.</li><br/><li><h3> Habilidades de Sobrevivência:</h3> Em trilhas mais longas e remotas, os trekkers desenvolvem habilidades de sobrevivência, como orientação, montagem de acampamentos e gestão de recursos.</li><br/><li><h3> Benefícios para a Saúde Mental:</h3> A atividade ajuda a reduzir o estresse e a ansiedade, promovendo uma sensação de bem-estar e tranquilidade.</li><br/><li><h3> Educação Ambiental:</h3> Muitos trekkers ganham uma maior consciência e apreciação pelo meio ambiente, tornando-se mais conscientes sobre questões de conservação.</li>"
     },
     {
       "id": 3,
       "name": "Tirolesa",
       "img_url": "../img/ecoturismo/tirolesa.jpg",
       "about": "A tirolesa é uma atividade de aventura que consiste em deslizar por um cabo de aço suspenso entre dois pontos. Esta atividade oferece uma combinação única de emoção e apreciação da natureza, proporcionando aos participantes a sensação de voar sobre o terreno abaixo. É uma experiência popular em parques de aventura, resorts de montanha, e em áreas turísticas que são conhecidas por suas paisagens naturais.",
-      "text": "Variedade de Configurações: As tirolesas variam em comprimento, altura e inclinação. Algumas são curtas e adequadas para iniciantes, enquanto outras são projetadas para entusiastas de adrenalina, oferecendo percursos longos e rápidos. Acessibilidade: A atividade é acessível para uma ampla gama de idades e habilidades físicas, tornando-a popular entre famílias, grupos de amigos e turistas. Impacto Ambiental: A tirolesa é considerada uma atividade de turismo ecológico quando projetada e operada de maneira a minimizar o impacto no meio ambiente. Benefícios Psicológicos: Além de ser emocionante, a tirolesa pode ajudar a superar medos, como o medo de alturas, e promover a confiança e a autoestima. Aspecto Educativo: Em algumas localidades, a tirolesa é usada como um meio de educar os participantes sobre o ecossistema local, a fauna e a flora da região. Potencial Turístico: A tirolesa atrai turistas, proporcionando um impulso econômico para as comunidades locais, especialmente aquelas situadas em áreas de beleza natural."
+      "text": "<li><h3>Variedade de Configurações: As tirolesas variam em comprimento, altura e inclinação. Algumas são curtas e adequadas para iniciantes, enquanto outras são projetadas para entusiastas de adrenalina, oferecendo percursos longos e rápidos.</li><br/><li><h3> Acessibilidade:</h3> A atividade é acessível para uma ampla gama de idades e habilidades físicas, tornando-a popular entre famílias, grupos de amigos e turistas.</li><br/><li><h3> Impacto Ambiental:</h3> A tirolesa é considerada uma atividade de turismo ecológico quando projetada e operada de maneira a minimizar o impacto no meio ambiente.</li><br/><li><h3> Benefícios Psicológicos:</h3> Além de ser emocionante, a tirolesa pode ajudar a superar medos, como o medo de alturas, e promover a confiança e a autoestima.</li><br/><li><h3> Aspecto Educativo:</h3> Em algumas localidades, a tirolesa é usada como um meio de educar os participantes sobre o ecossistema local, a fauna e a flora da região.</li><br/><li><h3> Potencial Turístico:</h3> A tirolesa atrai turistas, proporcionando um impulso econômico para as comunidades locais, especialmente aquelas situadas em áreas de beleza natural.</li>"
     },
     {
       "id": 4,
       "name": "Snorkeling",
       "img_url": "../img/ecoturismo/snorkeling.jpg",
       "about": "O snorkeling é uma atividade aquática que permite aos praticantes observar a vida marinha e os ecossistemas subaquáticos de perto, sem a necessidade de equipamentos complexos de mergulho. Esta atividade é realizada na superfície da água, com o uso de um snorkel (um tubo de respiração) e uma máscara de mergulho, que proporcionam a visibilidade e a respiração necessárias para explorar o ambiente aquático de forma confortável e segura.",
-      "text": "Facilidade de Acesso: O snorkeling é acessível para pessoas de todas as idades e habilidades físicas. Não requer treinamento especializado como o mergulho scuba, tornando-o uma atividade popular para famílias e turistas. Exploração Marinha: Oferece uma oportunidade única para observar a vida marinha em seu habitat natural. Os praticantes podem ver uma variedade de peixes, corais, plantas aquáticas e, às vezes, até animais maiores, como tartarugas e arraias. Equipamento Simples: A atividade requer apenas um snorkel, uma máscara e, frequentemente, nadadeiras. Isso torna o snorkeling uma opção de baixo custo e fácil para explorar ambientes aquáticos. Baixo Impacto Físico: Como é realizada na superfície da água, o snorkeling é menos exigente fisicamente do que o mergulho, o que o torna adequado para uma ampla gama de condições físicas e idades. Educação e Conscientização Ambiental: O contato direto com o ecossistema marinho ajuda a aumentar a conscientização e a educação sobre a importância da conservação marinha e dos recifes de coral. Além de que pode fazer parte do turismo ecológico, incentivando a preservação dos ambientes marinhos e o desenvolvimento sustentável das comunidades locais."
+      "text": "<li><h3>Facilidade de Acesso:</h3> O snorkeling é acessível para pessoas de todas as idades e habilidades físicas. Não requer treinamento especializado como o mergulho scuba, tornando-o uma atividade popular para famílias e turistas.</li><br/><li><h3> Exploração Marinha:</h3> Oferece uma oportunidade única para observar a vida marinha em seu habitat natural. Os praticantes podem ver uma variedade de peixes, corais, plantas aquáticas e, às vezes, até animais maiores, como tartarugas e arraias.</li><br/><li><h3> Equipamento Simples:</h3> A atividade requer apenas um snorkel, uma máscara e, frequentemente, nadadeiras. Isso torna o snorkeling uma opção de baixo custo e fácil para explorar ambientes aquáticos.</li><br/><li><h3> Baixo Impacto Físico:</h3> Como é realizada na superfície da água, o snorkeling é menos exigente fisicamente do que o mergulho, o que o torna adequado para uma ampla gama de condições físicas e idades.</li><br/><li><h3> Educação e Conscientização Ambiental:</h3> O contato direto com o ecossistema marinho ajuda a aumentar a conscientização e a educação sobre a importância da conservação marinha e dos recifes de coral. Além de que pode fazer parte do turismo ecológico, incentivando a preservação dos ambientes marinhos e o desenvolvimento sustentável das comunidades locais.</li>"
     },
     {
       "id": 5,
       "name": "Cicloturismo",
       "img_url": "../img/ecoturismo/cicloturismo.jpg",
       "about": "O cicloturismo é uma forma de turismo que combina a prática do ciclismo com a exploração de diferentes paisagens e culturas. Esta atividade envolve longas viagens de bicicleta, abrangendo desde passeios de um único dia até expedições que podem durar várias semanas ou meses. O cicloturismo é apreciado tanto por ciclistas recreativos quanto por entusiastas mais sérios, oferecendo uma maneira única e sustentável de viajar e conhecer novos lugares.",
-      "text": "Exploração e Aventura: Oferece a oportunidade de explorar novos lugares, culturas e paisagens de uma maneira íntima e detalhada, que não é possível através de outros meios de transporte. Conexão com a Natureza: Ao pedalar por diferentes terrenos e ambientes, os cicloturistas têm a chance de se conectar profundamente com a natureza e apreciar a beleza do mundo ao seu redor. Exercício Físico: É uma ótima forma de exercício, proporcionando benefícios à saúde cardiovascular, fortalecimento muscular e melhoria da resistência física. Flexibilidade e Personalização: As rotas e a duração das viagens podem ser adaptadas às habilidades e interesses dos ciclistas, tornando-o uma atividade acessível a uma ampla gama de pessoas. Sustentabilidade Ambiental: Como um meio de transporte ecológico, o cicloturismo promove a sustentabilidade e é uma maneira ecologicamente correta de viajar."
+      "text": "<li><h3>Exploração e Aventura:</h3> Oferece a oportunidade de explorar novos lugares, culturas e paisagens de uma maneira íntima e detalhada, que não é possível através de outros meios de transporte.</li><br/><li><h3> Conexão com a Natureza:</h3> Ao pedalar por diferentes terrenos e ambientes, os cicloturistas têm a chance de se conectar profundamente com a natureza e apreciar a beleza do mundo ao seu redor.</li><br/><li><h3> Exercício Físico:</h3> É uma ótima forma de exercício, proporcionando benefícios à saúde cardiovascular, fortalecimento muscular e melhoria da resistência física.</li><br/><li><h3> Flexibilidade e Personalização:</h3> As rotas e a duração das viagens podem ser adaptadas às habilidades e interesses dos ciclistas, tornando-o uma atividade acessível a uma ampla gama de pessoas.</li><br/><li><h3> Sustentabilidade Ambiental:</h3> Como um meio de transporte ecológico, o cicloturismo promove a sustentabilidade e é uma maneira ecologicamente correta de viajar.</li>"
     },
     {
       "id": 6,
       "name": "Asadelta",
       "img_url": "../img/ecoturismo/asadelta.jpg",
       "about": "Asadelta é uma atividade aérea que proporciona aos praticantes a experiência de voar com o auxílio de uma estrutura leve. É uma forma de voo livre que não utiliza motor, dependendo do movimento do corpo do piloto para controlar a direção e a altitude. A decolagem geralmente ocorre de um ponto elevado, como um morro ou uma montanha.",
-      "text": "Sensação de Voo Livre: A asadelta oferece uma das experiências mais próximas de voar como um pássaro, proporcionando uma sensação de liberdade e leveza incomparável. Equipamento Especializado:  Além da própria asadelta, os pilotos utilizam equipamentos de segurança como capacetes, arneses e, muitas vezes, paraquedas de emergência. Treinamento e Certificação: Para praticar asadelta, é essencial passar por um treinamento adequado, para se garantir os conhecimentos e habilidades necessários para voar com segurança. Exploração de Paisagens: Permite explorar paisagens de um ponto de vista único, oferecendo vistas panorâmicas de montanhas, vales, praias e outras paisagens naturais. Aspectos Físicos e Mentais: Além de exigir condição física, também desafia mentalmente os praticantes, desenvolvendo a concentração, a tomada de decisão rápida e a capacidade de adaptação a diferentes situações. Impacto Ambiental: Sendo um esporte de baixo impacto ambiental, permite uma interação harmoniosa com o meio ambiente, sem emissão de poluentes ou ruídos significativos. Experiências Variadas: O asadelta pode ser praticado em vários níveis, desde voos tranquilos e panorâmicos até manobras acrobáticas para pilotos mais experientes."
+      "text": "<li><h3>Sensação de Voo Livre:</h3> A asadelta oferece uma das experiências mais próximas de voar como um pássaro, proporcionando uma sensação de liberdade e leveza incomparável.</li><br/><li><h3> Equipamento Especializado:</h3> Além da própria asadelta, os pilotos utilizam equipamentos de segurança como capacetes, arneses e, muitas vezes, paraquedas de emergência.</li><br/><li><h3> Treinamento e Certificação:</h3> Para praticar asadelta, é essencial passar por um treinamento adequado, para se garantir os conhecimentos e habilidades necessários para voar com segurança.</li><br/><li><h3> Exploração de Paisagens:</h3> Permite explorar paisagens de um ponto de vista único, oferecendo vistas panorâmicas de montanhas, vales, praias e outras paisagens naturais.</li><br/><li><h3> Aspectos Físicos e Mentais:</h3> Além de exigir condição física, também desafia mentalmente os praticantes, desenvolvendo a concentração, a tomada de decisão rápida e a capacidade de adaptação a diferentes situações.</li><br/><li><h3> Impacto Ambiental:</h3> Sendo um esporte de baixo impacto ambiental, permite uma interação harmoniosa com o meio ambiente, sem emissão de poluentes ou ruídos significativos.</li><br/><li><h3> Experiências Variadas:</h3> O asadelta pode ser praticado em vários níveis, desde voos tranquilos e panorâmicos até manobras acrobáticas para pilotos mais experientes.</li>"
     },
     {
       "id": 7,
       "name": "Geoturismo",
       "img_url": "../img/ecoturismo/geoturismo.webp",
       "about": "O geoturismo é uma forma de turismo sustentável que se concentra na exploração e apreciação das características geológicas e geomorfológicas de uma região. É especialmente atraente para aqueles interessados em ciências da terra, história natural e culturas indígenas, proporcionando uma compreensão mais profunda do planeta e de seu patrimônio geológico.",
-      "text": "Educação e Conscientização: O geoturismo oferece oportunidades educacionais únicas, permitindo que os visitantes aprendam sobre geologia, geomorfologia, ecologia e história. Isso inclui entender como a terra foi formada, como as paisagens evoluíram e como os processos geológicos afetam a vida na Terra. Conservação Ambiental: Uma parte fundamental do geoturismo é a ênfase na conservação. Ele promove a preservação de recursos naturais e geológicos, ajudando a proteger áreas de significado geológico para as gerações futuras. Experiência Cultural: O geoturismo muitas vezes se entrelaça com a cultura local, permitindo que os turistas experimentem e aprendam sobre as tradições, histórias e modos de vida das comunidades locais, especialmente aquelas que têm uma forte ligação com o ambiente geológico. Turismo Sustentável: Esta forma de turismo apoia práticas sustentáveis, incentivando um impacto ambiental mínimo, ao mesmo tempo que contribui para a economia local. Ela promove um turismo que respeita tanto o meio ambiente quanto as comunidades locais. Atividades Variadas: As atividades no geoturismo podem variar desde caminhadas e escaladas até visitas a museus e sítios arqueológicos, oferecendo algo para todos os níveis de habilidade e interesse."
+      "text": "<li><h3>Educação e Conscientização:</h3> O geoturismo oferece oportunidades educacionais únicas, permitindo que os visitantes aprendam sobre geologia, geomorfologia, ecologia e história. Isso inclui entender como a terra foi formada, como as paisagens evoluíram e como os processos geológicos afetam a vida na Terra.</li><br/><li><h3> Conservação Ambiental:</h3> Uma parte fundamental do geoturismo é a ênfase na conservação. Ele promove a preservação de recursos naturais e geológicos, ajudando a proteger áreas de significado geológico para as gerações futuras.</li><br/><li><h3> Experiência Cultural:</h3> O geoturismo muitas vezes se entrelaça com a cultura local, permitindo que os turistas experimentem e aprendam sobre as tradições, histórias e modos de vida das comunidades locais, especialmente aquelas que têm uma forte ligação com o ambiente geológico.</li><br/><li><h3> Turismo Sustentável:</h3> Esta forma de turismo apoia práticas sustentáveis, incentivando um impacto ambiental mínimo, ao mesmo tempo que contribui para a economia local. Ela promove um turismo que respeita tanto o meio ambiente quanto as comunidades locais.</li><br/><li><h3> Atividades Variadas:</h3> As atividades no geoturismo podem variar desde caminhadas e escaladas até visitas a museus e sítios arqueológicos, oferecendo algo para todos os níveis de habilidade e interesse.</li>"
     }
   ],
   "Patners": [
     {
       "id": 1,
-      "name": "Compasso Aventuras",
-      "img_url": "../img/sustentabilidade/compasso_aventuras.png",
-      "about": "",
-      "area": "Turismo"
+      "name": "ReciclaMais",
+      "img_url": "../img/sustentabilidade/recicla_mais.png",
+      "about": "A Recicla Mais é uma empresa de reciclagem comprometida com a sustentabilidade ambiental. Especializada na coleta e processamento de materiais recicláveis como plástico, papel, metal e vidro, ela também atua na conscientização sobre a importância da reciclagem na comunidade.",
+      "area": "Reciclagem"
     },
     {
       "id": 2,
-      "name": "Pé na Estrada Viagens",
-      "img_url": "../img/sustentabilidade/pe_estrada.png",
-      "about": "",
-      "area": "Turismo"
+      "name": "Eco Viver",
+      "img_url": "../img/sustentabilidade/eco_viver.png",
+      "about": "A Eco Viver é uma empresa de reciclagem inovadora, dedicada a promover soluções ambientais sustentáveis. Focada na coleta e reciclagem de uma variedade de materiais, como plástico, papel e vidro, a empresa se destaca por seu compromisso com o meio ambiente e a economia circular.",
+      "area": "Reciclagem"
     },
     {
       "id": 3,
-      "name": "ReciclaMais",
-      "img_url": "../img/sustentabilidade/recicla_mais.png",
-      "about": "",
+      "name": "ReciclArte",
+      "img_url": "../img/sustentabilidade/reciclarte.png",
+      "about": "A ReciclArte é uma empresa de reciclagem criativa que se dedica a transformar resíduos em obras de arte e produtos úteis. Com um forte enfoque na sustentabilidade e na inovação, a empresa coleta materiais descartados como plástico, vidro e metal, e os reimagina em objetos de decoração, mobiliário e arte.",
       "area": "Reciclagem"
     },
     {
       "id": 4,
-      "name": "Eco Viver",
-      "img_url": "../img/sustentabilidade/eco_viver.png",
-      "about": "",
-      "area": "Reciclagem"
-    },
-    {
-      "id": 5,
-      "name": "ReciclArte",
-      "img_url": "../img/sustentabilidade/reciclarte.png",
-      "about": "",
-      "area": "Reciclagem"
-    },
-    {
-      "id": 6,
       "name": "Fubank",
       "img_url": "../img/sustentabilidade/fubank.png",
-      "about": "",
+      "about": "A Fubank é uma instituição financeira contemporânea que combina serviços bancários tradicionais com soluções inovadoras. Destaca-se pela sua forte presença digital e comprometida com a responsabilidade social, a Fubank também investe em iniciativas comunitárias e sustentáveis.",
       "area": "Instituição Financeira"
     },
     {
-      "id": 7,
+      "id": 5,
       "name": "Shopping Jardim Plaza",
       "img_url": "../img/sustentabilidade/jardim_plaza.png",
-      "about": "",
+      "about": "O Jardim Plaza é um shopping center moderno e vibrante, conhecido por sua ampla variedade de lojas e espaços de lazer. Com um design arquitetônico elegante que incorpora elementos naturais e áreas verdes, oferece uma experiência de compra única e relaxante.",
       "area": "Comércio"
     },
     {
-      "id": 8,
+      "id": 6,
       "name": "Supermercado Verde ExtraNosso",
       "img_url": "../img/sustentabilidade/verde_extranosso.png",
-      "about": "",
+      "about": "O Verde ExtraNosso é um supermercado focado em produtos orgânicos e sustentáveis, oferecendo uma variedade de produtos de origem local e responsável. Destaca-se por suas práticas ambientais, como embalagens recicláveis e programas de reciclagem, proporcionando uma experiência de compra saudável e consciente para os consumidores.",
       "area": "Comércio"
     }
   ]
