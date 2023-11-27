@@ -122,6 +122,16 @@ a:active {
 }
 
 /* css especifico para pagina home */
+
+.padding-2 {
+    padding: 2rem;
+}
+
+.card-flex {
+    display: flex;
+   
+}
+
 .home__info {
 	display: flex;
 	margin: auto;
@@ -1860,6 +1870,10 @@ html {
 }
 
 /* css para pagina de biomas */
+
+.biomas {
+    margin-bottom: 4rem;
+}
 
 .biomas__info {
 	height: 276px;
