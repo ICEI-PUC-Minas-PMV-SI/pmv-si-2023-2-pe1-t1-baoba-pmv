@@ -1,274 +1,209 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, inicial-scale=1.0" />
     <title>Ecoturismo</title>
 
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../styles.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      type="text/css"
-      href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
-    />
+        href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
 
     <script src="../js/ecotourism/ecotourism.js"></script>
     <script src="../js/ecotourism/activities.js"></script>
     <script src="../js/ecotourism/destinos.js"></script>
-  </head>
+</head>
 
-  <body>
+<body>
     <header>
-      <img width="80" height="60" src="../img/logo.png" alt="Logo" />
-      <h1>Baobá</h1>
-      <nav class="menu">
-        <ul>
-          <li><a href="../index.html">Início</a></li>
-          <li><a href="biomas.html">Biomas</a></li>
-          <li><a href="animais.html">Animais</a></li>
-          <li><a href="#">Ecoturismo</a></li>
-          <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
-          <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="forum.html">Fórum</a></li>
-        </ul>
-      </nav>
-      <form class="search-form" action="#" method="get">
-        <div class="search-container">
-          <input type="text" name="q" placeholder="Pesquisar" />
-          <button type="submit" class="search-button">
-            <i class="fas fa-search"> </i>
-          </button>
-        </div>
-      </form>
+        <img width="80" height="60" src="../img/logo.png" alt="Logo" />
+        <h1>Baobá</h1>
+        <nav class="menu">
+            <ul>
+                <li><a href="../index.html">Início</a></li>
+                <li><a href="biomas.html">Biomas</a></li>
+                <li><a href="animais.html">Animais</a></li>
+                <li><a href="#">Ecoturismo</a></li>
+                <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="forum.html">Fórum</a></li>
+            </ul>
+        </nav>
+        <form class="search-form" action="#" method="get">
+            <div class="search-container">
+                <input type="text" name="q" placeholder="Pesquisar" />
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search"> </i>
+                </button>
+            </div>
+        </form>
     </header>
-    <script
-      type="text/javascript"
-      src="https://code.jquery.com/jquery-3.6.0.min.js"
-    ></script>
-    <script
-      type="text/javascript"
-      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.js"
-    ></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.js"></script>
     <main>
-      <div class="main-card-eco">
-        <div class="text-and-image-eco">
-          <div class="text-eco">
-            <h1>Ecoturismo</h1>
-            <p>
-              O Ecoturismo utiliza o patrimônio natural e cultural de forma
-              sustentável, incentivando sua conservação e gerando uma
-              consciência ambiental.
-            </p>
-          </div>
-          <div class="image-eco">
-            <img
-              src="../img/ecoturismo/ecotourismo-card.png"
-              alt="Ecoturismo"
-            />
-          </div>
+        <div class="main-card-eco">
+            <div class="text-and-image-eco">
+                <div class="text-eco">
+                    <h1>Ecoturismo</h1>
+                    <p>
+                        O Ecoturismo utiliza o patrimônio natural e cultural de forma
+                        sustentável, incentivando sua conservação e gerando uma
+                        consciência ambiental.
+                    </p>
+                </div>
+                <div class="image-eco">
+                    <img src="../img/ecoturismo/ecotourismo-card.png" alt="Ecoturismo" />
+                </div>
+            </div>
         </div>
-      </div>
     </main>
     <div class="container-ecoturismo">
-      <div class="eco-destinos">
-        <h2>Destinos em destaque no Brasil</h2>
-      </div>
+        <div class="eco-destinos">
+            <h2>Destinos em destaque no Brasil</h2>
+        </div>
     </div>
     <script type="text/javascript">
-      setEcotourismPlaces();
+        setEcotourismPlaces();
     </script>
     <div class="carousel-container">
-      <div class="carousel" id="carousel-items-container">
-        <div class="carousel-item" onclick="setDestinyId(1)">
-          <a href="destinos.html">
-            <img
-              width="380"
-              height="285"
-              src="../img/ecoturismo/chapada-diamantina.jpg"
-              alt="Chapada Diamantina, Bahia"
-            />
-          </a>
-          <div class="card-opaco">
-            <p>Chapada Diamantina, Bahia</p>
-          </div>
+        <div class="carousel" id="carousel-items-container">
+            <!-- <div class="carousel-item" onclick="setDestinyId(1)">
+                <a href="destinos.html">
+                    <img width="380" height="285" src="../img/ecoturismo/chapada-diamantina.jpg"
+                        alt="Chapada Diamantina, Bahia" />
+                </a>
+                <div class="card-opaco">
+                    <p>Chapada Diamantina, Bahia</p>
+                </div>
+            </div>
+            <div class="carousel-item" onclick="setDestinyId(2)">
+                <a href="destinos.html">
+                    <img src="../img/ecoturismo/alter-do-chao.jpg" alt="Alter do Chão, Pará" />
+                    <div class="card-opaco">
+                        <p>Alter do Chão, Pará</p>
+                    </div>
+                </a>
+            </div>
+            <div class="carousel-item" onclick="setDestinyId(3)">
+                <img src="../img/ecoturismo/canastra.jpeg" alt="Serra da Canastra, Minas Gerais" />
+                <div class="card-opaco">
+                    <p>Serra da Canastra, Minas Gerais</p>
+                </div>
+            </div>
+            <div class="carousel-item" onclick="setDestinyId(4)">
+                
+                <img src="../img/ecoturismo/bonito.jpg" alt="Bonito, Mato Grosso do Sul" />
+                <div class="card-opaco">
+                    <p>Bonito, Mato Grosso do Sul</p>
+                </div>
+            </div>
+            <div class="carousel-item" onclick="setDestinyId(5)">
+                <img src="../img/ecoturismo/chapada-dos-veadeiros.jpg" alt="Chapada dos Veadeiros, Goiás" />
+                <div class="card-opaco">
+                    <p>Chapada dos Veadeiros, Goiás</p>
+                </div>
+            </div>
+            <div class="carousel-item" onclick="setDestinyId(6)">
+                <img src="../img/ecoturismo/jalapao.jpg" alt="Jalapão, Tocantins" />
+                <div class="card-opaco">
+                    <p>Jalapão, Tocantins</p>
+                </div>
+            </div>
+            <div class="carousel-item" onclick="setDestinyId(7)">
+                <img src="../img/ecoturismo/Parque-Itatiaia.jpg" alt="Parque do Itatiaia, Rio de Janeiro" />
+                <div class="card-opaco">
+                    <p>Parque do Itatiaia, Rio de Janeiro</p>
+                </div>
+            </div> -->
         </div>
-        <div class="carousel-item">
-          <img
-            src="../img/ecoturismo/alter-do-chao.jpg"
-            alt="Alter do Chão, Pará"
-          />
-          <div class="card-opaco">
-            <p>Alter do Chão, Pará</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="../img/ecoturismo/canastra.jpeg"
-            alt="Serra da Canastra, Minas Gerais"
-          />
-          <div class="card-opaco">
-            <p>Serra da Canastra, Minas Gerais</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="../img/ecoturismo/bonito.jpg"
-            alt="Bonito, Mato Grosso do Sul"
-          />
-          <div class="card-opaco">
-            <p>Bonito, Mato Grosso do Sul</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="../img/ecoturismo/chapada-dos-veadeiros.jpg"
-            alt="Chapada dos Veadeiros, Goiás"
-          />
-          <div class="card-opaco">
-            <p>Chapada dos Veadeiros, Goiás</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img src="../img/ecoturismo/jalapao.jpg" alt="Jalapão, Tocantins" />
-          <div class="card-opaco">
-            <p>Jalapão, Tocantins</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="../img/ecoturismo/Parque-Itatiaia.jpg"
-            alt="Parque do Itatiaia, Rio de Janeiro"
-          />
-          <div class="card-opaco">
-            <p>Parque do Itatiaia, Rio de Janeiro</p>
-          </div>
-        </div>
-      </div>
     </div>
     <div class="container-ecoturismo">
-      <div class="eco-destinos">
-        <h2>Atividades</h2>
-      </div>
+        <div class="eco-destinos">
+            <h2>Atividades</h2>
+        </div>
     </div>
     <script type="text/javascript">
-      setEcotourismActivities();
+        setEcotourismActivities();
     </script>
     <div class="carousel-container">
-      <div class="carousel" id="carousel-items-container">
-        <div class="carousel-item" onclick="setActivitiesId(1)">
-          <a href="atividades.html">
-            <img
-              width="380"
-              height="285"
-              src="../img/ecoturismo/Observacao.jpg"
-              alt="Observação de fauna e flora"
-            />
-          </a>
-          <div class="card-opaco">
-            <p>Observação de fauna e flora</p>
-          </div>
+        <div class="carousel" id="carousel-activities-items-container">
+            <div class="carousel-item" onclick="setActivitiesId(1)">
+                <a href="atividades.html">
+                    <img width="380" height="285" src="../img/ecoturismo/Observacao.jpg"
+                        alt="Observação de fauna e flora" />
+                </a>
+                <div class="card-opaco">
+                    <p>Observação de fauna e flora</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="atividades.html">
+                    <img width="380" height="285" src="../img/ecoturismo/trekking.jpg" alt="Trekking" />
+                </a>
+                <div class="card-opaco">
+                    <p>Trekking</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="atividades.html">
+                    <img width="380" height="285" src="../img/ecoturismo/tirolesa.jpg" alt="Tirolesa" />
+                </a>
+                <div class="card-opaco">
+                    <p>Tirolesa</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="atividades.html">
+                    <img width="380" height="285" src="../img/ecoturismo/snorkeling.jpg" alt="Snorkeling" />
+                </a>
+                <div class="card-opaco">
+                    <p>Snorkeling</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="atividades.html">
+                    <img width="380" height="285" src="../img/ecoturismo/cicloturismo.jpg" alt="Cicloturismo" />
+                </a>
+                <div class="card-opaco">
+                    <p>Cicloturismo</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="atividades.html">
+                    <img width="380" height="285" src="../img/ecoturismo/asadelta.jpg" alt="Asadelta" />
+                </a>
+                <div class="card-opaco">
+                    <p>Asadelta</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <a href="atividades.html">
+                    <img width="380" height="285" src="../img/ecoturismo/geoturismo.webp" alt="Geoturismo" />
+                </a>
+                <div class="card-opaco">
+                    <p>Geoturismo</p>
+                </div>
+            </div>
         </div>
-        <div class="carousel-item">
-          <a href="atividades.html">
-            <img
-              width="380"
-              height="285"
-              src="../img/ecoturismo/trekking.jpg"
-              alt="Trekking"
-            />
-          </a>
-          <div class="card-opaco">
-            <p>Trekking</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="atividades.html">
-            <img
-              width="380"
-              height="285"
-              src="../img/ecoturismo/tirolesa.jpg"
-              alt="Tirolesa"
-            />
-          </a>
-          <div class="card-opaco">
-            <p>Tirolesa</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="atividades.html">
-            <img
-              width="380"
-              height="285"
-              src="../img/ecoturismo/snorkeling.jpg"
-              alt="Snorkeling"
-            />
-          </a>
-          <div class="card-opaco">
-            <p>Snorkeling</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="atividades.html">
-            <img
-              width="380"
-              height="285"
-              src="../img/ecoturismo/cicloturismo.jpg"
-              alt="Cicloturismo"
-            />
-          </a>
-          <div class="card-opaco">
-            <p>Cicloturismo</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="atividades.html">
-            <img
-              width="380"
-              height="285"
-              src="../img/ecoturismo/asadelta.jpg"
-              alt="Asadelta"
-            />
-          </a>
-          <div class="card-opaco">
-            <p>Asadelta</p>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <a href="atividades.html">
-            <img
-              width="380"
-              height="285"
-              src="../img/ecoturismo/geoturismo.webp"
-              alt="Geoturismo"
-            />
-          </a>
-          <div class="card-opaco">
-            <p>Geoturismo</p>
-          </div>
-        </div>
-      </div>
-      <br />
-      <br />
-      <footer>
-        <div class="redes-sociais">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-        </div>
-        <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
-      </footer>
+        <br />
+        <br />
+        <footer>
+            <div class="redes-sociais">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
+        </footer>
     </div>
-  </body>
+</body>
+
 </html>

@@ -5,7 +5,7 @@ function setActivitiesId(id) {
 
 async function getEcotourismActivities() {
     try {
-		const res = await fetch(`http://localhost:3000/ecotourism`);
+		const res = await fetch(`http://localhost:3000/activities`);
 		const data = await res.json();
 		return data;
 	} catch (error) {
@@ -35,7 +35,7 @@ async function setEcotourismActivities() {
             `
         }
 
-        document.querySelector('#carousel-items-container').innerHTML = htmlContent;
+        document.querySelector('#carousel-activities-items-container').innerHTML = htmlContent;
         document.addEventListener('DOMContentLoaded', setActivitiesId);
 
 	} catch (error) {
