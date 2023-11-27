@@ -30,33 +30,16 @@
         </nav>
     </header>
     <main>
-        <form action="processar_pesquisa.html" method="GET">
-            <class="search-form" action="pesquisa.html" method="get">
-                <div class="search-container">
-                    <input type="text" name="q" placeholder="Pesquisar">
-                    <button type="submit" class="search-button">
-                        <i class="fas fa-search"> </i>
-                    </button>
+        <form id="formPesquisa" method="GET">
+            <div class="search-container">
+                <input type="text" name="q" placeholder="Pesquisar">
+                <button type="submit" class="search-button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
         </form>
         <div id="resultados">
-            <div class="pesquisa-resultados">
-                <h2><a href="#">Resultado 1</a></h2>
-                <p>Descrição breve do resultado 1. Este é um exemplo de texto que apareceria como uma descrição para o resultado da pesquisa.</p>
-            </div>
-        
-            <div class="pesquisa-resultados">
-                <h2><a href="#">Resultado 2</a></h2>
-                <p>Descrição breve do resultado 2. Este é um exemplo de texto que apareceria como uma descrição para o resultado da pesquisa.</p>
-            </div>
-        
-            <div class="pesquisa-resultados">
-                <h2><a href="#">Resultado 3</a></h2>
-                <p>Descrição breve do resultado 3. Este é um exemplo de texto que apareceria como uma descrição para o resultado da pesquisa.</p>
-            </div>
-            <div class="pesquisa-resultados">
-                <h2><a href="#">Resultado 4</a></h2>
-                <p>Descrição breve do resultado 4. Este é um exemplo de texto que apareceria como uma descrição para o resultado da pesquisa.</p>
-            </div>
+            
         </div>
     </main>
     <footer>
@@ -68,6 +51,7 @@
         </div>
         <p>&copy; 2023 Baobá Team PUC. Todos os direitos reservados</p>
     </footer>
+    <script src="../js/pesquisa/pesquisa.js"></script>
 </body>
 
 </html>
