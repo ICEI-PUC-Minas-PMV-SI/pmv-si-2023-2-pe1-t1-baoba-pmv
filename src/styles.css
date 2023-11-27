@@ -1212,10 +1212,23 @@ html {
 	display: flex;
 	gap: 2rem;
 	padding: 3px;
+	margin-top: .3rem;
+	margin-bottom: .5rem;
 }
 
 .parceiros h2 {
 	margin: 2rem;
+}
+
+.pesquisa-resultados {
+	margin-bottom: 1rem;
+}
+
+@media (max-width: 678px) {
+	.image-parceiros {
+		max-height: 4.5rem;
+		max-width: 4.5rem;
+	}
 }
 
 /* css para pagina de animais */
@@ -2005,5 +2018,51 @@ html {
 	.biomas__info-img>.imagem {
 		width: 100%;
 		height: 276px;
+	}
+}
+
+/* css para pagina Master */
+
+.hamburger {
+	display: none;
+}
+
+/* .logo-link {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+} */
+
+
+@media (max-width: 768px) {
+	.hamburger {
+		display: block;
+	}
+
+	.menu {
+		display: none;
+		margin: auto;
+		margin-top: 2rem;
+		background-color: #eae9dd;
+		border-radius: 8px;
+	}
+
+	.menu ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	.menu li {
+		margin-bottom: .5rem;
+	}
+
+	.menu a {
+		display: block;
+		padding: .4rem 10px;
+		text-decoration: none;
+	}
+
+	.menu.active {
+		display: block;
 	}
 }
