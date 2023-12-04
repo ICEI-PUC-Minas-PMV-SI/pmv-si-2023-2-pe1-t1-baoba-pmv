@@ -124,12 +124,12 @@ a:active {
 /* css especifico para pagina home */
 
 .padding-2 {
-    padding: 2rem;
+	padding: 2rem;
 }
 
 .card-flex {
-    display: flex;
-   
+	display: flex;
+
 }
 
 .home__info {
@@ -1872,7 +1872,7 @@ html {
 /* css para pagina de biomas */
 
 .biomas {
-    margin-bottom: 4rem;
+	margin-bottom: 4rem;
 }
 
 .biomas__info {
@@ -2035,18 +2035,13 @@ html {
 	}
 }
 
-/* css para pagina Master */
+/* css para Botão Sanduíche */
 
 .hamburger {
 	display: none;
+	position: relative;
+	z-index: 1000;
 }
-
-/* .logo-link {
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-} */
-
 
 @media (max-width: 768px) {
 	.hamburger {
@@ -2057,7 +2052,7 @@ html {
 		display: none;
 		margin: auto;
 		margin-top: 2rem;
-		background-color: #eae9dd;
+		background-color: rgba(234, 233, 221, 1);
 		border-radius: 8px;
 	}
 

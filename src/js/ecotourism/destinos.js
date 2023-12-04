@@ -14,27 +14,29 @@ async function setDestinyData() {
 		const destinyData = await getDestinyData(destinyId);
 
 		let htmlContent = `
+		<br/>
         <div class="text-and-image-destino">
           <div class="text-destino">
             <h1>${destinyData.name}</h1>
             <p>
               ${destinyData.about}
             </p>
+			<br/>
           </div>
           
         </div>
+		<div>
+		</div>
+		<div class="image-destino">
+			  <img
+				src="${destinyData.img_url}"
+				alt="${destinyData.name}"
+			  />
+			</div>
+		  </div>
       <div class="caixa-texto-dest">
         ${destinyData.text}
       </div>
-      <div>
-      </div>
-      <div class="image-destino">
-            <img
-              src="${destinyData.img_url}"
-              alt="${destinyData.name}"
-            />
-          </div>
-        </div>
 
         `;
 

@@ -25,7 +25,10 @@
     <header>
       <img width="80px" height="60px" src="../img/logo.png" alt="Logo" />
       <h1 class="header__title">Baobá</h1>
-      <nav class="menu">
+      <button class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+      <nav class="menu" id="navMenu">
         <ul>
           <li><a href="../index.html">Início</a></li>
           <li><a href="biomas.html">Biomas</a></li>
@@ -55,10 +58,16 @@
         setSingleActivityData();
       </script>
       <div class="main-card-destino" id="activities-content"></div>
-      
     </main>
     <br />
     <br />
+    <script>
+      document
+        .getElementById("hamburger")
+        .addEventListener("click", function () {
+          document.getElementById("navMenu").classList.toggle("active");
+        });
+    </script>
     <footer>
       <div class="redes-sociais">
         <a href="#"><i class="fab fa-facebook"></i></a>
