@@ -72,8 +72,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*TC-06 - Acessar fórum e comentar*                                         |
 |---|---|
-|Requisito Associado |RF-011 - Disponibilizar fóruns de discussão e grupos de trabalho virtuais.
-RF-012 - Disponibilizar um espaço para comentários de usuários.|
+|Requisito Associado |RF-011 - Disponibilizar fóruns de discussão e grupos de trabalho virtuais. RF-012 - Disponibilizar um espaço para comentários de usuários.|
 |Link do vídeo do teste realizado: | https://drive.google.com/file/d/16bXyUx95hbo4uDVm5r7sa5oqCu6sNm_Z/view?usp=sharing|
 
 ## Avaliação dos Testes de Software
