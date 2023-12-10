@@ -77,7 +77,25 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 ## Avaliação dos Testes de Software
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+A avaliação dos testes de software realizados para a sua aplicação revela diversos aspectos importantes sobre o funcionamento e a eficácia da solução.
+
+-**Pontos Fortes:**
+Funcionalidade Abrangente: A aplicação cobre uma gama variada de funcionalidades, desde informações sobre animais em extinção até fóruns de discussão e sustentabilidade empresarial. Isso indica uma boa compreensão das necessidades dos usuários e um esforço para atender a uma variedade de interesses.
+
+-**Pontos Fracos e Falhas:**
+Segurança e Privacidade: Testes relacionados à segurança de dados e privacidade dos usuários não são mencionados, o que é crítico especialmente ao lidar com fóruns de discussão e informações de empresas parceiras.
+Falta de Navegação Intuitiva para Retorno: A aplicação não oferece uma maneira simples e intuitiva de retornar à página original após o usuário navegar para diferentes seções. 
+
+-**Melhorias e Próximas Iterações:**
+Otimizar Desempenho: Realizar testes de carga e desempenho para garantir que a aplicação funcione de forma eficiente, mesmo sob alta demanda.
+Fortalecer Segurança e Privacidade: Implementar testes rigorosos de segurança, como testes de penetração, para garantir a proteção de dados dos usuários.
+Melhoria Sugerida: Implementar botões de "voltar" de fácil acesso em todas as páginas. 
+
+-**Falhas Detectadas e Ações Corretivas:**
+Falha: Ausência de testes focados em segurança e privacidade.
+Ação Corretiva: Desenvolver e implementar um conjunto de testes de segurança para identificar e corrigir vulnerabilidades.
+
+Em resumo, a aplicação demonstra solidez em suas funcionalidades principais, mas requer atenção adicional em áreas como usabilidade, desempenho e segurança. As próximas iterações devem focar em abordar esses pontos fracos para melhorar a experiência geral do usuário e a robustez da aplicação.
 
 
 
