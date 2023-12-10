@@ -45,16 +45,36 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*TC-01 - Criar uma conta*                                         |
+|*Caso de Teste*                                 |*TC-01 - Acessar informações sobre animais*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/u/s!AhD2JqpOUvJChapRtRSQ9vPzbNLwGA?e=mxZs6t| 
+|Requisito Associado | RF-001 - Permitir que o usuário consulte informações sobre animais em extinção.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1txfQ0xRn1Vp-sbnTR6HrPTpatj8y_ook/view?usp=sharing| 
 
-|*Caso de Teste*                                 |*TC-02 - Efetuar Login (usuário autenticado)*                                         |
+|*Caso de Teste*                                 |*TC-02 - Acessar informações sobre biomas*                                         |
 |---|---|
-|Requisito Associado | RF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: | https://1drv.ms/v/s!AhD2JqpOUvJChapQ8CPXL-TI_A7iVg?e=spD3Ar | 
+|Requisito Associado | RF-002 - Permitir que o usuário consulte informações sobre biomas em risco.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1EPg8ThmksrLQAqF539HNJeoyVWqQmuEX/view?usp=sharing | 
 
+|*Caso de Teste*                                 |*TC-03 - Acessar informações sobre ecoturismo*                                         |
+|---|---|
+|Requisito Associado | RF-003 - Permitir que o usuário acesse informações sobre pontos de turismo ecológicos.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1bIWiaIP0ndbvdvRpQVqju1b7Mthmi2Ti/view?usp=sharing |
+
+|*Caso de Teste*                                 |*TC-04 - Acessar informações sobre negócios*                                         |
+|---|---|
+|Requisito Associado | RF-005 - Disponibilizar dicas de estratégias de negócios sustentáveis|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1rm2rFSUR4Ms1aOzC9hOYvovW8-HIpf6C/view?usp=sharing |
+
+|*Caso de Teste*                                 |*TC-05 - Acesso a informações sobre parceiros*                                         |
+|---|---|
+|Requisito Associado | RF-014 - Permitir conexão com outros líderes do setor de sustentabilidade industrial|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/1fnKFm9XhyowqPyb6O3kFwjHmp3_kKIWB/view?usp=sharing |
+
+|*Caso de Teste*                                 |*TC-06 - Acessar fórum e comentar*                                         |
+|---|---|
+|Requisito Associado |RF-011 - Disponibilizar fóruns de discussão e grupos de trabalho virtuais.
+RF-012 - Disponibilizar um espaço para comentários de usuários.|
+|Link do vídeo do teste realizado: | https://drive.google.com/file/d/16bXyUx95hbo4uDVm5r7sa5oqCu6sNm_Z/view?usp=sharing|
 
 ## Avaliação dos Testes de Software
 
