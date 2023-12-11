@@ -43,8 +43,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 ## Registro dos Testes de Software
 
-Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
-
 |*Caso de Teste*                                 |*TC-01 - Acessar informações sobre animais*                                         |
 |---|---|
 |Requisito Associado | RF-001 - Permitir que o usuário consulte informações sobre animais em extinção.|
@@ -79,24 +77,23 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 A avaliação dos testes de software realizados para a sua aplicação revela diversos aspectos importantes sobre o funcionamento e a eficácia da solução.
 
--**Pontos Fortes:**
+- **Pontos Fortes:**
 Funcionalidade Abrangente: A aplicação cobre uma gama variada de funcionalidades, desde informações sobre animais em extinção até fóruns de discussão e sustentabilidade empresarial. Isso indica uma boa compreensão das necessidades dos usuários e um esforço para atender a uma variedade de interesses.
 
--**Pontos Fracos e Falhas:**
+- **Pontos Fracos e Falhas:**
 Segurança e Privacidade: Testes relacionados à segurança de dados e privacidade dos usuários não são mencionados, o que é crítico especialmente ao lidar com fóruns de discussão e informações de empresas parceiras.
 Falta de Navegação Intuitiva para Retorno: A aplicação não oferece uma maneira simples e intuitiva de retornar à página original após o usuário navegar para diferentes seções. 
 
--**Melhorias e Próximas Iterações:**
+- **Melhorias e Próximas Iterações:**
 Otimizar Desempenho: Realizar testes de carga e desempenho para garantir que a aplicação funcione de forma eficiente, mesmo sob alta demanda.
 Fortalecer Segurança e Privacidade: Implementar testes rigorosos de segurança, como testes de penetração, para garantir a proteção de dados dos usuários.
 Melhoria Sugerida: Implementar botões de "voltar" de fácil acesso em todas as páginas. 
 
--**Falhas Detectadas e Ações Corretivas:**
+- **Falhas Detectadas e Ações Corretivas:**
 Falha: Ausência de testes focados em segurança e privacidade.
 Ação Corretiva: Desenvolver e implementar um conjunto de testes de segurança para identificar e corrigir vulnerabilidades.
 
 Em resumo, a aplicação demonstra solidez em suas funcionalidades principais, mas requer atenção adicional em áreas como usabilidade, desempenho e segurança. As próximas iterações devem focar em abordar esses pontos fracos para melhorar a experiência geral do usuário e a robustez da aplicação.
-
 
 
 ## Testes de unidade automatizados (Opcional)
@@ -182,14 +179,28 @@ Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,0
 
 ## Avaliação dos Testes de Usabilidade
 
+**Taxa de Sucesso e Satisfação Subjetiva:**
+- Todos os cenários demonstraram uma taxa de sucesso de 100%, indicando que as funcionalidades estão operando conforme esperado.
+- A satisfação subjetiva dos usuários foi consistentemente alta, com médias variando entre 4 e 5, refletindo uma experiência positiva com a aplicação.
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+**Tempo de Conclusão:**
+- O tempo médio de conclusão dos cenários pelos usuários é maior do que o tempo gasto pelo especialista, o que é esperado. Contudo, a discrepância não é excessivamente grande, sugerindo que a aplicação é relativamente fácil de navegar.
+  
+**Oportunidades de Melhoria e Observações dos Usuários:**
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
 
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
+- Usuários sugeriram a inclusão de destinos internacionais, indicando uma demanda por uma variedade maior de conteúdo.
+- Comentários positivos sobre a facilidade de encontrar informações, mas uma observação sobre a qualidade da imagem (foto esticada) sugere a necessidade de atenção à qualidade visual.
+- Usuários sentiram falta de informações mais direcionadas para indivíduos e menos focadas no aspecto empresarial.
+- Há uma necessidade de fornecer fontes para as informações apresentadas, a fim de aumentar a credibilidade e o valor educativo do site.
+- Problemas parciais com o compartilhamento e um desejo por mais opções interativas, como compartilhamento de imagens, indicam uma área importante para melhorias.
+- Comentários positivos sobre a facilidade de encontrar informações e parceiros, mas uma sugestão para maior engajamento com outras organizações.
 
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
+**Conclusão e Recomendações:**
+- A aplicação é altamente eficaz em termos de funcionalidade e satisfação do usuário, mas há espaço para melhorias no conteúdo, na interatividade.
+- Melhorar a diversidade e a profundidade do conteúdo, juntamente com a apresentação visual, pode enriquecer a experiência do usuário.
+- Aprimorar as funcionalidades de compartilhamento e interação no fórum pode aumentar o engajamento dos usuários e promover uma comunidade mais ativa.
 
+Em resumo, os testes de usabilidade atualizados mostram uma aplicação bem recebida pelos usuários com várias oportunidades para refinamento e aprimoramento, focando na melhoria da interatividade, do conteúdo e da credibilidade das informações.
 
 
