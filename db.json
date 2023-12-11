@@ -650,5 +650,42 @@
       "about": "O Verde ExtraNosso é um supermercado focado em produtos orgânicos e sustentáveis, oferecendo uma variedade de produtos de origem local e responsável. Destaca-se por suas práticas ambientais, como embalagens recicláveis e programas de reciclagem, proporcionando uma experiência de compra saudável e consciente para os consumidores.",
       "area": "Comércio"
     }
+  ],
+  "pages": [
+    {
+        "id":1,
+        "name":"Animais",
+        "page": "animais.html"
+    },
+    {
+        "id":2,
+        "name":"Atividades",
+        "page": "atividades.html"
+    },
+    {
+        "id":3,
+        "name":"Biomas",
+        "page": "biomas.html"
+    },
+    {
+        "id":4,
+        "name":"Ecoturismo",
+        "page": "ecoturismo.html"
+    },
+    {
+        "id":5,
+        "name":"Fórum",
+        "page": "forum.html"
+    },
+    {
+        "id":6,
+        "name":"Sustentabilidade",
+        "page": "sustentabilidade.html"
+    },
+    {
+        "id":7,
+        "name":"Sobre",
+        "page": "sobre.html"
+    }
   ]
 }

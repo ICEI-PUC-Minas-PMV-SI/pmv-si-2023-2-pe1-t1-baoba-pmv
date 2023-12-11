@@ -116,9 +116,8 @@ a:active {
 }
 
 .search-form {
-	flex: 3;
-	text-align: right;
-	margin-right: 0.7rem;
+    display: flex;
+    flex-direction: row;
 }
 
 /* css especifico para pagina home */
@@ -137,6 +136,7 @@ a:active {
 	margin: auto;
 	width: 80%;
 	margin-top: 3rem;
+    align-items: center;
 }
 
 .home__info-text {

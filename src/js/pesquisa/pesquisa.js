@@ -1,25 +1,26 @@
-document.querySelector('formPesquisa').addEventListener('submit', function(event) {
-    event.preventDefault();
-    const query = document.querySelector('[name=q]').value;
-    realizarPesquisa(query);
-});
-
-function realizarPesquisa(query) {
-    // Implemente a chamada à API ou a lógica de filtragem aqui
-    // Por exemplo, usar fetch para chamar uma API
-    fetch(`http://localhost:3000/search?q=${query}`)
-        .then(response => response.json())
-        .then(data => exibirResultados(data))
-        .catch(error => console.error('Erro na pesquisa:', error));
+async function getPages() {
+    try {
+        const res = await fetch(`http://localhost:3000/pages`);
+        const data = await res.json();
+        return data;
+    } catch (error) {
+        throw new Error(error);
+    }
 }
 
-function exibirResultados(resultados) {
-    const container = document.getElementById('resultados');
-    container.innerHTML = '';
-
-    resultados.forEach(item => {
-        const div = document.createElement('div');
-        div.innerHTML = `<h2>${item.titulo}</h2><p>${item.descricao}</p>`;
-        container.appendChild(div);
-    });
+async function searchPages() {
+    try {
+        const pages = await getPages();
+        const search = document.querySelector('#search-input').value;
+        console.log(search);
+        pages.map(page => {
+            if (page.title.toLowerCase().includes(search.toLowerCase())) {
+                window.location.href = `http://localhost:3000/pages/${page.page}`;
+            }
+        });
+        displayPages(filteredPages);
+    } catch (error) {
+        throw new Error(error);
+    }
 }
+
