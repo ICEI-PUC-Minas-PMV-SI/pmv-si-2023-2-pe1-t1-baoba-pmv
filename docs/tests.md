@@ -27,62 +27,55 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 **Caso de Teste** | **CT01 - Acessar info sobre animais**
  :--------------: | ------------
-**Procedimento**  | 1. Acesse a aplicação. 2. Navegue até a seção de consulta de animais em extinção.
+**Procedimento**  | 1. Acesse a aplicação. <br>2. Navegue até a seção de consulta de animais em extinção.
 **Requisitos associados** | RF-001
-**Resultado esperado** | O sistema deve exibir uma lista de animais em extinção que correspondentes.
-Cada entrada da lista deve conter informações relevantes sobre o animal.
+**Resultado esperado** | O sistema deve exibir uma lista de animais em extinção que correspondentes. <br>Cada entrada da lista deve conter informações relevantes sobre o animal.
 **Dados de entrada** | 
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT02 - Acessar info sobre biomas**
  :--------------: | ------------
-**Procedimento**  | 1. Acesse a aplicação. 2. Navegue até a seção de consulta de biomas.
+**Procedimento**  | 1. Acesse a aplicação. <br>2. Navegue até a seção de consulta de biomas.
 **Requisitos associados** | RF-002
-**Resultado esperado** | O sistema deve exibir uma lista de animais em extinção correspondentes.
-Cada entrada da lista deve conter informações relevantes sobre o bioma.
+**Resultado esperado** | O sistema deve exibir uma lista de animais em extinção correspondentes. <br>Cada entrada da lista deve conter informações relevantes sobre o bioma.
 **Dados de entrada** | 
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT03 - Acessar info sobre pontos de turismo**
  :--------------: | ------------
-**Procedimento**  | 1. Acesse a aplicação.
-2. Navegue até a seção de consulta de ecoturismo.
+**Procedimento**  | 1. Acesse a aplicação. <br>2. Navegue até a seção de consulta de ecoturismo.
 **Requisitos associados** | RF-003
-**Resultado esperado** | O sistema deve exibir uma lista de destinos turísticos  correspondentes.
-Cada entrada da lista deve conter informações relevantes sobre o destino.
+**Resultado esperado** | O sistema deve exibir uma lista de destinos turísticos correspondentes. <br>Cada entrada da lista deve conter informações relevantes sobre o destino.
 **Dados de entrada** | 
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT04 - Acessar info sobre sustentabilidade empresarial**
  :--------------: | ------------
-**Procedimento**  | 1. Acesse a aplicação. 2. Navegue até a seção de sustentabilidade empresarial
+**Procedimento**  | 1. Acesse a aplicação. <br>2. Navegue até a seção de sustentabilidade empresarial
 **Requisitos associados** | RF-005
-**Resultado esperado** | O sistema deve exibir definições sobre sustentabilidade empresarial
-Deve conter dicas para promover negócios sustentáveis
+**Resultado esperado** | O sistema deve exibir definições sobre sustentabilidade empresarial <br>Deve conter dicas para promover negócios sustentáveis
 **Dados de entrada** | 
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT05 - Permitir conexão com outras empresas interessadas em sustentabilidade**
  :--------------: | ------------
-**Procedimento**  | 1. Acesse a aplicação. 2. Navegue até a seção de sustentabilidade empresarial 3. Acesse a lista de parceiros cadastrados
+**Procedimento**  | 1. Acesse a aplicação. <br>2. Navegue até a seção de sustentabilidade empresarial <br>3. Acesse a lista de parceiros cadastrados
 **Requisitos associados** | RF-014
-**Resultado esperado** | O sistema deve apresentar uma lista de empresas parceiras cadastradas 
-Permitir ao usuário ter acesso a lista com informações e contato com as outras empresas
+**Resultado esperado** | O sistema deve apresentar uma lista de empresas parceiras cadastradas  <br>Permitir ao usuário ter acesso a lista com informações e contato com as outras empresas
 **Dados de entrada** | 
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT06 - Acessar fórum de discussão**
  :--------------: | ------------
-**Procedimento**  | 1. Acesse a aplicação. 2. Navegue até a seção de fórum.
+**Procedimento**  | 1. Acesse a aplicação. <br>2. Navegue até a seção de fórum.
 **Requisitos associados** | RF-011 e RF-012
-**Resultado esperado** | O sistema deve apresentar o espaço de fórum com postagens dos usuários
-As postagens devem ser interativas
+**Resultado esperado** | O sistema deve apresentar o espaço de fórum com postagens dos usuários <br>As postagens devem ser interativas
 **Dados de entrada** | Novos posts ou comentários
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT07 - Publicar informações e fotos de animais silvestres e onde foram avistados**
  :--------------: | ------------
-**Procedimento**  |1. Acesse a aplicação. 2. Navegue até a seção de fórum 3. Postar informações e foto em novo post ou comentário
+**Procedimento**  |1. Acesse a aplicação. <br>2. Navegue até a seção de fórum <br>3. Postar informações e foto em novo post ou comentário
 **Requisitos associados** | RF-013
 **Resultado esperado** |O sistema deve apresentar o fórum e permitir a postagem de comentários e fotos
 **Dados de entrada** | Arquivo de texto e imagem sobre localização ou comentários da mesma
