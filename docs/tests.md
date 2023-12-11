@@ -171,56 +171,148 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 ## Cenários de Teste de Usabilidade
 
-| Nº do Cenário | Descrição do cenário |
+| Nº do Cenário | Descrição do Cenário |
 |---------------|----------------------|
-| 1             | Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando. |
-| 2             | Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço. |
-
-
+| 1             | Você é uma pessoa que precisa de informações sobre destinos de ecoturismo para encontrar locais para visitar. |
+| 2             | Você é uma pessoa que precisa de informações sobre espécies de animais para saber quais delas pode encontrar nos passeios. |
+| 3             | Você é uma pessoa que quer saber sobre as espécies em perigo de extinção para entender melhor a situação do ambiente. |
+| 4             | Você é uma pessoa que quer saber mais sobre hábitos sustentáveis para mudar o estilo de vida e contribuir para a saúde do planeta. |
+| 5             | Você é uma pessoa que precisa de recursos e informações confiáveis para progredir nos estudos. |
+| 6             | Você é uma pessoa que quer poder compartilhar observações para gerar engajamento e dividir experiências com outras pessoas. |
+| 7             | Você é uma pessoa que precisa de estratégias de negócios para conciliar o crescimento da sua empresa com a sustentabilidade. |
+| 8             | Você é uma pessoa que quer um espaço que ofereça oportunidades de parcerias para colaborar com outras organizações para a conservação. |
 
 ## Registro de Testes de Usabilidade
 
-Cenário 1: Você é uma pessoa que deseja comprar um iphone. Encontre no site um iphone e veja detalhes de localização e contato da loja que anunciando.
+**Cenário 1 :** Você é uma pessoa que precisa de informações sobre destinos de ecoturismo para encontrar locais para visitar
 
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
-
-
-    Comentários dos usuários: Achei o site muito bom e intuitivo. 
-    Não tive dificuldades e acho que ficou bem intuitivo.
+| Usuário | Taxa de Sucesso | Satisfação Subjetiva | Tempo para Conclusão |
+|---------|-----------------|----------------------|----------------------|
+| 1       | SIM             | 5                    | 25s                  |
+| 2       | SIM             | 5                    | 50s                  |
+| 3       | SIM             | 5                    | 30s                  |
+| *Média* | *100%*     | *5*                | *35s*              |
+| *Especialista* | SIM   | 5                    | 9s                   |
 
 
+**Comentários dos usuários:**
+- As informações estão acessíveis e o site é intuitivo.
+- Está de maneira clara e fácil acesso.
+- Poderiam ter destinos internacionais
 
 
-Cenário 2: Você é uma pessoa que deseja comprar um smartphone até R$ 2.000,00. Encontre no site smartphone's nessa faixa de preço.
-
-| Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
-|---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
-|  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
 
+**Cenário 2 :** Você é uma pessoa que precisa de informações sobre espécies de animais para saber quais delas pode encontrar nos passeios
+
+| Usuário | Taxa de Sucesso | Satisfação Subjetiva | Tempo para Conclusão |
+|---------|-----------------|----------------------|----------------------|
+| 1       | SIM             | 5                    | 16 seg               |
+| 2       | Sim             | 4                    | 22 seg               |
+| 3       | Sim             | 5                    | 15 seg               |
+| *Média* | *100%*     | *4,7*              | *17,6 seg*         |
+| *Especialista* | SIM   | 5                    | 8 seg                |
+
+
+**Comentários dos usuários:**
+- Animais fofinhos facilmente encontrados.
+- Visível e intuitivo.
+
+**Cenário 3 :** Você é uma pessoa que quer saber sobre as espécies em perigo de extinção para entender melhor a situação do ambiente
+
+| Usuário | Taxa de Sucesso | Satisfação Subjetiva | Tempo para Conclusão |
+|---------|-----------------|----------------------|----------------------|
+| 1       | SIM             | 5                    | 13 seg               |
+| 2       | Sim             | 5                    | 25 seg               |
+| 3       | Sim             | 5                    | 15 seg               |
+| *Média* | *100%*     | *5*                | *17,6 seg*         |
+| *Especialista* | SIM   | 5                    | 10 seg               |
+
+**Comentários dos usuários:**
+- Encontrado sem dificuldades ou empecilhos, única coisa que a foto da onça estava um pouco esticada.
+- Interessante
+- Muitas espécies legais
+
+**Cenário 4 :** Você é uma pessoa que quer saber mais sobre hábitos sustentáveis para mudar o estilo de vida e contribuir para a saúde do planeta
+
+| Usuário | Taxa de Sucesso | Satisfação Subjetiva | Tempo para Conclusão |
+|---------|-----------------|----------------------|----------------------|
+| 1       | SIM             | 4                    | 20s                  |
+| 2       | Sim             | 4                    | 14s                  |
+| 3       | Sim             | 4                    | 19s                  |
+| *Média* | *100%*     | *4*                | *17,6s*            |
+| *Especialista* | SIM   | 4                    | 10s                  |
+
+**Comentários dos usuários:**
+- Não possui hábitos para indivíduos diretamente, mas possui diretivas que levariam a uma maior sustentabilidade.
+- Não encontrei hábitos sugeridos que poderiam me influenciar pessoalmente.
+- Têm mais informações gerais e empresariais , poderiam ter mais para o dia a dia pessoal
+
+**Cenário 5 :** Você é uma pessoa que precisa de recursos e informações confiáveis progredir nos estudos
+
+| Usuário | Taxa de Sucesso | Satisfação Subjetiva | Tempo para Conclusão |
+|---------|-----------------|----------------------|----------------------|
+| 1       | SIM             | 3                    | 40s                  |
+| 2       | Sim             | 5                    | 15s                  |
+| 3       | SIM             | 4                    | 12s                  |
+| *Média* | *100%*     | *4*                | *22,3s*            |
+| *Especialista* | SIM   | 4                    | 9s                   |
+
+**Comentários dos usuários:**
+- O site apresenta muitas informações mas elas não possuem fonte.
+- As imagens bonitas levam a encontrar coisas que interessam facilmente. 
+- Boas informações dos ambientes, podia aprofundar mais nas pesquisas recentes
+
+**Cenário 6:** Você é uma pessoa que quer poder compartilhar observações para gerar engajamento e dividir experiências com outras pessoas
+
+| Usuário | Taxa de Sucesso | Satisfação Subjetiva | Tempo para Conclusão |
+|---------|-----------------|----------------------|----------------------|
+| 1       | Parcial         | 3                    | 25 seg               |
+| 2       | Sim             | 4                    | 56 seg               |
+| 3       | Sim             | 5                    | 20 seg               |
+| *Média* | *75%*      | *4*                | *33,6 seg*         |
+| *Especialista* | SIM   | 4                    | 11 seg               |
+
+**Comentários dos usuários:**
+- Consegui compartilhar coisas no fórum, mas o link para compartilhar para outras mídias não funciona.
+- Gostaria de poder compartilhar imagens no fórum.
+- Consegui postar meu tópico e ver os tópicos com mais engajamento
+
+**Cenário 7 :** Você é uma pessoa que precisa de estratégias de negócios para conciliar o crescimento da sua empresa com a sustentabilidade
+| Usuário | Taxa de Sucesso | Satisfação Subjetiva | Tempo para Conclusão |
+|---------|-----------------|----------------------|----------------------|
+| 1       | SIM             | 5                    | 37 seg               |
+| 2       | Sim             | 5                    | 20 seg               |
+| 3       | Sim             | 5                    | 15 seg               |
+| *Média* | *100%*     | *5*                | *24 seg*           |
+| *Especialista* | SIM   | 5                    | 7 seg                |
+
+**Comentários dos usuários:**
+- Fácil de encontrar parceiros e informações.
+- Achei diretrizes de sustentabilidade empresarial e infos do tema
+
+**Cenário 8 :** Você é uma pessoa que quer um espaço que me ofereça oportunidades de parcerias para colaborar com outras organizações para a conservação
+
+| Usuário | Taxa de Sucesso | Satisfação Subjetiva | Tempo para Conclusão |
+|---------|-----------------|----------------------|----------------------|
+| 1       | SIM             | 4                    | 23 seg               |
+| 2       | Sim             | 5                    | 20 seg               |
+| 3       | Sim             | 5                    | 22 seg               |
+| *Média* | *100%*     | *5*                | *22 seg*           |
+| *Especialista* | SIM   | 5                    | 9 seg                |
+
+**Comentários dos usuários:**
+- O fórum teoricamente também serviria para isso, mas depende do engajamento de outras organizações.
+- O cadastro está à mão, fácil acesso.
+- Encontrei os parceiros cadastrados e infos sobre eles
 
 
 
 ## Avaliação dos Testes de Usabilidade
 
 **Taxa de Sucesso e Satisfação Subjetiva:**
-- Todos os cenários demonstraram uma taxa de sucesso de 100%, indicando que as funcionalidades estão operando conforme esperado.
+- Quase todos os cenários demonstraram uma taxa de sucesso de 100%, indicando que as funcionalidades estão operando conforme esperado.
 - A satisfação subjetiva dos usuários foi consistentemente alta, com médias variando entre 4 e 5, refletindo uma experiência positiva com a aplicação.
 
 **Tempo de Conclusão:**
