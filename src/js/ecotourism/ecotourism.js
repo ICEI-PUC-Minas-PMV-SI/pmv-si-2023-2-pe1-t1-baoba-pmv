@@ -4,7 +4,7 @@ function setDestinyId(id) {
 
 async function getEcotourismPlaces() {
     try {
-		const res = await fetch(`http://localhost:3000/ecotourism`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/ecotourism`);
 		const data = await res.json();
 		return data;
 	} catch (error) {

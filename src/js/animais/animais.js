@@ -1,6 +1,6 @@
 async function getAnimals() {
 	try {
-		const res = await fetch("http://localhost:3000/animals");
+		const res = await fetch("https://api-storage-baoba.vercel.app/animals");
 		const data = await res.json();
 		return data;
 	} catch (error) {
@@ -10,7 +10,7 @@ async function getAnimals() {
 
 async function getAnimalsByBiome(bioma) {
 	try {
-		const res = await fetch(`http://localhost:3000/animals?biome=${bioma}`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/animals?biome=${bioma}`);
 		const data = await res.json();
 		return data;
 	} catch (error) {
@@ -50,7 +50,7 @@ async function getAnimalContext() {
 	const urlParams = new URLSearchParams(window.location.search);
 	const animal = urlParams.get('animal');
 	try {
-		const res = await fetch(`http://localhost:3000/animals/${animal}`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/animals/${animal}`);
 		const data = await res.json();
 		console.log(data);
 		document.querySelector(`#nome-animal`).textContent = data.name;

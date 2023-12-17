@@ -4,7 +4,7 @@ function setActivitiesId(id) {
 
 async function getEcotourismActivities() {
 	try {
-		const res = await fetch(`http://localhost:3000/activities`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/activities`);
 		const data = await res.json();
 		return data;
 	} catch (error) {
@@ -14,7 +14,7 @@ async function getEcotourismActivities() {
 
 async function getEcotourismActivity(id) {
 	try {
-		const res = await fetch(`http://localhost:3000/activities/${id}`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/activities/${id}`);
 		const data = await res.json();
 		return data;
 	} catch (error) {

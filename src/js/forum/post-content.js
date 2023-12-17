@@ -1,6 +1,6 @@
 async function getPostContent(postId) {
 	try {
-		const res = await fetch(`http://localhost:3000/posts/${postId}`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/posts/${postId}`);
 		const data = await res.json();
 		return data;
 	} catch (error) {
@@ -10,7 +10,7 @@ async function getPostContent(postId) {
 
 async function getPostComments(postId) {
 	try {
-		const res = await fetch(`http://localhost:3000/comments?post_id=${postId}`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/comments?post_id=${postId}`);
 		const data = await res.json();
 		return data;
 	} catch (error) {
@@ -77,7 +77,7 @@ async function addComment() {
 			body,
 		};
 
-		const res = await fetch("http://localhost:3000/comments", {
+		const res = await fetch("https://api-storage-baoba.vercel.app/comments", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
@@ -107,7 +107,7 @@ async function likesInteraction(id, likes, action) {
 
 async function patchPostLikes(id, likes) {
 	try {
-		const res = await fetch(`http://localhost:3000/posts/${id}`, {
+		const res = await fetch(`https://api-storage-baoba.vercel.app/posts/${id}`, {
 			method: "PATCH",
 			headers: {
 				"Content-Type": "application/json",

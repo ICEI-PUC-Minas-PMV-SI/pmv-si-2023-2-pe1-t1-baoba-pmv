@@ -1,6 +1,6 @@
 async function getDestinyData(id) {
 	try {
-		const res = await fetch(`http://localhost:3000/ecotourism/${id}`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/ecotourism/${id}`);
 		const data = await res.json();
 		return data;
 	} catch (error) {

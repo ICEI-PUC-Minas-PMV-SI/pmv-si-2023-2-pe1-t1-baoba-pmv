@@ -5,7 +5,7 @@ function setBiomesId(id) {
 
 async function getAllBiomesData() {
     try {
-        const res = await fetch("http://localhost:3000/biomes");
+        const res = await fetch("https://api-storage-baoba.vercel.app/biomes");
         const data = await res.json();
         return data;
     } catch (error) {
@@ -46,7 +46,7 @@ async function setAllBiomesData() {
 
 async function getBiomesData(id) {
 	try {
-		const res = await fetch(`http://localhost:3000/biomes/${id}`);
+		const res = await fetch(`https://api-storage-baoba.vercel.app/biomes/${id}`);
 		const data = await res.json();
 		return data;
 	} catch (error) {

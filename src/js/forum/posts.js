@@ -52,7 +52,7 @@ async function onSubmit() {
 
 async function getPosts() {
 	try {
-		const res = await fetch("http://localhost:3000/posts");
+		const res = await fetch("https://api-storage-baoba.vercel.app/posts");
 		const data = await res.json();
 		return data;
 	} catch (error) {
@@ -77,7 +77,7 @@ async function createPost() {
 		comments_count,
 	};
 	try {
-		const res = await fetch("http://localhost:3000/posts", {
+		const res = await fetch("https://api-storage-baoba.vercel.app/posts", {
 			method: "POST",
 			headers: {
 				"Content-Type": "application/json",
@@ -93,7 +93,7 @@ async function createPost() {
 
 async function deletePost(id) {
 	try {
-		const res = await fetch(`http://localhost:3000/posts/${id}`, {
+		const res = await fetch(`https://api-storage-baoba.vercel.app/posts/${id}`, {
 			method: "DELETE",
 		});
 		const data = await res.json();
@@ -111,7 +111,7 @@ async function updatePost(id) {
 		content,
 	};
 	try {
-		const res = await fetch(`http://localhost:3000/posts/${id}`, {
+		const res = await fetch(`https://api-storage-baoba.vercel.app/posts/${id}`, {
 			method: "PUT",
 			headers: {
 				"Content-Type": "application/json",
@@ -127,7 +127,7 @@ async function updatePost(id) {
 
 async function patchPostLikes(id, likes) {
 	try {
-		const res = await fetch(`http://localhost:3000/posts/${id}`, {
+		const res = await fetch(`https://api-storage-baoba.vercel.app/posts/${id}`, {
 			method: "PATCH",
 			headers: {
 				"Content-Type": "application/json",
@@ -143,7 +143,7 @@ async function patchPostLikes(id, likes) {
 
 async function getTrendingPosts() {
 	try {
-		const res = await fetch("http://localhost:3000/posts?_sort=likes&_order=desc");
+		const res = await fetch("https://api-storage-baoba.vercel.app/posts?_sort=likes&_order=desc");
 		const data = await res.json();
 		const trendingPosts = await data.slice(0, 3);
 		return trendingPosts;
