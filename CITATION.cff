@@ -1,0 +1,34 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: baoba
+message: Please cite this software using these metadata.
+type: software
+authors:
+  - family-names: Fortes
+    given-names: Nataly
+  - family-names: Pontes Borges
+    given-names: Nicolas
+  - family-names: Fortes
+    given-names: Aline
+  - given-names: Mateus
+  - given-names: Marina
+  - name-suffix: Professor
+    affiliation: PUC Minas
+    family-names: Bastos de Paula
+    given-names: Hugo
+repository-code: >-
+  https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-2-pe1-t1-baoba-pmv
+url: 'https://pmv-si-2023-2-pe1-t1-baoba-pmv.vercel.app/'
+keywords:
+  - Baoba
+  - Meio ambiente
+  - Sustentabilidade
+  - Preservação ambiental
+  - Animais
+  - Biomas
+  - Natureza
+license: CC-BY-4.0
+version: 1.0.0
+date-released: '2023-12-10'
