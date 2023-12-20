@@ -6,13 +6,15 @@ title: baoba
 message: Please cite this software using these metadata.
 type: software
 authors:
-  - family-names: Fortes
+  - family-names: Fortes de Morais Carvalho
     given-names: Nataly
   - family-names: Pontes Borges
     given-names: Nicolas
-  - family-names: Fortes
+  - family-names: Fortes de Morais Carvalho
     given-names: Aline
+  - family-names: Valadares de Oliveira Freitas
   - given-names: Mateus
+  - family-names: Inácio Ribas
   - given-names: Marina
   - name-suffix: Professor
     affiliation: PUC Minas
