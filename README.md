@@ -10,7 +10,9 @@ https://pmv-si-2023-2-pe1-t1-baoba-pmv.vercel.app/
 
 O cerne desse projeto reside em um website que se dedica integralmente à temática ambiental. Seu propósito principal é fornecer aos usuários um amplo acervo de informações relacionadas aos biomas, espécies ameaçadas de extinção, destinos ideais para o ecoturismo e práticas de sustentabilidade, entre outros tópicos relevantes. Além disso, o site disponibiliza um fórum interativo, onde os usuários têm a oportunidade de engajar-se em discussões acerca de questões ambientais atuais e notícias que permeiam o cenário do meio ambiente.
 
-Ao oferecer um repositório tão vasto e diversificado de conhecimentos ambientais, esse website se posiciona como um espaço essencial para a troca de ideias e informações cruciais sobre a preservação do planeta. A combinação entre o conteúdo informativo e o fórum interativo não apenas educa e conscientiza, mas também promove um ambiente propício para o engajamento e a colaboração ativa na busca por soluções e ações que beneficiem o meio ambiente em escala global.
+Ao oferecer um repositório vasto e diversificado de conhecimentos ambientais, esse website se posiciona como um espaço essencial para a troca de ideias e informações cruciais sobre a preservação do planeta. A combinação entre o conteúdo informativo e o fórum interativo não apenas educa e conscientiza, mas também promove um ambiente propício para o engajamento e a colaboração ativa na busca por soluções e ações que beneficiem o meio ambiente em escala global.
+
+O projeto foi desenvolvido usando html, css e js. Também foi utilizado json-server e o deploy foi feito no vercel.
 
 ## Integrantes
 
