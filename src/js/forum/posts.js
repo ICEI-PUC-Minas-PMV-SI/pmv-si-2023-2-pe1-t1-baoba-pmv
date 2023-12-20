@@ -127,7 +127,7 @@ async function updatePost(id) {
 
 async function patchPostLikes(id, likes) {
 	try {
-		const res = await fetch(`https://api-storage-baoba.vercel.app/posts/${id}`, {
+		const res = await fetch(`https://api-storage-baoba-nicolaspborges8s-projects.vercel.app/posts/${id}`, {
 			method: "PATCH",
 			headers: {
 				"Content-Type": "application/json",
