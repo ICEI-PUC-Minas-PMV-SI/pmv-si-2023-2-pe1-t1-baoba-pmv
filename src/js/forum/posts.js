@@ -133,7 +133,7 @@ async function patchPostLikes(id, likes) {
 				'Content-Type': 'application/json',
                 'Accept': 'application/json'
 			},
-			body: JSON.stringify({ likes: likes }),
+			body: { likes: likes },
 		});
 		const data = await res.json();
 		return data;
