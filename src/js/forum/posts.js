@@ -135,8 +135,7 @@ async function patchPostLikes(id, likes) {
 			},
 			body: { likes: likes },
 		});
-        console.log(res)
-        console.log(res.json()) 
+        console.log(await res.json()) 
 		const data = await res.json();
 		return data;
 	} catch (error) {
