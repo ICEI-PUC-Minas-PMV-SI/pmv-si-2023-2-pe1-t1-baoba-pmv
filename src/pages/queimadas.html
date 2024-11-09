@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Forum</title>
+    <title>Queimadas</title>
     <link rel="stylesheet" href="../reset.css" />
     <link rel="stylesheet" href="../styles.css" />
     <link
@@ -16,11 +16,9 @@
       href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Poppins:wght@500&family=Raleway:wght@600&display=swap"
       rel="stylesheet"
     />
-
-    <script></script>
   </head>
 
-  <body >
+  <body>
     <header>
       <img width="80" height="60" src="../img/logo.png" alt="Logo" />
       <h1>Baobá</h1>
@@ -35,30 +33,61 @@
           <li><a href="ecoturismo.html">Ecoturismo</a></li>
           <li><a href="sustentabilidade.html">Sustentabilidade</a></li>
           <li><a href="sobre.html">Sobre</a></li>
-          <li><a href="#">Fórum</a></li>
+          <li><a href="forum.html">Fórum</a></li>
         </ul>
       </nav>
     </header>
 
     <div class="queimadas__container">
-      <aside class="queimadas__info-text">
-        <h2>Queimadas</h2>
-        <p>
-          As queimadas afetam gravemente a qualidade de vida humana, liberando
-          grandes quantidades de gases tóxicos e material particulado que
-          comprometem o ar e provocam problemas respiratórios, especialmente em
-          grupos vulneráveis. A poluição do ar, além de impactar a saúde,
-          interfere no clima e no ciclo das chuvas, piorando as condições
-          ambientais nas cidades e ampliando as ilhas de calor.
-        </p>
-      </aside>
+      <div class="queimadas__container__info-text">
+        <aside class="queimadas__info-text">
+          <h2>Queimadas</h2>
+          <p>
+            As queimadas afetam gravemente a qualidade de vida humana, liberando
+            grandes quantidades de gases tóxicos e material particulado que
+            comprometem o ar e provocam problemas respiratórios, especialmente
+            em grupos vulneráveis. A poluição do ar, além de impactar a saúde,
+            interfere no clima e no ciclo das chuvas, piorando as condições
+            ambientais nas cidades e ampliando as ilhas de calor.
+          </p>
+        </aside>
+      </div>
 
-      <div>
-        <div>
-          <img />
+      <div class="queimadas__menu">
+        <div class="queimadas__img">
+          <img style="width: 600px; height: 200px;" src="../img/queimadas/queimadas1.png" />
         </div>
-        <h3>Reporte</h3>
-        <div></div>
+        <div class="queimadas__report__container">
+          <div>
+            <span>Reporte os focos de incêndio</span> 
+          </div>
+          <div>
+            <span>Lembre-se de comunicar os bombeiros, depois adicione as informações aqui!</span>
+          </div>
+          
+          <form >
+            <div class="queimadas__inputs__container">
+              <div class="queimadas__input">
+                <label>cep mais próximo</label>
+                  <input />
+              </div>
+              <div class="queimadas__input">
+                <label>intensidade</label>
+                <input />
+              </div>
+              <div class="queimadas__input">
+                <label>descrição</label>
+                <input />
+              </div>
+            </div>
+            
+            <div class="d-flex justify-content-end">
+              <button type="submit" class="queimadas__save__button" >salvar</button>
+            </div>
+          </form>
+
+          
+        </div>
       </div>
     </div>
 
